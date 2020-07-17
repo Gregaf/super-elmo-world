@@ -6,9 +6,10 @@ public class PlayerInput : MonoBehaviour
 {
     public bool HandleInput { get; set; }
     public Vector2 MovementInput { get; private set; }
-    public bool JumpInput { get; private set; }
+    public bool JumpButtonPressed { get; private set; }
+    public bool JumpButtonHeld { get; private set; }
 
-
+    public bool RunButtonHeld { get; private set; }
 
     public void Start()
     {
@@ -18,7 +19,12 @@ public class PlayerInput : MonoBehaviour
     private void Update()
     {
         MovementInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        JumpInput = Input.GetButtonDown("Jump");
+
+        JumpButtonPressed = Input.GetButtonDown("Jump");
+        JumpButtonHeld = Input.GetButton("Jump");
+
+        // Must change to a mapped button.
+        RunButtonHeld = Input.GetKey(KeyCode.X);
 
     }
 
