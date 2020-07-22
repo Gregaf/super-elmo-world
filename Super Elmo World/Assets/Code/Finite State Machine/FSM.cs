@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class FSM
 {
-    public bool isActive;
+    public bool isActive = true;
     public State CurrentState { get; private set; }
     public State PreviousState { get; private set; }
 

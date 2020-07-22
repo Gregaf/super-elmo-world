@@ -4,16 +4,14 @@ using UnityEditor;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public enum MovementMode
 {
-    public enum MovementMode
-    { 
-        Ground,
-        Flying,
-        Swimming
-    }
-
-
+    Ground,
+    Flying,
+    Swimming
+}
+public class PlayerController : MonoBehaviour
+{
     public MovementMode mode;
 
     private CharacterController2D physicsController;
@@ -32,6 +30,17 @@ public class PlayerMovement : MonoBehaviour
     private float groundAcceleration = 6;
     [SerializeField]
     private float airAcceleration = 3;
+
+    private void OnEnable()
+    {
+        Block.onHitBlock += PushDown;
+    }
+
+    private void OnDisable()
+    {
+        Block.onHitBlock -= PushDown;
+
+    }
 
     private void Awake()
     {
@@ -111,6 +120,12 @@ public class PlayerMovement : MonoBehaviour
         else if (!playerInput.JumpButtonHeld && physicsController.Velocity.y > 0)
             physicsController.AddForce(Vector2.up * -(lowJumpMultiplier));
        
+
+    }
+
+    private void PushDown()
+    {
+        physicsController.SetForce(new Vector2(physicsController.Velocity.x, -physicsController.Velocity.y));
 
     }
 
