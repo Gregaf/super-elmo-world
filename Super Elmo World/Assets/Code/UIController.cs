@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
@@ -11,24 +12,23 @@ public class UIController : MonoBehaviour
     public Canvas[] screens;
     private Canvas currentScreen;
     private Canvas previousScreen;
-
+    
     public bool isPaused = false;
     public TextMeshProUGUI timerText;
     
     private void OnEnable()
     {
-        PlayerInput.onPause += PauseGame;
         GameManager.updateTimeText += UpdateText;
     }
 
     private void Start()
     {
         currentScreen = screens[0];
-
     }
 
     public void PauseGame()
     {
+        
         if (!isPaused)
         {
             isPaused = true;
@@ -60,7 +60,6 @@ public class UIController : MonoBehaviour
 
     private void OnDisable()
     {
-        PlayerInput.onPause -= PauseGame;
         GameManager.updateTimeText -= UpdateText;
     }
 

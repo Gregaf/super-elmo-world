@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance { get; private set; }
+    public FSM GameStateManager;
 
     [SerializeField]
     private LevelData currentLevel;
@@ -13,6 +15,7 @@ public class GameManager : MonoBehaviour
 
     public delegate void UpdateTimeText(float time);
     public static UpdateTimeText updateTimeText;
+
 
 
     public void Awake()
@@ -26,11 +29,18 @@ public class GameManager : MonoBehaviour
             Debug.Log("There is already an instance of " + this);
         }
 
+
+        GameStateManager = new FSM();
+
+        GameStateManager.AddToStateList("Paused", new GM_Paused(GameStateManager));
+        GameStateManager.AddToStateList("World", new GM_WorldSelect(GameStateManager));
+        GameStateManager.AddToStateList("Game", new GM_InGame(GameStateManager));
     }
 
     public void Start()
     {
-        // There should only be one instance of LevelData per scene.
+        GameStateManager.InitializeFSM(GameStateManager.GetState("Game"));
+
         currentLevel = FindObjectOfType<LevelData>();
         levelTimer = currentLevel.timeToComplete;
 

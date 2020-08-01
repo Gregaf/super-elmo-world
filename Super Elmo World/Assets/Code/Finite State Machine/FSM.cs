@@ -15,12 +15,12 @@ public class FSM
     public void InitializeFSM(State beginnngState)
     {
 
-        CurrentState = beginnngState;
+        ChangeCurrentState(beginnngState);
     }
 
     public void ChangeCurrentState(State newState)
     {
-        CurrentState.Exit();
+        CurrentState?.Exit();
         PreviousState = CurrentState;
 
         CurrentState = newState;
@@ -61,7 +61,7 @@ public class FSM
     public void UpdateCurrentState()
     {
         if (isActive)
-            CurrentState.StateUpdate();
+            CurrentState?.StateUpdate();
         else
             Debug.Log("FSM: " + this + " is not active.");
 
