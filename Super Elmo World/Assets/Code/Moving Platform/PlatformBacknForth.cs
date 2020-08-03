@@ -1,8 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
-public class PlatformBacknForth : State
+public class PlatformBacknForth : IState
 {
+    private FSM ownerFsm;
     private GameObject platform;
     private float speed;
     private Transform[] path;
@@ -20,7 +21,7 @@ public class PlatformBacknForth : State
         maxIndex = path.Length;
     }
 
-    public override void Enter()
+    public void Enter()
     {
         index++;
 
@@ -33,11 +34,11 @@ public class PlatformBacknForth : State
 
     }
 
-    public override void Exit()
+    public void Exit()
     {
     }
 
-    public override void StateUpdate()
+    public void StateUpdate()
     {
         float distanceToPoint = Vector2.Distance(platform.transform.position, path[index].position);
 

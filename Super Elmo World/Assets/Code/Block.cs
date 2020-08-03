@@ -37,7 +37,7 @@ public abstract class Block : MonoBehaviour
     public virtual void OnHitBlock()
     {
         activated = true;
-        onHitBlock.Invoke();
+        onHitBlock?.Invoke();
 
     }
     public void Update()

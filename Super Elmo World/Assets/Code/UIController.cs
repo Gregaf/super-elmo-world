@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
+﻿using System.Net.NetworkInformation;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,7 +14,16 @@ public class UIController : MonoBehaviour
     
     private void OnEnable()
     {
-        GameManager.updateTimeText += UpdateText;
+        GameState gameState = (GameState) GameManager.Instance.GameStateManager.GetState("Game");
+
+        gameState.updateTimeCallback += UpdateText;
+    }
+
+    private void OnDisable()
+    {
+        GameState gameState = (GameState)GameManager.Instance.GameStateManager.GetState("Game");
+
+        gameState.updateTimeCallback -= UpdateText;
     }
 
     private void Start()
@@ -56,11 +61,6 @@ public class UIController : MonoBehaviour
         int displayedTime = Mathf.RoundToInt(levelTimer);
 
         timerText.text = "Time: " + displayedTime;
-    }
-
-    private void OnDisable()
-    {
-        GameManager.updateTimeText -= UpdateText;
     }
 
 }

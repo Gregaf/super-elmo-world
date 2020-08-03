@@ -2,21 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SmallState : State
+public class SmallState : IState
 {
-    public SmallState()
+    public void Enter()
     {
+        throw new System.NotImplementedException();
     }
 
-    public override void Enter()
+    public void Exit()
     {
+        throw new System.NotImplementedException();
     }
 
-    public override void Exit()
+    public void StateUpdate()
     {
-    }
-
-    public override void StateUpdate()
-    {
+        throw new System.NotImplementedException();
     }
 }

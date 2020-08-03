@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GM_WorldSelect : IState
+public class FlyingMovement : IState
 {
+    public FlyingMovement()
+    { 
+        
+    }
+
     public void Enter()
     {
     }

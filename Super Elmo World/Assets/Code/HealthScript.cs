@@ -1,37 +1,35 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class HealthScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    int maxHealth = 3;
-    int currentHealth = 1;
-    public void addHealth(int amt)
+    [SerializeField] private int maxHealth = 3;
+    public int currentHealth { get; private set; }
+    
+    public event EventHandler OnGainHealthCallback;
+    public event EventHandler OnLoseHealthCallback;
+
+    public void GainHealth(int gainAmount)
     {
-        //picking up power up
-        if(currentHealth < maxHealth){
-        currentHealth = currentHealth + amt;
-            //checks that it doesnt go above max
-            if(currentHealth > maxHealth)
-            {
-             currentHealth = maxHealth;
-            }
-        }
-        //if already maxed
-        else{
-            Debug.Log("Health already max");
-        }
+        currentHealth += gainAmount;
+
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+       
+        // Raise event when health is gained.      
+        OnGainHealthCallback?.Invoke(this, EventArgs.Empty);
+
     }
 
-    public void subHealth(int amt)
-        {
-            //taking damage
-            currentHealth = currentHealth - amt;
-        }
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void LoseHealth(int lossAmount)
+    {      
+        currentHealth -= lossAmount;
+  
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
+        // Riase event when health is lost.
+        OnLoseHealthCallback?.Invoke(this, EventArgs.Empty);
     }
+
 }

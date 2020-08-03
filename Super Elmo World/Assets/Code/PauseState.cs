@@ -1,11 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GM_WorldSelect : IState
+public class PauseState : IState
 {
+
+
     public void Enter()
     {
+        
     }
 
     public void Exit()
@@ -14,5 +18,6 @@ public class GM_WorldSelect : IState
 
     public void StateUpdate()
     {
+        
     }
 }

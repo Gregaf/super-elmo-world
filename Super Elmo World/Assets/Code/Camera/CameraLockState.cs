@@ -3,28 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class CameraLockState : State
+public class CameraLockState : IState
 {
-
+    private FSM ownerFsm;
 
     public CameraLockState(FSM ownerFsm, GameObject owner)
     {
         this.ownerFsm = ownerFsm;
 
     }
-    public override void Enter()
+    public void Enter()
     {
         Debug.Log(ToString() + " Enter.");
 
 
     }
 
-    public override void Exit()
+    public void Exit()
     {
         Debug.Log(ToString() + " Exit.");
     }
 
-    public override void StateUpdate()
+    public void StateUpdate()
     {
 
     }

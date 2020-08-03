@@ -1,28 +1,20 @@
 ﻿using System;
 using UnityEngine;
 
-public class BigState : State
+public class BigState : IState
 {
-    public static event EventHandler myEvent;
-    public int thing;
-    
-
-    public BigState()
+    public void Enter()
     {
+        throw new NotImplementedException();
     }
 
-    public override void Enter()
+    public void Exit()
     {
-
+        throw new NotImplementedException();
     }
 
-    public override void Exit()
+    public void StateUpdate()
     {
+        throw new NotImplementedException();
     }
-
-    public override void StateUpdate()
-    {
-
-    }
-
 }

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-public class PlatformPause : State
+public class PlatformPause : IState
 {
+    private FSM ownerFsm;
     private string platformType;
     private float pauseTime;
     private GameObject platform;
@@ -19,17 +20,17 @@ public class PlatformPause : State
         this.pauseTime = pauseTime;
     }
 
-    public override void Enter()
+    public void Enter()
     {
         timer = Time.time + pauseTime;
     }
 
-    public override void Exit()
+    public void Exit()
     {
 
     }
 
-    public override void StateUpdate()
+    public void StateUpdate()
     {
         
         if(timer <= Time.time)

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollowState : State
+public class CameraFollowState : IState
 {
-
+    private FSM ownerFsm;
     private float speed;
     private Transform target;
     private GameObject owner;
@@ -19,17 +19,17 @@ public class CameraFollowState : State
         this.speed = speed;
     }
 
-    public override void Enter()
+    public void Enter()
     {
         Debug.Log(ToString() + " Enter.");
     }
 
-    public override void Exit()
+    public void Exit()
     {
         Debug.Log(ToString() + " Exit.");
     }
 
-    public override void StateUpdate()
+    public void StateUpdate()
     {
         if (Vector2.Distance((owner.transform.position), target.position) > .5f)
         {

@@ -3,9 +3,11 @@ using UnityEngine;
 
 public class LevelData : MonoBehaviour
 {
-    public string levelName;
-    public float timeToComplete;
-    public int scoreMultiplier;
-    public MovementMode levelType;
+    public int levelTime;
+
+    public void Awake()
+    {
+    }
 
 }
+

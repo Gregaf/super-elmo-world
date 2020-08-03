@@ -1,22 +1,17 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance { get; private set; }
-    public FSM GameStateManager;
+    public GameState gameState { get; private set; }
+    public static GameManager Instance { get { return instance; } }
+    private static GameManager instance;
+
+    public FSM GameStateManager { get; private set; }
 
     [SerializeField]
     private LevelData currentLevel;
 
     public float levelTimer { get; private set; }
-    public float score { get; private set; }
-    public float currentCoins { get; private set; }
-
-    public delegate void UpdateTimeText(float time);
-    public static UpdateTimeText updateTimeText;
-
-
 
     public void Awake()
     {
@@ -25,33 +20,38 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
         else
-        {
-            Debug.Log("There is already an instance of " + this);
-        }
+            Debug.LogAssertion("There is already an instance of " + this.ToString());
 
+
+        currentLevel = FindObjectOfType<LevelData>();
+        levelTimer = currentLevel.levelTime;
 
         GameStateManager = new FSM();
 
-        GameStateManager.AddToStateList("Paused", new GM_Paused(GameStateManager));
-        GameStateManager.AddToStateList("World", new GM_WorldSelect(GameStateManager));
-        GameStateManager.AddToStateList("Game", new GM_InGame(GameStateManager));
+        GameStateManager.AddToStateList("Game", new GameState(GameStateManager, levelTimer));
+        GameStateManager.AddToStateList("World", new GM_WorldSelect());
+
+        GameStateManager.InitializeFSM(GameStateManager.GetState("Game"));
+    }
+
+    private void OnDisable()
+    {
     }
 
     public void Start()
     {
-        GameStateManager.InitializeFSM(GameStateManager.GetState("Game"));
-
-        currentLevel = FindObjectOfType<LevelData>();
-        levelTimer = currentLevel.timeToComplete;
-
     }
 
     private void Update()
     {
-        levelTimer -= Time.deltaTime;
+        GameStateManager.UpdateCurrentState();
 
+        if (Input.GetKeyDown(KeyCode.W))
+            GameStateManager.ChangeCurrentState("World");
 
-        updateTimeText.Invoke(levelTimer);
+        if (Input.GetKeyDown(KeyCode.G))
+            GameStateManager.ChangeCurrentState("Game");
+
     }
 
 }

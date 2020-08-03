@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class PlatformCycle : State
+public class PlatformCycle : IState
 {
-
+    private FSM ownerFsm;
     private GameObject platform;
     private float speed;
     private Transform[] path;
@@ -21,7 +21,7 @@ public class PlatformCycle : State
         maxIndex = path.Length;
     }
 
-    public override void Enter()
+    public void Enter()
     {
         index++;
 
@@ -31,12 +31,12 @@ public class PlatformCycle : State
         }
     }
 
-    public override void Exit()
+    public void Exit()
     {
 
     }
 
-    public override void StateUpdate()
+    public void StateUpdate()
     {
         
         float distanceToPoint = Vector2.Distance(platform.transform.position, path[index].position);

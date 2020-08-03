@@ -6,20 +6,30 @@ using UnityEngine;
 public class FSM
 {
     public bool isActive = true;
-    public State CurrentState { get; private set; }
-    public State PreviousState { get; private set; }
+    public IState CurrentState { get; private set; }
+    public IState PreviousState { get; private set; }
 
-    private Dictionary<string, State> listedStates = new Dictionary<string, State>();
+    private Dictionary<string, IState> listedStates = new Dictionary<string, IState>();
     
 
-    public void InitializeFSM(State beginnngState)
+    public void InitializeFSM(IState beginnngState)
     {
 
         ChangeCurrentState(beginnngState);
     }
 
-    public void ChangeCurrentState(State newState)
+    public void ChangeCurrentState(IState newState)
     {
+        CurrentState?.Exit();
+        PreviousState = CurrentState;
+
+        CurrentState = newState;
+        CurrentState.Enter();
+    }
+    public void ChangeCurrentState(string stateName)
+    {
+        IState newState = this.listedStates[stateName];
+
         CurrentState?.Exit();
         PreviousState = CurrentState;
 
@@ -30,7 +40,7 @@ public class FSM
     public void ReturnToPreviousState()
     {
         CurrentState.Exit();
-        State temp = CurrentState;
+        IState temp = CurrentState;
 
         CurrentState = PreviousState;
         CurrentState.Enter();
@@ -39,21 +49,21 @@ public class FSM
     }
 
     // Takes a collection of states and will add each state from the collection to the listedStates dictionary.
-    public void PopulateStatesList(Collection<State> newStates)
+    public void PopulateStatesList(Collection<IState> newStates)
     {
-        foreach (State newstate in newStates)
+        foreach (IState newstate in newStates)
         {
             listedStates.Add(newstate.ToString(), newstate);
         }
     }
 
     
-    public void AddToStateList(string key, State newState)
+    public void AddToStateList(string key, IState newState)
     {
         listedStates.Add(key, newState);
     }
 
-    public State GetState(string key)
+    public IState GetState(string key)
     {
         return listedStates[key];
     }
