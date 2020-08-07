@@ -1,16 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using UnityEngine;
 
 public abstract class Entity : MonoBehaviour
 {
+    public bool isFacingRight { get; protected set; }
+
+    [SerializeField] private bool usesPhysics = true;
+
     protected HealthScript healthManager;
-    [SerializeField] private bool usesPhysics;
     protected CharacterController2D physicsController;
     [SerializeField] protected int entityID;
-    protected bool isFacingRight;
-
     protected string entityName { get; private set; }
     protected string entityDescription { get; private set; }
 
@@ -20,6 +19,7 @@ public abstract class Entity : MonoBehaviour
 
         if (usesPhysics)
             physicsController = this.GetComponent<CharacterController2D>();
+        
 
         ReadDescriptionFile();
 
@@ -48,14 +48,14 @@ public abstract class Entity : MonoBehaviour
 
     }
 
+    // Reads the name and description from a text file that corresponds to the EntityID and writes to entityName and entityDescription.
     private void ReadDescriptionFile()
     {
         string filePath = "Assets/EntityDescriptions/EntityID" + entityID + ".txt";
 
+        // Throws fileNotFoundException if file doesn't Exist or path is incorrect.
         StreamReader streamReader = new StreamReader(filePath);
-
-        if (streamReader == null)
-            return;
+        
         entityName = streamReader.ReadLine();
         entityDescription = streamReader.ReadToEnd();
 
@@ -64,6 +64,6 @@ public abstract class Entity : MonoBehaviour
 
     public override string ToString()
     {
-        return ("Name: " + entityName + "\n" + "Description: " + entityDescription);
+        return ($"Name: {entityName}\n Description{entityDescription}");
     }
 }

@@ -6,9 +6,10 @@ using UnityEngine;
 public class PlatformPause : IState
 {
     private FSM ownerFsm;
+    private GameObject platform;
+
     private string platformType;
     private float pauseTime;
-    private GameObject platform;
 
     private float timer;
 

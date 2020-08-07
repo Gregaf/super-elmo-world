@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using UnityEngine;
 
@@ -73,7 +72,7 @@ public class FSM
         if (isActive)
             CurrentState?.StateUpdate();
         else
-            Debug.Log("FSM: " + this + " is not active.");
+            Debug.Log($"{this} FSM is not active!");
 
     }
 

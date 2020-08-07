@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CameraLockState : IState
 {
@@ -14,14 +11,14 @@ public class CameraLockState : IState
     }
     public void Enter()
     {
-        Debug.Log(ToString() + " Enter.");
+        Debug.Log($"{ToString()}, Entered.");
 
 
     }
 
     public void Exit()
     {
-        Debug.Log(ToString() + " Exit.");
+        Debug.Log($"{ToString()}, Exited.");
     }
 
     public void StateUpdate()

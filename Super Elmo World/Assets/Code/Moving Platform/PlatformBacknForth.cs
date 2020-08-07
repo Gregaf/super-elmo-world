@@ -5,8 +5,8 @@ public class PlatformBacknForth : IState
 {
     private FSM ownerFsm;
     private GameObject platform;
-    private float speed;
     private Transform[] path;
+    private float speed;
 
     private int index;
     private int maxIndex;

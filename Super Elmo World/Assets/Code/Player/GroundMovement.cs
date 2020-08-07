@@ -1,6 +1,4 @@
-﻿using System.Text;
-using UnityEditor.Animations;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class GroundMovement : IState
@@ -43,13 +41,11 @@ public class GroundMovement : IState
         controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, currentSpeed * playerInput.MovementInput.x, Time.deltaTime * acceleration));
 
         controller2D.SetVerticalForce(Mathf.Lerp(controller2D.Velocity.y, -dynamicGravity, Time.deltaTime));
-
-        //Debug.Log(this.ToString());
     }
 
     // The parameter context is to access information about the buttonPress associated with the 'performed' event.
     // Simply applys vertical force upward as long as the player is on the ground.
-    public void OnJump(InputAction.CallbackContext context)
+    private void OnJump(InputAction.CallbackContext context)
     {
         if (controller2D.ControlState.isGrounded)
         {
@@ -59,7 +55,7 @@ public class GroundMovement : IState
 
     // Review: I need to create a variable to modify for how fast gravity builds up when not holding button.
     // This method handles staying in air longer while jump button is held, then falling faster on release.
-    public void HeldJump()
+    private void HeldJump()
     {
         if (playerInput.JumpButtonActive && controller2D.Velocity.y > 0)
         {
@@ -77,7 +73,7 @@ public class GroundMovement : IState
 
     // Takes a float for the currentSpeed the player is moving at.
     // Returns a new gravity value based on the inverse of the current speed.
-    public float AlterGravity(float currentSpeed)
+    private float AlterGravity(float currentSpeed)
     {
         if (currentSpeed <= 0)     
             return groundMoveProperties.gravity;
@@ -94,7 +90,7 @@ public class GroundMovement : IState
     
     // Takes a float for the speed to be altered, also takes a float for how fast speed is increased and decreased.
     // Returns the newSpeed that was adjusted and clamped.
-    public float HandleRunSpeed(float newSpeed, float runAccelerationRate)
+    private float HandleRunSpeed(float newSpeed, float runAccelerationRate)
     {
         if (playerInput.RunButtonActive)
             newSpeed += Time.deltaTime * runAccelerationRate;

@@ -1,4 +1,5 @@
 ﻿using System.Net.NetworkInformation;
+using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,7 +12,7 @@ public class UIController : MonoBehaviour
     
     public bool isPaused = false;
     public TextMeshProUGUI timerText;
-    
+
     private void OnEnable()
     {
         GameState gameState = (GameState) GameManager.Instance.GameStateManager.GetState("Game");
@@ -60,7 +61,7 @@ public class UIController : MonoBehaviour
     {
         int displayedTime = Mathf.RoundToInt(levelTimer);
 
-        timerText.text = "Time: " + displayedTime;
+        timerText.text = $"Time: {displayedTime}";
     }
 
 }

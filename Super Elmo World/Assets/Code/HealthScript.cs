@@ -8,28 +8,32 @@ public class HealthScript : MonoBehaviour
     [SerializeField] private int maxHealth = 3;
     public int currentHealth { get; private set; }
     
-    public event EventHandler OnGainHealthCallback;
-    public event EventHandler OnLoseHealthCallback;
+    public event EventHandler<GrowthEventArgs> OnLoseHealthCallback;
+    public event EventHandler OnDeathCallback;
 
-    public void GainHealth(int gainAmount)
+    private GrowthEventArgs growthArguments;
+
+    public void Start()
     {
-        currentHealth += gainAmount;
+        currentHealth = 2;
 
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-       
-        // Raise event when health is gained.      
-        OnGainHealthCallback?.Invoke(this, EventArgs.Empty);
-
+        growthArguments = new GrowthEventArgs(currentHealth);
     }
 
     public void LoseHealth(int lossAmount)
-    {      
+    {
         currentHealth -= lossAmount;
   
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
+        growthArguments.growthLevel = currentHealth;
+        growthArguments.SetGrowthState();
+
         // Riase event when health is lost.
-        OnLoseHealthCallback?.Invoke(this, EventArgs.Empty);
+        OnLoseHealthCallback?.Invoke(this, growthArguments);
+
+        if (currentHealth <= 0)
+            OnDeathCallback?.Invoke(this, EventArgs.Empty);
     }
 
 }

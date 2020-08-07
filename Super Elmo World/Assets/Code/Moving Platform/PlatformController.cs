@@ -10,11 +10,11 @@ public class PlatformController : MonoBehaviour
 {
     public PlatformType platformType;
 
-    public float platformSpeed;
-    public float platformPauseTime;
+    [SerializeField] private float platformSpeed = 5f;
+    [SerializeField] private float platformPauseTime = 1f;
 
-    public MovingPlatform movingPlatform;
-    public Transform[] path;
+    [SerializeField] private Transform[] path;
+    private MovingPlatform movingPlatform;
 
     private FSM movingPlatformFsm;
 
@@ -29,7 +29,7 @@ public class PlatformController : MonoBehaviour
 
     }
 
-    public void Start()
+    private void Start()
     {
         movingPlatformFsm.InitializeFSM(movingPlatformFsm.GetState(platformType.ToString()));
              
@@ -39,7 +39,6 @@ public class PlatformController : MonoBehaviour
     {
         movingPlatformFsm.UpdateCurrentState();
 
-        print(movingPlatformFsm.CurrentState.ToString());
     }
 
     private void OnDrawGizmosSelected()

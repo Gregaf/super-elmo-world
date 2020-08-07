@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
@@ -12,57 +10,36 @@ public class CharacterController2D : MonoBehaviour
     private static readonly float slopeLimitTangent = Mathf.Tan(75f * Mathf.Deg2Rad);
 
     public LayerMask platformMask;
-    public ControllerParameters defaultParameters;
 
     public ControllerState2D ControlState { get; private set; }
     public Vector2 Velocity { get { return entityVelocity; } }
-    public bool CanJump
-    {
-        get
-        {
-            if (Parameters.JumpRestrictions == ControllerParameters.JumpBehavior.CanJumpAnywhere)
-                return jumpIn <= 0;
-
-            if (Parameters.JumpRestrictions == ControllerParameters.JumpBehavior.CanJumpOnGround)
-                return ControlState.isGrounded;
-
-            return false;
-        }
-
-    }
     public bool HandleCollision { get; set; }
     // '??' is null coalescing operator, it returns the second condition if the first is null
-    public ControllerParameters Parameters { get { return overrideParameters ?? defaultParameters; } }
     public GameObject StandingOn { get; private set; }
     public Vector2 PlatformVelocity { get; private set; }
 
     private Vector2 entityVelocity;
     private Transform entityTransform;
-    private Vector3 entityLocalScale;
     private BoxCollider2D entityBoxCollider;
-    private ControllerParameters overrideParameters;
     private float jumpIn;
 
-    private Vector2 activeLocalPlatformPoint, 
-                    activeGlobalPlatformPoint;
+    private Vector2 activeLocalPlatformPoint, activeGlobalPlatformPoint;
 
-    private float verticalDistanceBetweenRays,
-                  horizontalDistanceBetweenRays;
+    private float verticalDistanceBetweenRays, horizontalDistanceBetweenRays;
 
     private Vector2 raycastTopLeft;
     private Vector2 raycastBottomRight;
     private Vector2 raycastBottomLeft;
 
-    public void Awake()
+    private void Awake()
     {
         ControlState = new ControllerState2D();
         entityTransform = this.transform;
-        entityLocalScale = this.transform.localScale;
 
         if (this.GetComponent<BoxCollider2D>() != null)
             entityBoxCollider = this.GetComponent<BoxCollider2D>();
 
-        CalculateRayBounds();
+        CalculateRayBounds(); 
 
         HandleCollision = true;
     }
@@ -87,11 +64,26 @@ public class CharacterController2D : MonoBehaviour
         entityVelocity.y = yMove;
     }
 
-    public void LateUpdate()
+    private void LateUpdate()
     {
         jumpIn -= Time.deltaTime;
 
         Move(Velocity * Time.deltaTime);
+    }
+
+    public void ModifySize(Vector3 newLocalScale)
+    {
+        GameObject aesthetic = this.transform.GetChild(0).gameObject;
+        
+        int arb = newLocalScale.y.CompareTo(entityTransform.localScale.y);
+
+        entityBoxCollider.size = (Vector2) newLocalScale;
+        entityBoxCollider.offset = new Vector2(0, arb * newLocalScale.y / 2);
+
+        aesthetic.transform.localScale = newLocalScale;
+        aesthetic.transform.localPosition = new Vector2(aesthetic.transform.localPosition.x, arb * newLocalScale.y / 2);
+
+        CalculateRayBounds();
     }
 
     private void Move(Vector2 deltaMovement)
@@ -122,8 +114,8 @@ public class CharacterController2D : MonoBehaviour
         if (Time.deltaTime > 0)
             entityVelocity = deltaMovement / Time.deltaTime;
 
-        entityVelocity.x = Mathf.Clamp(entityVelocity.x, Parameters.maxVelocity.x * -1, Parameters.maxVelocity.x);
-        entityVelocity.y = Mathf.Clamp(entityVelocity.y, Parameters.maxVelocity.y * -1, Parameters.maxVelocity.y);
+        //entityVelocity.x = Mathf.Clamp(entityVelocity.x, Parameters.maxVelocity.x * -1, Parameters.maxVelocity.x);
+        //entityVelocity.y = Mathf.Clamp(entityVelocity.y, Parameters.maxVelocity.y * -1, Parameters.maxVelocity.y);
 
         if (ControlState.isMovingUpSlope)
             entityVelocity.y = 0;
@@ -159,11 +151,11 @@ public class CharacterController2D : MonoBehaviour
         StandingOn = null;
     }
 
-    private void CalculateRayOrigins()
+    public void CalculateRayOrigins()
     {
-        Vector2 size = new Vector2(entityBoxCollider.size.x * Mathf.Abs(entityLocalScale.x),
-                                   entityBoxCollider.size.y * Mathf.Abs(entityLocalScale.y)) / 2;
-        Vector2 center = new Vector2(entityBoxCollider.offset.x * entityLocalScale.x, entityBoxCollider.offset.y * entityLocalScale.y);
+        Vector2 size = new Vector2(entityBoxCollider.size.x * Mathf.Abs(transform.localScale.x),
+                                   entityBoxCollider.size.y * Mathf.Abs(transform.localScale.y)) / 2;
+        Vector2 center = new Vector2(entityBoxCollider.offset.x * transform.localScale.x, entityBoxCollider.offset.y * transform.localScale.y);
 
         raycastTopLeft = (Vector2) entityTransform.position + new Vector2(center.x - size.x + skinWidth, center.y + size.y - skinWidth);
         raycastBottomRight = (Vector2) entityTransform.position + new Vector2(center.x + size.x - skinWidth, center.y - size.y + skinWidth);
@@ -230,11 +222,6 @@ public class CharacterController2D : MonoBehaviour
             // If the ray has not hit anything, then skip the rest of function.
             if (!rayCastHit)            
                 continue;
-
-            if ((rayCastHit.collider.tag == "OneWayPlatform" && (Input.GetButtonDown("Down") || isGoingUp)))
-            {
-                continue;
-            }
 
             if (!isGoingUp)
             {
@@ -304,7 +291,7 @@ public class CharacterController2D : MonoBehaviour
         if (Mathf.RoundToInt(angle) == 90)
             return false;
 
-        if (angle > Parameters.slopeLimit)
+        if (angle > 90)
         {
             deltaMovement.x = 0;
             return true;
@@ -323,12 +310,12 @@ public class CharacterController2D : MonoBehaviour
     }
 
     // Calculate the distance bewtween the horizontal and vertical rays
-    private void CalculateRayBounds()
+    public void CalculateRayBounds()
     {
-        float colliderWidth = entityBoxCollider.size.x * Mathf.Abs(transform.localScale.x) - (2 * skinWidth);
+        float colliderWidth = entityBoxCollider.size.x * Mathf.Abs(entityTransform.localScale.x) - (2 * skinWidth);
         horizontalDistanceBetweenRays = colliderWidth / (totalVerticalRays - 1);
 
-        float colliderHeight = entityBoxCollider.size.y * Mathf.Abs(transform.localScale.y) - (2 * skinWidth);
+        float colliderHeight = entityBoxCollider.size.y * Mathf.Abs(entityTransform.localScale.y) - (2 * skinWidth);
         verticalDistanceBetweenRays = colliderHeight / (totalHorizontalRays - 1);
     }
 

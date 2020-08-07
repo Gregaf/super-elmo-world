@@ -26,8 +26,8 @@ public class GameState : IState
 
     public void StateUpdate()
     {
-        levelTimer -= Time.deltaTime;
+        //levelTimer -= Time.deltaTime;
 
-        updateTimeCallback(levelTimer);
+        //updateTimeCallback(levelTimer);
     }
 }

@@ -1,8 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Users;
+using UnityEngine.iOS;
+using UnityEngine.XR;
 
 public class PlayerInputHandler : MonoBehaviour
 {
+    public int playerIndex;
+    public InputUser inputUser;
     public Vector2 MovementInput { get; private set; }
     public bool JumpButtonActive { get; private set; }
     public bool RunButtonActive { get; private set; }
@@ -14,6 +19,7 @@ public class PlayerInputHandler : MonoBehaviour
     private void Awake()
     {
         playerControls = new PlayerControls();
+        inputUser = new InputUser();
         movement = this.GetComponent<PlayerMovement>();
 
         playerControls.Basic.Jump.started += Jumping;
