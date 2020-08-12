@@ -7,7 +7,6 @@ public abstract class Entity : MonoBehaviour
 
     [SerializeField] private bool usesPhysics = true;
 
-    protected HealthScript healthManager;
     protected CharacterController2D physicsController;
     [SerializeField] protected int entityID;
     protected string entityName { get; private set; }
@@ -15,8 +14,6 @@ public abstract class Entity : MonoBehaviour
 
     protected virtual void Awake()
     {
-        healthManager = this.GetComponent<HealthScript>();
-
         if (usesPhysics)
             physicsController = this.GetComponent<CharacterController2D>();
         

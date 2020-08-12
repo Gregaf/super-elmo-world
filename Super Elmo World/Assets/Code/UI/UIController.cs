@@ -16,15 +16,12 @@ public class UIController : MonoBehaviour
     private void OnEnable()
     {
         GameState gameState = (GameState) GameManager.Instance.GameStateManager.GetState("Game");
-
-        gameState.updateTimeCallback += UpdateText;
     }
 
     private void OnDisable()
     {
         GameState gameState = (GameState)GameManager.Instance.GameStateManager.GetState("Game");
 
-        gameState.updateTimeCallback -= UpdateText;
     }
 
     private void Start()

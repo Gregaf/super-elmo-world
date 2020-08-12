@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < 4; i++)
         {
-            PlayerData newPlayer = new PlayerData();
+            PlayerData newPlayer = new PlayerData(0, 0, 3);
 
             eachPlayersData[i] = newPlayer;
         }
@@ -62,11 +62,6 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.G))
             GameStateManager.ChangeCurrentState("Game");
 
-    }
-
-    public void PlayerDataUpdated(System.Object o, EventArgs e)
-    { 
-        
     }
 
 }

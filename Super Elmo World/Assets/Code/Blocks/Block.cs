@@ -9,7 +9,7 @@ public abstract class Block : MonoBehaviour
     public bool activated = false;
 
     // Private 
-    [SerializeField] private LayerMask detectMask;
+    [SerializeField] private LayerMask detectMask = 0;
     [SerializeField] private float bounceHeight = .5f;
     [SerializeField] private float bounceSpeed = 6f;
     private float rayLength = 0.6f;

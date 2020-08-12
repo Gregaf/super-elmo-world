@@ -7,25 +7,32 @@ public class PlayerBrain : Entity, ITakeDamage
 {
     private bool invincible;
     private PlayerInputHandler playerInput;
+    private HealthManager health;
     private PlayerData playerData;
     private PickUp collectable;
+
+
 
     protected override void Awake()
     {
         base.Awake();
         playerInput = this.GetComponent<PlayerInputHandler>();
+        health = this.GetComponent<HealthManager>();
     }
 
     protected override void OnEnable()
     {
         playerData = GameManager.Instance.eachPlayersData[(playerInput.playerIndex)];
-        Debug.Log(playerData);
 
+        health.OnEntityDie += Death;
     }
 
     protected override void OnDisable()
     {
         playerInput.playerControls.Basic.ChangeDirection.performed -= Flip;
+
+        health.OnEntityDie -= Death;
+
     }
 
     protected override void Start()
@@ -38,7 +45,7 @@ public class PlayerBrain : Entity, ITakeDamage
     {
         if (!invincible)
         {
-            healthManager.LoseHealth(damageToTake);
+            health.LoseHealth(1);
             StartCoroutine(Invincibility(2));
             Debug.Log("Player took damage.");
         }
@@ -67,23 +74,9 @@ public class PlayerBrain : Entity, ITakeDamage
         }
         else if (collider.GetComponent<PickUp>() != null)
         {
-            collectable = collider.GetComponent<PickUp>();
 
-            collectable.pickUpEventHandler += UpdatePlayerData;
-            collectable.pickUpEventHandler += GameManager.Instance.PlayerDataUpdated;
         }
 
-    }
-
-    private void UpdatePlayerData(System.Object o, PickUpEventArgs pickUp)
-    {
-        playerData.AddCoins(pickUp.coinValue);
-        playerData.AddScore(pickUp.scoreValue);
-        playerData.AddLives(pickUp.livesValue);
-
-        // Maybe fire an event OnUpdatePlayerData so UI can update player onscreen data.
-        
-        collectable.pickUpEventHandler -= UpdatePlayerData;
     }
 
     private IEnumerator Invincibility(float invicibilityTime)
@@ -108,7 +101,7 @@ public class PlayerBrain : Entity, ITakeDamage
 
     }
 
-    private void Death(System.Object sender, EventArgs e)
+    private void Death()
     { 
 
     }

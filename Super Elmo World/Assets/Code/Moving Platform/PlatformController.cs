@@ -13,7 +13,7 @@ public class PlatformController : MonoBehaviour
     [SerializeField] private float platformSpeed = 5f;
     [SerializeField] private float platformPauseTime = 1f;
 
-    [SerializeField] private Transform[] path;
+    [SerializeField] private Transform[] path = null;
     private MovingPlatform movingPlatform;
 
     private FSM movingPlatformFsm;

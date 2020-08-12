@@ -11,7 +11,6 @@ public class Enemy : Entity, ITakeDamage
 
     public void TakeDamage(int damageToTake)
     {
-        healthManager.LoseHealth(damageToTake);
 
     }
 
@@ -23,12 +22,10 @@ public class Enemy : Entity, ITakeDamage
 
     protected override void OnEnable()
     {
-        healthManager.OnDeathCallback += Die;
     }
 
     protected override void OnDisable()
     {
-        healthManager.OnDeathCallback -= Die;
     }
 
     protected virtual void Flip()

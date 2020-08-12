@@ -4,47 +4,41 @@ using UnityEngine;
 public class GrowthState : MonoBehaviour
 {
     private PlayerBrain playerBrain;
-    private HealthScript playerHealth;
+    private HealthManager healthManager;
     private FSM growthFsm;
-    private PickUp pickUp;
 
     void Awake()
     {
         playerBrain = this.GetComponent<PlayerBrain>();
-        playerHealth = this.GetComponent<HealthScript>();
+
         growthFsm = new FSM();
+        healthManager = this.GetComponent<HealthManager>();
 
         growthFsm.AddToStateList("Small", new Small(playerBrain));
         growthFsm.AddToStateList("Big", new Big(playerBrain));
+        growthFsm.AddToStateList("Glide", new Gliding(playerBrain));
 
     }
 
     private void OnEnable()
     {
-        playerHealth.OnLoseHealthCallback += ChangeState;
-
+        healthManager.OnHealthChange += ChangeState;
     }
 
     private void OnDisable()
     {
-        playerHealth.OnLoseHealthCallback -= ChangeState;
+        healthManager.OnHealthChange -= ChangeState;
     }
 
     private void Start()
     {
-        growthFsm.InitializeFSM(growthFsm.GetState("Big"));
+        growthFsm.InitializeFSM(growthFsm.GetState("Small"));
 
     }
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        if (collider2D.GetComponent<PickUp>() != null)
-        {
-            pickUp = collider2D.GetComponent<PickUp>();
 
-            pickUp.pickUpEventHandler += ChangeState;
-
-        }
     }
 
     private void OnTriggerExit2D(Collider2D collider2D)
@@ -52,27 +46,44 @@ public class GrowthState : MonoBehaviour
 
     }
 
-    public void ChangeState(System.Object sender, PickUpEventArgs e)
+    public void ChangeState(System.Object o, GrowthEventArgs e)
     {
 
-        //switch (e.growthState)
-        //{
-        //    case GrowthStates.Small:
-        //        growthFsm.ChangeCurrentState("Small");
-        //        break;
-        //    case GrowthStates.Big:
-        //        growthFsm.ChangeCurrentState("Big");
-        //        break;
-        //    default:
-        //        throw new Exception("FUUUUCK");
-        //}
-
-        //if (pickUp?.pickUpEventHandler != null)
-        //{
-        //    pickUp.pickUpEventHandler -= ChangeState;
-        //}
+        switch (e.currentHealth)
+        {
+            case 1:
+                growthFsm.ChangeCurrentState("Small");
+                break;
+            case 2:
+                growthFsm.ChangeCurrentState("Big");
+                break;
+            case 3:
+                SubStates(e.growthID);
+                break;
+            default:
+                Debug.LogError("CurrentHealth is out of bounds.");
+                break;
+        }
 
     }
 
+    private void SubStates(int itemID)
+    {
+        switch (itemID)
+        {
+            case 0:
+                // growthFsm.ChangeCurrentState("Projectile");
+                Debug.Log("Change to Fire State");
+                break;
+            case 1:
+                growthFsm.ChangeCurrentState("Glide");
+                Debug.Log("Change to Cape State");
+                break;
+            case 2:
+                // growthFsm.ChangeCurrentState("Some state");
+                break;
+        }
+    
+    }
 
 }

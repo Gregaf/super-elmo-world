@@ -2,7 +2,7 @@
 
 public class CameraFollower : MonoBehaviour
 {
-    [SerializeField] private BoxCollider2D levelBounds;
+    [SerializeField] private BoxCollider2D levelBounds = null;
     [SerializeField] private float speed = 5;
     private FSM cameraFsm;
 

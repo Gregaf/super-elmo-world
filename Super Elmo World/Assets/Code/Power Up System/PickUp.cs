@@ -4,14 +4,15 @@ using UnityEngine;
 
 public abstract class PickUp : MonoBehaviour
 {
-    protected string pickUpName = "default";
-    protected string description = "Does some stuff.";
-    protected PickUpEventArgs pickUpEventArgs;
-    protected AudioClip pickUpSound;
+    [SerializeField] protected string pickUpName = "default";
+    [SerializeField] protected string description = "Does some stuff.";
+    [SerializeField] protected int coinValue = 0;
+    [SerializeField] protected int scoreValue = 0;
+    [SerializeField] protected int livesValue = 0;
+    [SerializeField] protected AudioClip pickUpSound;
     protected PowerUpLifeCycle currentState;
 
-    public EventHandler<PickUpEventArgs> pickUpEventHandler;
-
+    
     public enum PowerUpLifeCycle
     {
         AttractionState,
@@ -22,7 +23,7 @@ public abstract class PickUp : MonoBehaviour
     protected virtual void Start()
     {
         currentState = PowerUpLifeCycle.AttractionState;
-        pickUpEventArgs = new PickUpEventArgs();
+
     }
 
     protected virtual void Update()
@@ -63,9 +64,10 @@ public abstract class PickUp : MonoBehaviour
         // If a player was touched.
         if (collider2D.GetComponent<PlayerBrain>() != null)
         {
-            // Play sound effect.
-            // Pick up particles.
-            pickUpEventHandler?.Invoke(this, pickUpEventArgs);
+            PlayerInputHandler player = collider2D.GetComponent<PlayerInputHandler>();
+
+            GameManager.Instance.eachPlayersData[player.playerIndex].UpdateData(coinValue, scoreValue, livesValue);
+
             // Review: Will I have every object destroy itself? May come back for object pooling, though most likely unneccessary.
             Destroy(this.gameObject);
         }
