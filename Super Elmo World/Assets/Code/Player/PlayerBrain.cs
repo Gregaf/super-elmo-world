@@ -8,16 +8,19 @@ public class PlayerBrain : Entity, ITakeDamage
     private bool invincible;
     private PlayerInputHandler playerInput;
     private PlayerData playerData;
+    private PickUp collectable;
 
     protected override void Awake()
     {
         base.Awake();
-
         playerInput = this.GetComponent<PlayerInputHandler>();
     }
 
     protected override void OnEnable()
     {
+        playerData = GameManager.Instance.eachPlayersData[(playerInput.playerIndex)];
+        Debug.Log(playerData);
+
     }
 
     protected override void OnDisable()
@@ -50,6 +53,7 @@ public class PlayerBrain : Entity, ITakeDamage
 
     protected override void OnTriggerEnter2D(Collider2D collider)
     {
+        // Must figure this out!
         if (collider.GetComponent<Enemy>() != null)
         {
             Enemy interactedWith = collider.GetComponent<Enemy>();
@@ -58,11 +62,28 @@ public class PlayerBrain : Entity, ITakeDamage
             {
                 interactedWith.TakeDamage(1);
                 physicsController.SetVerticalForce(15);
-                Debug.Log("Fuck");
             }
 
         }
+        else if (collider.GetComponent<PickUp>() != null)
+        {
+            collectable = collider.GetComponent<PickUp>();
 
+            collectable.pickUpEventHandler += UpdatePlayerData;
+            collectable.pickUpEventHandler += GameManager.Instance.PlayerDataUpdated;
+        }
+
+    }
+
+    private void UpdatePlayerData(System.Object o, PickUpEventArgs pickUp)
+    {
+        playerData.AddCoins(pickUp.coinValue);
+        playerData.AddScore(pickUp.scoreValue);
+        playerData.AddLives(pickUp.livesValue);
+
+        // Maybe fire an event OnUpdatePlayerData so UI can update player onscreen data.
+        
+        collectable.pickUpEventHandler -= UpdatePlayerData;
     }
 
     private IEnumerator Invincibility(float invicibilityTime)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class CameraFollowState : IState
@@ -9,20 +10,30 @@ public class CameraFollowState : IState
     private Transform[] targets;
     private Transform owner;
     private Vector3 vectorStore;
-    private Vector3 offset = new Vector3(2, 2, 0);
+    private Vector3 offset = new Vector3(0, 0, 0);
     private bool active;
+    private BoxCollider2D levelBounds;
 
-    public CameraFollowState(FSM ownerFsm, GameObject owner, Transform[] targets, float speed)
+    float minimumZoomDistance = 6f;
+    float maximumZoomDistance = 12f;
+    private Camera gameCamera;
+    
+
+    public CameraFollowState(FSM ownerFsm, GameObject owner, Transform[] targets, float speed, BoxCollider2D levelBounds)
     {
         this.ownerFsm = ownerFsm;
         this.owner = owner.transform;
         this.targets = targets;
         this.speed = speed;
+        this.levelBounds = levelBounds;
+
+        gameCamera = GameObject.FindObjectOfType<Camera>();
     }
 
     public void Enter()
     {
         PlayerManager.OnPlayerJoined += UpdatePlayers;
+        offset = new Vector3(2, 0, 0);
     }
 
     public void Exit()
@@ -35,29 +46,68 @@ public class CameraFollowState : IState
         if (targets.Length <= 0)
             return;
 
-        Vector2 target = FindTargetPosition(targets);
-
-        if (Vector2.Distance((owner.position), target) > .5f)
-        {
-            Vector3 newPosition = Vector3.SmoothDamp(owner.position, target, ref vectorStore, speed);
-            newPosition.z = -10;
-            owner.position = newPosition;
-
-        }
+        MoveCamera();
+        ZoomCamera();
+        
 
     }
 
-    // Review: Instead, will have to create a bounding box around all the players to represnt the camera view, and adjust camera based on that rect.
-    private Vector2 FindTargetPosition(Transform[] targetArray)
+    private void ZoomCamera()
     {
-        int numberOfPlayers = targetArray.Length;
-        Vector2 newPosition = Vector2.zero;
+        float newZoom = Mathf.Lerp(minimumZoomDistance, maximumZoomDistance, GetGreatestDistance() / 50);
 
-        // Review: I need to figure out how to sort via Distance to each
-        //Array.Sort(targetArray);
-        newPosition = (targetArray[0].position + targetArray[numberOfPlayers - 1].position) / 2;
+        gameCamera.orthographicSize = Mathf.Lerp(gameCamera.orthographicSize, newZoom, Time.deltaTime * 3);
+    }
 
-        return newPosition;
+    private void MoveCamera()
+    {
+        Vector3 target = GetCenterPoint() + offset;
+
+        Vector2 camBounds = GetCameraExtents();
+
+        target.y = Mathf.Clamp(target.y, levelBounds.bounds.min.y + camBounds.y, levelBounds.bounds.max.y - camBounds.y);
+        target.x = Mathf.Clamp(target.x, levelBounds.bounds.min.x + camBounds.x, levelBounds.bounds.max.x - camBounds.x);
+        target.z = -10;
+
+        owner.position = Vector3.SmoothDamp(owner.position, target, ref vectorStore, speed);
+    }
+
+    private Vector2 GetCameraExtents()
+    {
+        Vector2 bounds = Vector2.zero;
+        bounds.y = gameCamera.orthographicSize;
+        bounds.x = (gameCamera.orthographicSize) * gameCamera.aspect;
+        
+
+        return bounds;
+    }
+
+
+    private float GetGreatestDistance()
+    {
+        Bounds newBounds = new Bounds(targets[0].position, Vector3.zero);
+
+        for (int i = 0; i < targets.Length; i++)
+        {
+            newBounds.Encapsulate(targets[i].position);
+        }
+
+        return newBounds.size.x;
+    }
+
+    private Vector3 GetCenterPoint()
+    {
+        if (targets.Length == 1)
+            return targets[0].position;
+
+        Bounds newBounds = new Bounds(targets[0].position, Vector3.zero);
+
+        for (int i = 0; i < targets.Length; i++)
+        {
+            newBounds.Encapsulate(targets[i].position);
+        }
+
+        return newBounds.center;
     }
 
     private void UpdatePlayers()
@@ -70,7 +120,6 @@ public class CameraFollowState : IState
         {
             targets[i] = players[i].GetComponent<Transform>();
         }
-
     }
 
 }

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MushroomPowerUp : PowerUp
+public class MushroomPowerUp : PickUp
 {
     [SerializeField] private float itemMoveSpeed = 5f;
     private float moveDirection;
@@ -25,11 +25,9 @@ public class MushroomPowerUp : PowerUp
 
         //moveDirection = GetClosestPlayer().isFacingRight ? 1 : -1;
 
-        powerUpEventArgs = new GrowthEventArgs();
+        pickUpEventArgs = new PickUpEventArgs();
 
-        powerUpEventArgs.growthLevel = 2;
-        powerUpEventArgs.itemID = 1;
-        powerUpEventArgs.SetGrowthState();
+
     }
 
     protected override void AttractionState()
@@ -61,7 +59,7 @@ public class MushroomPowerUp : PowerUp
     {
         if (collider2D.GetComponent<PlayerBrain>() != null)
         {
-            pickUpEventHandler?.Invoke(this, powerUpEventArgs);
+            pickUpEventHandler?.Invoke(this, pickUpEventArgs);
             Destroy(gameObject);
         }
 

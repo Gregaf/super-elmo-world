@@ -2,15 +2,15 @@
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
 
-public abstract class PowerUp : MonoBehaviour
+public abstract class PickUp : MonoBehaviour
 {
-    protected string powerUpName = "default";
+    protected string pickUpName = "default";
     protected string description = "Does some stuff.";
-    protected GrowthEventArgs powerUpEventArgs;
+    protected PickUpEventArgs pickUpEventArgs;
     protected AudioClip pickUpSound;
     protected PowerUpLifeCycle currentState;
 
-    public EventHandler<GrowthEventArgs> pickUpEventHandler;
+    public EventHandler<PickUpEventArgs> pickUpEventHandler;
 
     public enum PowerUpLifeCycle
     {
@@ -22,7 +22,7 @@ public abstract class PowerUp : MonoBehaviour
     protected virtual void Start()
     {
         currentState = PowerUpLifeCycle.AttractionState;
-
+        pickUpEventArgs = new PickUpEventArgs();
     }
 
     protected virtual void Update()
@@ -60,7 +60,15 @@ public abstract class PowerUp : MonoBehaviour
 
     protected virtual void OnTriggerEnter2D(Collider2D collider2D)
     {
-
+        // If a player was touched.
+        if (collider2D.GetComponent<PlayerBrain>() != null)
+        {
+            // Play sound effect.
+            // Pick up particles.
+            pickUpEventHandler?.Invoke(this, pickUpEventArgs);
+            // Review: Will I have every object destroy itself? May come back for object pooling, though most likely unneccessary.
+            Destroy(this.gameObject);
+        }
     }
 
 }

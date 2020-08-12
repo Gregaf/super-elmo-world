@@ -2,6 +2,7 @@
 
 public class CameraFollower : MonoBehaviour
 {
+    [SerializeField] private BoxCollider2D levelBounds;
     [SerializeField] private float speed = 5;
     private FSM cameraFsm;
 
@@ -18,7 +19,7 @@ public class CameraFollower : MonoBehaviour
             targetPositions[i] = targets[i].transform;
         }
 
-        cameraFsm.AddToStateList("Camera_Follow",new CameraFollowState(cameraFsm, this.gameObject, targetPositions, speed));
+        cameraFsm.AddToStateList("Camera_Follow",new CameraFollowState(cameraFsm, this.gameObject, targetPositions, speed, levelBounds));
         cameraFsm.AddToStateList("Camera_Lock", new CameraLockState(cameraFsm, this.gameObject));
 
         cameraFsm.InitializeFSM(cameraFsm.GetState("Camera_Follow"));
@@ -26,7 +27,7 @@ public class CameraFollower : MonoBehaviour
         cameraFsm.isActive = true;
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         cameraFsm.UpdateCurrentState();
     }

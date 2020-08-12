@@ -2,14 +2,13 @@
 using UnityEngine.InputSystem;
 using UnityEngine;
 using UnityEngine.InputSystem.Users;
-using UnityEngine.InputSystem.Utilities;
-using UnityEngine.InputSystem.LowLevel;
 using System;
-using System.Linq;
-using System.Collections.Generic;
+
 
 public class PlayerManager : MonoBehaviour
 {
+    public static PlayerManager Instance { get; private set; }
+
     public int maximumPlayers;
     public Transform spawnPoint;
     public GameObject playerPrefab;
@@ -17,9 +16,8 @@ public class PlayerManager : MonoBehaviour
     PlayerControls playerControls;
 
     [SerializeField] private int currentPlayerIndex;
-    private List<InputDevice> devices;
-    //private PlayerInputHandler[] players;
-    private List<InputUser> inputUsers;
+    // Can pass these to the newly created players between scenes.
+    private PlayerInputHandler[] players;
     private DeviceEventArgs deviceEventArgs;
 
     public bool CanPlayerJoin { get { return (currentPlayerIndex < maximumPlayers); } }
@@ -32,8 +30,15 @@ public class PlayerManager : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance == null)
+            Instance = this;
+        else
+            Debug.LogError($"There is already an instace of {this}.");
+
         deviceEventArgs = new DeviceEventArgs();
         playerControls = new PlayerControls();
+        players = new PlayerInputHandler[maximumPlayers];
+
     }
 
     private void OnEnable()
@@ -56,9 +61,7 @@ public class PlayerManager : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
-        devices = InputSystem.devices.ToList();
-        
+    {        
     }
 
     private void JoinPlayer(InputAction.CallbackContext context)
@@ -73,6 +76,9 @@ public class PlayerManager : MonoBehaviour
         {
             SpawnPlayer(currentPlayerIndex, device);
             OnPlayerJoined?.Invoke();
+            //InputUser newUser = new InputUser();
+            //newUser = InputUser.PerformPairingWithDevice(device, newUser);
+            //currentPlayerIndex++;
             //Debug.Log(InputUser.GetUnpairedInputDevices());
         }
         else

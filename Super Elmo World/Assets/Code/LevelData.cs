@@ -4,8 +4,8 @@ using UnityEngine;
 public class LevelData : MonoBehaviour
 {
     public int levelTime;
-
-    public void Awake()
+    public AudioClip levelMusic;
+    public void Start()
     {
     }
 

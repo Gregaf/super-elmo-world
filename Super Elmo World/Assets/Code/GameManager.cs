@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
 
     public FSM GameStateManager { get; private set; }
+    public PlayerData[] eachPlayersData;
 
     [SerializeField]
     private LevelData currentLevel;
@@ -22,6 +24,14 @@ public class GameManager : MonoBehaviour
         else
             Debug.LogAssertion("There is already an instance of " + this.ToString());
 
+        eachPlayersData = new PlayerData[4];
+
+        for (int i = 0; i < 4; i++)
+        {
+            PlayerData newPlayer = new PlayerData();
+
+            eachPlayersData[i] = newPlayer;
+        }
 
         currentLevel = FindObjectOfType<LevelData>();
         levelTimer = currentLevel.levelTime;
@@ -52,6 +62,11 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.G))
             GameStateManager.ChangeCurrentState("Game");
 
+    }
+
+    public void PlayerDataUpdated(System.Object o, EventArgs e)
+    { 
+        
     }
 
 }

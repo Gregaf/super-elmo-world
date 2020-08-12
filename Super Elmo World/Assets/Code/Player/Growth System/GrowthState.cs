@@ -6,7 +6,7 @@ public class GrowthState : MonoBehaviour
     private PlayerBrain playerBrain;
     private HealthScript playerHealth;
     private FSM growthFsm;
-    private PowerUp pickUp;
+    private PickUp pickUp;
 
     void Awake()
     {
@@ -38,9 +38,9 @@ public class GrowthState : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        if (collider2D.GetComponent<PowerUp>() != null)
+        if (collider2D.GetComponent<PickUp>() != null)
         {
-            pickUp = collider2D.GetComponent<PowerUp>();
+            pickUp = collider2D.GetComponent<PickUp>();
 
             pickUp.pickUpEventHandler += ChangeState;
 
@@ -52,25 +52,25 @@ public class GrowthState : MonoBehaviour
 
     }
 
-    public void ChangeState(System.Object sender, GrowthEventArgs e)
+    public void ChangeState(System.Object sender, PickUpEventArgs e)
     {
 
-        switch (e.growthState)
-        {
-            case GrowthStates.Small:
-                growthFsm.ChangeCurrentState("Small");
-                break;
-            case GrowthStates.Big:
-                growthFsm.ChangeCurrentState("Big");
-                break;
-            default:
-                throw new Exception("FUUUUCK");
-        }
+        //switch (e.growthState)
+        //{
+        //    case GrowthStates.Small:
+        //        growthFsm.ChangeCurrentState("Small");
+        //        break;
+        //    case GrowthStates.Big:
+        //        growthFsm.ChangeCurrentState("Big");
+        //        break;
+        //    default:
+        //        throw new Exception("FUUUUCK");
+        //}
 
-        if (pickUp?.pickUpEventHandler != null)
-        {
-            pickUp.pickUpEventHandler -= ChangeState;
-        }
+        //if (pickUp?.pickUpEventHandler != null)
+        //{
+        //    pickUp.pickUpEventHandler -= ChangeState;
+        //}
 
     }
 

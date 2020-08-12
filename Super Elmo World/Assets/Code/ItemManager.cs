@@ -6,11 +6,11 @@ using UnityEngine;
 public class ItemManager : MonoBehaviour
 {
     private const int maxNumberOfItems = 2;
-    private FixedQueue<PowerUp> items;
+    private FixedQueue<PickUp> items;
 
     private void Awake()
     {
-        items = new FixedQueue<PowerUp>(maxNumberOfItems);
+        items = new FixedQueue<PickUp>(maxNumberOfItems);
 
     }
 
