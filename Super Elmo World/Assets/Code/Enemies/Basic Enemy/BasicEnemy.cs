@@ -50,13 +50,7 @@ public class BasicEnemy : Enemy
 
     protected override void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.GetComponent<PlayerBrain>() != null)
-        {
-            PlayerBrain currentPlayerBrain = collider.GetComponent<PlayerBrain>();
-
-            if(currentPlayerBrain.transform.position.y <= transform.position.y)
-            currentPlayerBrain.TakeDamage(1);
-        }
+        base.OnTriggerEnter2D(collider);
 
     }
 

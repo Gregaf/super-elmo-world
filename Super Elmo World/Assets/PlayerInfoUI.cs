@@ -5,7 +5,7 @@ using System;
 
 public class PlayerInfoUI : MonoBehaviour
 {
-    private int playerIndex = 0;
+    [SerializeField] private int playerIndex = 0;
     [SerializeField] Image playerImage;
     [SerializeField] TextMeshProUGUI coins, score, lives;
 

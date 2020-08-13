@@ -25,6 +25,8 @@ public class PowerUp : PickUp
 
     protected override void OnTriggerEnter2D(Collider2D collider2D)
     {
+        base.OnTriggerEnter2D(collider2D);
+
         if (collider2D.GetComponent<PlayerBrain>() != null)
         {
             HealthManager playerHealth = collider2D.GetComponent<HealthManager>();

@@ -15,7 +15,7 @@ public class PlayerManager : MonoBehaviour
     public InputAction joinAction;
     PlayerControls playerControls;
 
-    [SerializeField] private int currentPlayerIndex;
+    public int currentPlayerIndex { get; private set; }
     // Can pass these to the newly created players between scenes.
     private PlayerInputHandler[] players;
     private DeviceEventArgs deviceEventArgs;
@@ -24,9 +24,9 @@ public class PlayerManager : MonoBehaviour
 
 
     // Some events that anything can hear.
-    public static event EventHandler<DeviceEventArgs> OnDeviceConnected;
-    public static event EventHandler<DeviceEventArgs> OnDeviceDisconnected;
-    public static event Action OnPlayerJoined;
+    public event EventHandler<DeviceEventArgs> OnDeviceConnected;
+    public event EventHandler<DeviceEventArgs> OnDeviceDisconnected;
+    public event Action OnPlayerJoined;
 
     private void Awake()
     {
@@ -45,7 +45,7 @@ public class PlayerManager : MonoBehaviour
     {
         InputSystem.onDeviceChange += OnDeviceChange;
 
-         joinAction.performed += JoinPlayer;
+        joinAction.performed += JoinPlayer;
 
         joinAction.Enable();
     }

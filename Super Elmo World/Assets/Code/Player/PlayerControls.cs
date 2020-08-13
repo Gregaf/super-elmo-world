@@ -76,6 +76,17 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""b75827f6-608b-4817-902c-d20d32ad7f2b"",
+                    ""path"": ""<HID::Bensussen Deutsch & Associates,Inc.(BDA) Core (Plus) Wired Controller>/button2"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Other Gamepad"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""6b23fd28-4409-4e55-bdcd-9994533e09ad"",
                     ""path"": ""<Keyboard>/x"",
                     ""interactions"": """",
@@ -92,6 +103,17 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
+                    ""action"": ""Run"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a0cfd870-5994-46c9-b203-7177fe47cc55"",
+                    ""path"": ""<Joystick>/trigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Other Gamepad"",
                     ""action"": ""Run"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -207,6 +229,61 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""4db6dc29-3ef1-4646-aad4-077b518864ad"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""0c0bfb2a-8467-4074-8bf2-5dbf2af6a8f5"",
+                    ""path"": ""<HID::Bensussen Deutsch & Associates,Inc.(BDA) Core (Plus) Wired Controller>/hat/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Other Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""ccffa445-c94b-4ea9-944d-0e3ec70f6bef"",
+                    ""path"": ""<HID::Bensussen Deutsch & Associates,Inc.(BDA) Core (Plus) Wired Controller>/hat/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Other Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""4b73a5a9-1ad4-4ef7-a5a2-621d5238b200"",
+                    ""path"": ""<HID::Bensussen Deutsch & Associates,Inc.(BDA) Core (Plus) Wired Controller>/hat/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Other Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""4bc14da2-0b4e-4721-a92d-9ca079897e67"",
+                    ""path"": ""<HID::Bensussen Deutsch & Associates,Inc.(BDA) Core (Plus) Wired Controller>/hat/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Other Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
                     ""name"": ""LR"",
                     ""id"": ""b3eb5e87-a967-40f0-8843-74a719887693"",
                     ""path"": ""1DAxis"",
@@ -268,6 +345,39 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
+                    ""action"": ""ChangeDirection"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""c1c7c32b-0cfe-4fc8-8c69-65db06438db3"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ChangeDirection"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""ab59447a-5088-477c-92f7-96f11319a642"",
+                    ""path"": ""<HID::Bensussen Deutsch & Associates,Inc.(BDA) Core (Plus) Wired Controller>/hat/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Other Gamepad"",
+                    ""action"": ""ChangeDirection"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""e415f504-dfeb-4d79-932e-a0d83fc768e3"",
+                    ""path"": ""<HID::Bensussen Deutsch & Associates,Inc.(BDA) Core (Plus) Wired Controller>/hat/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Other Gamepad"",
                     ""action"": ""ChangeDirection"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
@@ -517,6 +627,17 @@ public class @PlayerControls : IInputActionCollection, IDisposable
             ""devices"": [
                 {
                     ""devicePath"": ""<Gamepad>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Other Gamepad"",
+            ""bindingGroup"": ""Other Gamepad"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<HID::Bensussen Deutsch & Associates,Inc.(BDA) Core (Plus) Wired Controller>"",
                     ""isOptional"": false,
                     ""isOR"": false
                 }
@@ -801,6 +922,15 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         {
             if (m_GamepadSchemeIndex == -1) m_GamepadSchemeIndex = asset.FindControlSchemeIndex("Gamepad");
             return asset.controlSchemes[m_GamepadSchemeIndex];
+        }
+    }
+    private int m_OtherGamepadSchemeIndex = -1;
+    public InputControlScheme OtherGamepadScheme
+    {
+        get
+        {
+            if (m_OtherGamepadSchemeIndex == -1) m_OtherGamepadSchemeIndex = asset.FindControlSchemeIndex("Other Gamepad");
+            return asset.controlSchemes[m_OtherGamepadSchemeIndex];
         }
     }
     public interface IBasicActions

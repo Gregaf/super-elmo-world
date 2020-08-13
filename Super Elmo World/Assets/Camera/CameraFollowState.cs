@@ -32,13 +32,13 @@ public class CameraFollowState : IState
 
     public void Enter()
     {
-        PlayerManager.OnPlayerJoined += UpdatePlayers;
+        PlayerManager.Instance.OnPlayerJoined += UpdatePlayers;
         offset = new Vector3(2, 0, 0);
     }
 
     public void Exit()
     {
-        PlayerManager.OnPlayerJoined -= UpdatePlayers;
+        PlayerManager.Instance.OnPlayerJoined -= UpdatePlayers;
     }
 
     public void StateUpdate()

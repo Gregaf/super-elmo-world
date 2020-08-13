@@ -11,6 +11,7 @@ public class PlayerBrain : Entity, ITakeDamage
     private PlayerData playerData;
     private PickUp collectable;
 
+    public bool isMovingDown {get{return physicsController.Velocity.y < 0;}}
 
 
     protected override void Awake()
@@ -63,13 +64,17 @@ public class PlayerBrain : Entity, ITakeDamage
         // Must figure this out!
         if (collider.GetComponent<Enemy>() != null)
         {
-            Enemy interactedWith = collider.GetComponent<Enemy>();
+            Enemy enemyTouched = collider.GetComponent<Enemy>();
 
-            if (physicsController.Velocity.y < 0 && transform.position.y > interactedWith.transform.position.y)
+            if(enemyTouched.transform.position.y >= transform.position.y)
             {
-                interactedWith.TakeDamage(1);
-                physicsController.SetVerticalForce(15);
+                TakeDamage(1);
             }
+            else if(isMovingDown && enemyTouched.transform.position.y < transform.position.y)
+            {
+                physicsController.SetVerticalForce(50);
+            }
+
 
         }
         else if (collider.GetComponent<PickUp>() != null)

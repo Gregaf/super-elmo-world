@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
@@ -30,7 +31,7 @@ public class CharacterController2D : MonoBehaviour
     private Vector2 raycastTopLeft;
     private Vector2 raycastBottomRight;
     private Vector2 raycastBottomLeft;
-
+    
     private void Awake()
     {
         ControlState = new ControllerState2D();
