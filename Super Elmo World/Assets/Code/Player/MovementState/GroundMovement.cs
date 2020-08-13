@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.Animations;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class GroundMovement : IState
@@ -10,6 +11,7 @@ public class GroundMovement : IState
 
     private float currentSpeed;
     private float dynamicGravity;
+    private float jumpVelocity;
 
     public GroundMovement(FSM ownerFsm, PlayerInputHandler playerInput, CharacterController2D controller2D, GroundMoveProperties groundMoveProperties)
     {
@@ -22,6 +24,11 @@ public class GroundMovement : IState
     public void Enter()
     {
         playerInput.playerControls.Basic.Jump.performed += OnJump;
+
+        groundMoveProperties.gravity = (groundMoveProperties.jumpHeight) / (2 * (groundMoveProperties.jumpTime * groundMoveProperties.jumpTime));
+        dynamicGravity = groundMoveProperties.gravity;
+
+        jumpVelocity = Mathf.Sqrt(2 * groundMoveProperties.jumpHeight * dynamicGravity);
     }
 
     public void Exit()
@@ -47,47 +54,32 @@ public class GroundMovement : IState
     // Simply applys vertical force upward as long as the player is on the ground.
     private void OnJump(InputAction.CallbackContext context)
     {
+
+
+
         if (controller2D.ControlState.isGrounded)
         {
-            controller2D.SetVerticalForce(groundMoveProperties.jumpVelocity);
+            controller2D.SetVerticalForce(jumpVelocity);
+
+            AudioManager.Instance.PlaySingleRandomSfx(groundMoveProperties.jumpSfx);
         }
     }
 
-    // Review: I need to create a variable to modify for how fast gravity builds up when not holding button.
     // This method handles staying in air longer while jump button is held, then falling faster on release.
     private void HeldJump()
     {
-        if (playerInput.JumpButtonActive && controller2D.Velocity.y > 0)
-        {
-            dynamicGravity = AlterGravity(currentSpeed);
-
-        }
-        else
+        if (!playerInput.JumpButtonActive || controller2D.Velocity.y < 0)
         {
             if (!controller2D.ControlState.isGrounded)
             {
-                dynamicGravity += 1.75f;
+                dynamicGravity = groundMoveProperties.gravity * groundMoveProperties.fallMultiplier;
             }
+            else
+                dynamicGravity = groundMoveProperties.gravity;
         }
+
     }
 
-    // Takes a float for the currentSpeed the player is moving at.
-    // Returns a new gravity value based on the inverse of the current speed.
-    private float AlterGravity(float currentSpeed)
-    {
-        if (currentSpeed <= 0)     
-            return groundMoveProperties.gravity;
-        
-
-        // Review: What should the arbitrary value be?
-        float newGravity = (1 / currentSpeed) * 150;
-
-        newGravity = Mathf.Clamp(newGravity, groundMoveProperties.gravity, 200);
-
-        return newGravity;
-    }
-
-    
     // Takes a float for the speed to be altered, also takes a float for how fast speed is increased and decreased.
     // Returns the newSpeed that was adjusted and clamped.
     private float HandleRunSpeed(float newSpeed, float runAccelerationRate)
@@ -104,7 +96,7 @@ public class GroundMovement : IState
 
     public override string ToString()
     {
-        string format = "Current State: 'Ground', Current Speed: " + currentSpeed + "Current Gravity: " + dynamicGravity;
+        string format = $"Current State: 'Ground', Current Speed: {currentSpeed} Current Gravity: {dynamicGravity}";
 
         return format;
     }

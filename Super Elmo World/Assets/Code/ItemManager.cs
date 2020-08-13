@@ -6,12 +6,32 @@ using UnityEngine;
 public class ItemManager : MonoBehaviour
 {
     private const int maxNumberOfItems = 2;
-    private FixedQueue<PickUp> items;
+    private FixedQueue<PowerUp> items;
 
     private void Awake()
     {
-        items = new FixedQueue<PickUp>(maxNumberOfItems);
+        items = new FixedQueue<PowerUp>(maxNumberOfItems);
 
+    }
+
+    private void OnEnable()
+    {
+        items.PushedOutElement += PushOutItem;
+    }
+
+    private void OnDisable()
+    {
+        items.PushedOutElement -= PushOutItem;
+    }
+
+    public void AddItem(PowerUp newItem)
+    {
+        items.Add(newItem);
+    }
+
+    public void PushOutItem(PowerUp itemPushedOut)
+    { 
+        // Find Item in a dictionary using Item ID, then spawn that item either above player or falling down through the map.
     }
 
 }

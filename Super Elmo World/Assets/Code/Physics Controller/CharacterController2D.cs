@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
 {
-    private const float skinWidth = 0.005f;
+    private const float skinWidth = 0.003f;
     private const int totalHorizontalRays = 8;
     private const int totalVerticalRays = 4;
 
@@ -75,14 +75,16 @@ public class CharacterController2D : MonoBehaviour
     public void ModifySize(Vector3 newLocalScale)
     {
         GameObject aesthetic = this.transform.GetChild(0).gameObject;
-        
-        int arb = newLocalScale.y.CompareTo(entityTransform.localScale.y);
+        Bounds aestheticBounds = aesthetic.GetComponent<SpriteRenderer>().bounds;
+        entityBoxCollider.size = aestheticBounds.size;
 
-        entityBoxCollider.size = (Vector2) newLocalScale;
-        entityBoxCollider.offset = new Vector2(0, arb * newLocalScale.y / 2);
+        //int arb = newLocalScale.y.CompareTo(entityTransform.localScale.y);
 
-        aesthetic.transform.localScale = newLocalScale;
-        aesthetic.transform.localPosition = new Vector2(aesthetic.transform.localPosition.x, arb * newLocalScale.y / 2);
+        //entityBoxCollider.size = (Vector2) newLocalScale;
+        //entityBoxCollider.offset = new Vector2(0, arb * newLocalScale.y / 2);
+
+        //aesthetic.transform.localScale = newLocalScale;
+        //aesthetic.transform.localPosition = new Vector2(aesthetic.transform.localPosition.x, arb * newLocalScale.y / 2);
 
         CalculateRayBounds();
     }
@@ -99,11 +101,11 @@ public class CharacterController2D : MonoBehaviour
             HandleMovingPlatforms();
             CalculateRayOrigins();
 
-            if (deltaMovement.y < 0 && wasGrounded)        
+            if (deltaMovement.y < 0 && wasGrounded)
                 HandleVerticalSlope(ref deltaMovement);
-            
 
-            if (Mathf.Abs(deltaMovement.x) > 0.001f)         
+
+            if (Mathf.Abs(deltaMovement.x) > 0.001f)
                 MoveHorizontally(ref deltaMovement);
 
 

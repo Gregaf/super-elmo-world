@@ -6,8 +6,8 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance { get; private set; }
 
-    private AudioSource musicSource;
-    private AudioSource sfxSource;
+    [SerializeField] private AudioSource musicSource;
+    [SerializeField] private AudioSource sfxSource;
 
     [Header("Music")]
     [Range(0,1)]
@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private float fadeTime = 1f;
 
     [Header("Sfx")]
+    [Range(0, 1)]
     [SerializeField] private float sfxVolume = 1f;
 
     private void Awake()
@@ -24,24 +25,26 @@ public class AudioManager : MonoBehaviour
         else
             Debug.LogError($"There is already an instance of {this}");
 
-        musicSource = this.GetComponent<AudioSource>();
-        sfxSource = this.GetComponent<AudioSource>();
+        // musicSource = this.GetComponent<AudioSource>();
+        // sfxSource = this.GetComponent<AudioSource>();
+
+        sfxSource.volume = this.sfxVolume;
     }
 
     public void PlaySingleSfx(AudioClip sfxAudioClip)
     {
+        sfxSource.pitch = 1f;
+
         sfxSource.PlayOneShot(sfxAudioClip);
     }
 
     public void PlaySingleRandomSfx(AudioClip sfxAudioClip)
     {
-        float rand = Random.Range(0.95f, 1.05f);
+        float rand = Random.Range(0.9f, 1.1f);
 
         sfxSource.pitch = rand;
 
         sfxSource.PlayOneShot(sfxAudioClip);
-
-        sfxSource.pitch = 1f;
     }
 
 

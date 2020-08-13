@@ -14,7 +14,7 @@ public class CameraFollowState : IState
     private bool active;
     private BoxCollider2D levelBounds;
 
-    float minimumZoomDistance = 6f;
+    float minimumZoomDistance = 10f;
     float maximumZoomDistance = 12f;
     private Camera gameCamera;
     
@@ -33,6 +33,7 @@ public class CameraFollowState : IState
     public void Enter()
     {
         PlayerManager.Instance.OnPlayerJoined += UpdatePlayers;
+
         offset = new Vector3(2, 0, 0);
     }
 
@@ -76,7 +77,7 @@ public class CameraFollowState : IState
     {
         Vector2 bounds = Vector2.zero;
         bounds.y = gameCamera.orthographicSize;
-        bounds.x = (gameCamera.orthographicSize) * gameCamera.aspect;
+        bounds.x = (bounds.y) * gameCamera.aspect;
         
 
         return bounds;

@@ -7,25 +7,27 @@ public class Enemy : Entity, ITakeDamage
 {
     // Target would be considered the closest player in some cases.
     protected Transform target;
-
+    protected HealthManager health;
 
     public void TakeDamage(int damageToTake)
     {
-
+        health.LoseHealth(damageToTake);
     }
 
     protected override void Awake()
     {
         base.Awake();
-
+        health = this.GetComponent<HealthManager>();
     }
 
     protected override void OnEnable()
     {
+        health.OnEntityDie += Die;
     }
 
     protected override void OnDisable()
     {
+        health.OnEntityDie -= Die;
     }
 
     protected virtual void Flip()
@@ -44,8 +46,11 @@ public class Enemy : Entity, ITakeDamage
         {
             PlayerBrain playerTouched = collider.GetComponent<PlayerBrain>();
 
-            if(playerTouched.isMovingDown && playerTouched.transform.position.y > transform.position.y)
+            Debug.Log(playerTouched.IsMovingDown());
+
+            if (playerTouched.IsMovingDown() && playerTouched.transform.position.y > transform.position.y)
             {
+                playerTouched.Bounce();
                 TakeDamage(1);
                 Debug.Log("Take dat Damage.");
             }
@@ -54,9 +59,10 @@ public class Enemy : Entity, ITakeDamage
 
     }
 
-    protected virtual void Die(System.Object o, EventArgs e)
+    protected virtual void Die()
     {
         Debug.Log($"{gameObject} has died.");
+        Destroy(gameObject);
     }
 
 }

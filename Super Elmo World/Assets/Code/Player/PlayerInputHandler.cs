@@ -27,7 +27,6 @@ public class PlayerInputHandler : MonoBehaviour
 
         playerControls.Basic.Run.started += Running;
         playerControls.Basic.Run.canceled += Running;
-
     }
 
     private void OnEnable()
@@ -66,6 +65,16 @@ public class PlayerInputHandler : MonoBehaviour
         MovementInput = playerControls.Basic.Move.ReadValue<Vector2>();
         
 
+    }
+
+    public void DisableControls()
+    {
+        playerControls.Disable();
+    }
+
+    public void EnableControls()
+    {
+        playerControls.Enable();
     }
 
 }

@@ -2,6 +2,20 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+[Serializable]
+public class HelplessMoveProperties
+{ 
+
+}
+
+[Serializable]
+public class DeathMoveProperties
+{ 
+
+
+}
+
 [Serializable]
 public class GroundMoveProperties
 {
@@ -10,8 +24,12 @@ public class GroundMoveProperties
     public float runAcceleration;
     public float airAcceleration;
     public float groundAcceleration;
-    public float jumpVelocity;
+    [Space(10)]
+    public AudioClip jumpSfx;
+    public float jumpTime;
+    public float jumpHeight;
     public float gravity;
+    public float fallMultiplier;
 }
 
 [Serializable]
@@ -24,20 +42,37 @@ public class FlyingMoveProperties
 public class PlayerMovement : MonoBehaviour
 {
     private PlayerInputHandler playerInput;
+    private HealthManager health;
     private CharacterController2D controller2D;
-    private FSM movementState;
+    private Rigidbody2D rb2D;
+    public FSM movementState { get; private set; }
     [SerializeField] private GroundMoveProperties groundMoveProperties = null;
     [SerializeField] private FlyingMoveProperties flyingMoveProperties = null;
+    [SerializeField] private DeathMoveProperties deathMoveProperties = null;
     
     private void Awake()
     {
         controller2D = this.GetComponent<CharacterController2D>();
         playerInput = this.GetComponent<PlayerInputHandler>();
+        health = this.GetComponent<HealthManager>();
+        rb2D = this.GetComponent<Rigidbody2D>();
 
         movementState = new FSM();
         movementState.AddToStateList("Ground", new GroundMovement(movementState, playerInput, controller2D, groundMoveProperties));
         movementState.AddToStateList("Flying", new FlyingMovement());
+        movementState.AddToStateList("Death", new DeathMovement(movementState, playerInput, controller2D, gameObject, deathMoveProperties));
+        movementState.AddToStateList("Helpless", new HelplessMovement());
 
+    }
+
+    private void OnEnable()
+    {
+        health.OnEntityDie += Die;
+    }
+
+    private void OnDisable()
+    {
+        health.OnEntityDie -= Die;
     }
 
     private void Start()
@@ -50,13 +85,11 @@ public class PlayerMovement : MonoBehaviour
     {
         movementState.UpdateCurrentState();
 
-        if (Input.GetKeyDown(KeyCode.U))
-            movementState.ChangeCurrentState("Flying");
-
-        if (Input.GetKeyDown(KeyCode.T))
-            movementState.ChangeCurrentState("Ground");
-
     }
 
+    private void Die()
+    {
+        movementState.ChangeCurrentState("Death");
+    }
 
 }

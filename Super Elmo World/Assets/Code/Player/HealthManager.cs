@@ -25,6 +25,12 @@ public class HealthManager : MonoBehaviour
 
     public void SetHealthAndID(int newHealth, int growthID)
     {
+        if (currentHealth > newHealth)
+        {
+            // Item should be stored.
+            return;
+        }
+
         currentHealth = newHealth;
 
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
@@ -32,7 +38,7 @@ public class HealthManager : MonoBehaviour
         growthEventArgs.currentHealth = this.currentHealth;
         growthEventArgs.growthID = growthID;
 
-        OnHealthChange(this, growthEventArgs);
+        OnHealthChange?.Invoke(this, growthEventArgs);
     }
 
     public void LoseHealth(int amountToLose)
@@ -46,7 +52,7 @@ public class HealthManager : MonoBehaviour
 
         growthEventArgs.currentHealth = this.currentHealth;
 
-        OnHealthChange(this, growthEventArgs);
+        OnHealthChange?.Invoke(this, growthEventArgs);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

@@ -20,7 +20,7 @@ public class PlayerData
         this.currentLives = baseLives;
     }
 
-    private void AddCoins(int coinsToAdd)
+    public void AddCoins(int coinsToAdd)
     {
         this.currentCoins += coinsToAdd;
 
@@ -33,20 +33,30 @@ public class PlayerData
         }
     }
 
-    private void AddScore(int scoreToAdd)
+    public void AddScore(int scoreToAdd)
     {
         this.currentScore += scoreToAdd;
     }
 
-    private void LoseScore(int scoreToLose)
+    public void LoseScore(int scoreToLose)
     {
         this.currentScore -= scoreToLose;
     }
 
-    private void AddLives(int livesToAdd)
+    public void AddLives(int livesToAdd)
     {
         this.currentLives += livesToAdd;
 
+    }
+
+    public void LoseLives(int livesToLose)
+    {
+        this.currentCoins -= livesToLose;
+    }
+
+    public int GetLives()
+    {
+        return this.currentLives;
     }
 
     public void UpdateData(int coinsToAdd, int scoreToAdd, int livesToAdd)

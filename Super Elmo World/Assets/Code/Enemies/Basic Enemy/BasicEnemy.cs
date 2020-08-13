@@ -54,9 +54,9 @@ public class BasicEnemy : Enemy
 
     }
 
-    protected override void Die(object o, EventArgs e)
+    protected override void Die()
     {
-        base.Die(o, e);
+        base.Die();
 
     }
 }
