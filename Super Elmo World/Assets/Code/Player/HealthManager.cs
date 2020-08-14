@@ -7,7 +7,7 @@ public class HealthManager : MonoBehaviour
 {
 
     private const int maxHealth = 3;
-    [SerializeField] private int currentHealth = 1;
+    public int currentHealth {get; private set;}
 
     public event Action OnEntityDie;
     public event EventHandler<GrowthEventArgs> OnHealthChange;
@@ -18,7 +18,7 @@ public class HealthManager : MonoBehaviour
     public void Start()
     {
         growthEventArgs = new GrowthEventArgs(currentHealth);
-
+        currentHealth = 1;
 
     }
 

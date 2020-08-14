@@ -46,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController2D controller2D;
     private Rigidbody2D rb2D;
     public FSM movementState { get; private set; }
+    private Animator animator;
     [SerializeField] private GroundMoveProperties groundMoveProperties = null;
     [SerializeField] private FlyingMoveProperties flyingMoveProperties = null;
     [SerializeField] private DeathMoveProperties deathMoveProperties = null;
@@ -56,9 +57,10 @@ public class PlayerMovement : MonoBehaviour
         playerInput = this.GetComponent<PlayerInputHandler>();
         health = this.GetComponent<HealthManager>();
         rb2D = this.GetComponent<Rigidbody2D>();
+        animator = this.GetComponentInChildren<Animator>();
 
         movementState = new FSM();
-        movementState.AddToStateList("Ground", new GroundMovement(movementState, playerInput, controller2D, groundMoveProperties));
+        movementState.AddToStateList("Ground", new GroundMovement(movementState, playerInput, controller2D, groundMoveProperties, animator));
         movementState.AddToStateList("Flying", new FlyingMovement());
         movementState.AddToStateList("Death", new DeathMovement(movementState, playerInput, controller2D, gameObject, deathMoveProperties));
         movementState.AddToStateList("Helpless", new HelplessMovement());

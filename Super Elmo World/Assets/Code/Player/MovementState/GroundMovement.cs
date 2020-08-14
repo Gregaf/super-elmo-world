@@ -13,12 +13,18 @@ public class GroundMovement : IState
     private float dynamicGravity;
     private float jumpVelocity;
 
-    public GroundMovement(FSM ownerFsm, PlayerInputHandler playerInput, CharacterController2D controller2D, GroundMoveProperties groundMoveProperties)
+    private bool isCrouching = false;
+    private Vector2 crouchScale;
+    private Animator animator;
+    public GroundMovement(FSM ownerFsm, PlayerInputHandler playerInput, CharacterController2D controller2D, GroundMoveProperties groundMoveProperties, Animator animator)
     {
         this.ownerFsm = ownerFsm;
         this.playerInput = playerInput;
         this.controller2D = controller2D;
         this.groundMoveProperties = groundMoveProperties;
+        this.animator = animator;
+
+        crouchScale = new Vector2(1, 0.9f);
     }
 
     public void Enter()
@@ -39,15 +45,28 @@ public class GroundMovement : IState
 
     public void StateUpdate()
     {
+        animator.SetBool("isCrouching", isCrouching);
+
+        int crouchConst = isCrouching ? 0 : 1;
+
         float acceleration = controller2D.ControlState.isGrounded ? groundMoveProperties.groundAcceleration : groundMoveProperties.airAcceleration;
 
         currentSpeed = HandleRunSpeed(currentSpeed, groundMoveProperties.runAcceleration);
 
         HeldJump();
-
-        controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, currentSpeed * playerInput.MovementInput.x, Time.deltaTime * acceleration));
+            
+        controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, currentSpeed * playerInput.MovementInput.x * crouchConst, Time.deltaTime * acceleration));
 
         controller2D.SetVerticalForce(Mathf.Lerp(controller2D.Velocity.y, -dynamicGravity, Time.deltaTime));
+        
+        if(playerInput.MovementInput.y < 0)
+        {
+            Crouch();
+        }
+        else
+        {
+            isCrouching = false;
+        }
     }
 
     // The parameter context is to access information about the buttonPress associated with the 'performed' event.
@@ -78,6 +97,16 @@ public class GroundMovement : IState
                 dynamicGravity = groundMoveProperties.gravity;
         }
 
+    }
+
+    private void Crouch()
+    {
+        if(isCrouching)
+            return;
+
+        isCrouching = true;
+        
+        controller2D.ModifySize(crouchScale);
     }
 
     // Takes a float for the speed to be altered, also takes a float for how fast speed is increased and decreased.

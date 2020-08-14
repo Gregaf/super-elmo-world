@@ -5,6 +5,10 @@ using UnityEngine.InputSystem;
 
 public class PlayerBrain : Entity, ITakeDamage
 {
+    public AnimatorOverrideController smallAnimations;
+    public AnimatorOverrideController bigAnimations;
+    public AnimatorOverrideController hammerAnimations;
+
     private bool invincible;
     private PlayerInputHandler playerInput;
     private PlayerMovement playerMovement;
@@ -29,9 +33,11 @@ public class PlayerBrain : Entity, ITakeDamage
 
         growthFsm = new FSM();
 
-        growthFsm.AddToStateList("Small", new Small(this));
-        growthFsm.AddToStateList("Big", new Big(this));
-        growthFsm.AddToStateList("Glide", new Gliding(this));
+        growthFsm.AddToStateList("Small", new Small(this, animator));
+        growthFsm.AddToStateList("Big", new Big(this, animator));
+        growthFsm.AddToStateList("Glide", new Gliding(this, animator));
+
+        
     }
 
     protected override void OnEnable()
@@ -51,7 +57,8 @@ public class PlayerBrain : Entity, ITakeDamage
     protected override void Start()
     {
         playerInput.playerControls.Basic.ChangeDirection.performed += Flip;
-
+        
+        growthFsm.InitializeFSM(growthFsm.GetState("Small"));   
     }
 
     private void Update()
@@ -59,8 +66,9 @@ public class PlayerBrain : Entity, ITakeDamage
         animator.SetBool("isGrounded", physicsController.ControlState.isGrounded);
         animator.SetFloat("xMove", Mathf.Abs(physicsController.Velocity.x));
         animator.SetFloat("yMove", physicsController.Velocity.y);
+        animator.SetBool("invincible", invincible);
 
-
+        growthFsm.UpdateCurrentState();
     }
 
     public void TakeDamage(int damageToTake)
@@ -68,7 +76,10 @@ public class PlayerBrain : Entity, ITakeDamage
         if (!invincible)
         {
             health.LoseHealth(1);
-            StartCoroutine(Invincibility(2));
+
+            if(health.currentHealth > 0)
+                StartCoroutine(Invincibility(2));
+
             Debug.Log("Player took damage.");
         }
     }

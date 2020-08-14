@@ -6,17 +6,22 @@ public class Gliding : IState
 {
     private PlayerBrain playerBrain;
 
-    private Vector3 playerScale;
+    private Vector2 playerScale;
+    private Animator animator;
 
-    public Gliding(PlayerBrain playerBrain)
+    public Gliding(PlayerBrain playerBrain, Animator animator)
     {
         this.playerBrain = playerBrain;
 
-        playerScale = new Vector3(1, 2, 1);
+        playerScale = new Vector2(0.85f, 1.75f);
+
+        this.animator = animator;
     }
 
     public void Enter()
     {
+        animator.runtimeAnimatorController = playerBrain.hammerAnimations;
+
         playerBrain.ModifySize(playerScale);
     }
 
@@ -26,5 +31,6 @@ public class Gliding : IState
 
     public void StateUpdate()
     {
+        
     }
 }

@@ -72,12 +72,10 @@ public class CharacterController2D : MonoBehaviour
         Move(Velocity * Time.deltaTime);
     }
 
-    public void ModifySize(Vector3 newLocalScale)
+    public void ModifySize(Vector2 newSize)
     {
-        GameObject aesthetic = this.transform.GetChild(0).gameObject;
-        Bounds aestheticBounds = aesthetic.GetComponent<SpriteRenderer>().bounds;
-        entityBoxCollider.size = aestheticBounds.size;
-
+        entityBoxCollider.size = newSize;
+        entityBoxCollider.offset = new Vector2(0, newSize.y / 2);
         //int arb = newLocalScale.y.CompareTo(entityTransform.localScale.y);
 
         //entityBoxCollider.size = (Vector2) newLocalScale;
@@ -85,7 +83,7 @@ public class CharacterController2D : MonoBehaviour
 
         //aesthetic.transform.localScale = newLocalScale;
         //aesthetic.transform.localPosition = new Vector2(aesthetic.transform.localPosition.x, arb * newLocalScale.y / 2);
-
+        
         CalculateRayBounds();
     }
 
