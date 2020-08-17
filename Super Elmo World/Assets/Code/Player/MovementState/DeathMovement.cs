@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,6 +16,8 @@ public class DeathMovement : IState
     private Transform aesthetic;
     private PlayerData playerData;
 
+    public static event Action OnPlayerDied;
+
     public DeathMovement(FSM ownerFsm, PlayerInputHandler playerInput, CharacterController2D controller2D, GameObject ownerGO, DeathMoveProperties deathMoveProperties)
     {
         this.ownerFsm = ownerFsm;
@@ -25,24 +28,26 @@ public class DeathMovement : IState
 
         gameCamera = GameObject.FindObjectOfType<Camera>();
         aesthetic = playerInput.gameObject.transform.GetChild(0).transform;
-        playerData = GameManager.Instance.eachPlayersData[playerInput.playerIndex];
     }
 
     public void Enter()
     {
+        OnPlayerDied?.Invoke();
+
         playerInput.playerControls.Disable();
         ownerGO.GetComponent<Rigidbody2D>().simulated = false;
         controller2D.HandleCollision = false;
         controller2D.SetHorizontalForce(0f);
-        controller2D.SetVerticalForce(10f);
+        controller2D.SetVerticalForce(15f);
     }
 
     public void Exit()
     {
         playerInput.playerControls.Enable();
-        ownerGO.GetComponent<Rigidbody2D>().simulated = true;
+        controller2D.SetVerticalForce(0f);
+        aesthetic.localEulerAngles = Vector3.zero;
+        //ownerGO.GetComponent<Rigidbody2D>().simulated = true;
         // Review maybe disable and leave it up to other movestates to enable collision.
-        controller2D.HandleCollision = true;
     }
 
     public void StateUpdate()
@@ -55,9 +60,10 @@ public class DeathMovement : IState
         {
             Debug.Log($"{playerInput.gameObject} has fallen outside of the death boundaries.");
 
-            if (playerData.GetLives() > 0)
+            //if (playerData.GetLives() > 0)
+            if(true)
             {
-                playerData.LoseLives(1);
+                //playerData.LoseLives(1);
                 ownerFsm.ChangeCurrentState("Helpless");
 
             }

@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Users;
-using UnityEngine.iOS;
-using UnityEngine.XR;
 
 public class PlayerInputHandler : MonoBehaviour
 {
@@ -42,6 +40,12 @@ public class PlayerInputHandler : MonoBehaviour
 
         playerControls.Basic.Run.started -= Running;
         playerControls.Basic.Run.canceled -= Running;
+    }
+
+    private void Start()
+    {
+
+
     }
 
     private void Running(InputAction.CallbackContext context)

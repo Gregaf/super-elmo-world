@@ -5,7 +5,8 @@ using UnityEngine.InputSystem;
 
 [Serializable]
 public class HelplessMoveProperties
-{ 
+{
+    public Transform spawnPoint;
 
 }
 
@@ -44,26 +45,25 @@ public class PlayerMovement : MonoBehaviour
     private PlayerInputHandler playerInput;
     private HealthManager health;
     private CharacterController2D controller2D;
-    private Rigidbody2D rb2D;
     public FSM movementState { get; private set; }
-    private Animator animator;
+    private Animator playerAnimator;
     [SerializeField] private GroundMoveProperties groundMoveProperties = null;
     [SerializeField] private FlyingMoveProperties flyingMoveProperties = null;
     [SerializeField] private DeathMoveProperties deathMoveProperties = null;
-    
+    [SerializeField] private HelplessMoveProperties helplessMoveProperties = null;
+
     private void Awake()
     {
         controller2D = this.GetComponent<CharacterController2D>();
         playerInput = this.GetComponent<PlayerInputHandler>();
         health = this.GetComponent<HealthManager>();
-        rb2D = this.GetComponent<Rigidbody2D>();
-        animator = this.GetComponentInChildren<Animator>();
+        playerAnimator = this.GetComponentInChildren<Animator>();
 
         movementState = new FSM();
-        movementState.AddToStateList("Ground", new GroundMovement(movementState, playerInput, controller2D, groundMoveProperties, animator));
+        movementState.AddToStateList("Ground", new GroundMovement(movementState, playerInput, controller2D, groundMoveProperties, playerAnimator));
         movementState.AddToStateList("Flying", new FlyingMovement());
         movementState.AddToStateList("Death", new DeathMovement(movementState, playerInput, controller2D, gameObject, deathMoveProperties));
-        movementState.AddToStateList("Helpless", new HelplessMovement());
+        movementState.AddToStateList("Helpless", new HelplessMovement(helplessMoveProperties, controller2D, playerInput, playerAnimator));
 
     }
 
@@ -93,5 +93,4 @@ public class PlayerMovement : MonoBehaviour
     {
         movementState.ChangeCurrentState("Death");
     }
-
 }

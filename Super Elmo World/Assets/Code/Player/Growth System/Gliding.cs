@@ -5,6 +5,7 @@ using UnityEngine;
 public class Gliding : IState
 {
     private PlayerBrain playerBrain;
+    private CharacterController2D controller2D;
 
     private Vector2 playerScale;
     private Animator animator;
@@ -23,6 +24,7 @@ public class Gliding : IState
         animator.runtimeAnimatorController = playerBrain.hammerAnimations;
 
         playerBrain.ModifySize(playerScale);
+        // controller2D.ModifySize(playerScale);
     }
 
     public void Exit()

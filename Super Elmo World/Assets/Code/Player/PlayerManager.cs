@@ -7,13 +7,10 @@ using System;
 
 public class PlayerManager : MonoBehaviour
 {
-    public static PlayerManager Instance { get; private set; }
-
     public int maximumPlayers;
     public Transform spawnPoint;
     public GameObject playerPrefab;
     public InputAction joinAction;
-    PlayerControls playerControls;
 
     public int currentPlayerIndex { get; private set; }
     // Can pass these to the newly created players between scenes.
@@ -26,15 +23,13 @@ public class PlayerManager : MonoBehaviour
     // Some events that anything can hear.
     public event EventHandler<DeviceEventArgs> OnDeviceConnected;
     public event EventHandler<DeviceEventArgs> OnDeviceDisconnected;
-    public event Action OnPlayerJoined;
+
+    public static event Action<int> OnPlayerJoined;
+
+    private PlayerControls playerControls;
 
     private void Awake()
     {
-        if (Instance == null)
-            Instance = this;
-        else
-            Debug.LogError($"There is already an instace of {this}.");
-
         deviceEventArgs = new DeviceEventArgs();
         playerControls = new PlayerControls();
         players = new PlayerInputHandler[maximumPlayers];
@@ -75,7 +70,7 @@ public class PlayerManager : MonoBehaviour
         if (IsDeviceUsable(device, this.playerControls))
         {
             SpawnPlayer(currentPlayerIndex, device);
-            OnPlayerJoined?.Invoke();
+            OnPlayerJoined?.Invoke(currentPlayerIndex);
             //InputUser newUser = new InputUser();
             //newUser = InputUser.PerformPairingWithDevice(device, newUser);
             //currentPlayerIndex++;

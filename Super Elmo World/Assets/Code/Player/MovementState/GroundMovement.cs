@@ -45,36 +45,22 @@ public class GroundMovement : IState
 
     public void StateUpdate()
     {
-        animator.SetBool("isCrouching", isCrouching);
-
-        int crouchConst = isCrouching ? 0 : 1;
-
         float acceleration = controller2D.ControlState.isGrounded ? groundMoveProperties.groundAcceleration : groundMoveProperties.airAcceleration;
 
         currentSpeed = HandleRunSpeed(currentSpeed, groundMoveProperties.runAcceleration);
 
         HeldJump();
             
-        controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, currentSpeed * playerInput.MovementInput.x * crouchConst, Time.deltaTime * acceleration));
+        controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, currentSpeed * playerInput.MovementInput.x, Time.deltaTime * acceleration));
 
         controller2D.SetVerticalForce(Mathf.Lerp(controller2D.Velocity.y, -dynamicGravity, Time.deltaTime));
         
-        if(playerInput.MovementInput.y < 0)
-        {
-            Crouch();
-        }
-        else
-        {
-            isCrouching = false;
-        }
     }
 
     // The parameter context is to access information about the buttonPress associated with the 'performed' event.
     // Simply applys vertical force upward as long as the player is on the ground.
     private void OnJump(InputAction.CallbackContext context)
     {
-
-
 
         if (controller2D.ControlState.isGrounded)
         {
@@ -97,16 +83,6 @@ public class GroundMovement : IState
                 dynamicGravity = groundMoveProperties.gravity;
         }
 
-    }
-
-    private void Crouch()
-    {
-        if(isCrouching)
-            return;
-
-        isCrouching = true;
-        
-        controller2D.ModifySize(crouchScale);
     }
 
     // Takes a float for the speed to be altered, also takes a float for how fast speed is increased and decreased.

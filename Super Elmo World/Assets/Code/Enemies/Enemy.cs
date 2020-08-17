@@ -46,8 +46,6 @@ public class Enemy : Entity, ITakeDamage
         {
             PlayerBrain playerTouched = collider.GetComponent<PlayerBrain>();
 
-            Debug.Log(playerTouched.IsMovingDown());
-
             if (playerTouched.IsMovingDown() && playerTouched.transform.position.y > transform.position.y)
             {
                 playerTouched.Bounce();

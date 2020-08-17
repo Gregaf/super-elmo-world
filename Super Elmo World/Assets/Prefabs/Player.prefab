@@ -94,10 +94,10 @@ Animator:
   m_GameObject: {fileID: 2129800895265561604}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: a656d6046123cdc4284f011ac53ea8ea, type: 2}
+  m_Controller: {fileID: 22100000, guid: 7bde228d931c9f145bfbc0c1fec269ac, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -198,6 +198,7 @@ MonoBehaviour:
   smallAnimations: {fileID: 22100000, guid: a656d6046123cdc4284f011ac53ea8ea, type: 2}
   bigAnimations: {fileID: 22100000, guid: 83fa6dd021e023b4da204c97402bf210, type: 2}
   hammerAnimations: {fileID: 22100000, guid: 7bde228d931c9f145bfbc0c1fec269ac, type: 2}
+  damagedSfx: {fileID: 8300000, guid: 521e2544071b5674b8ab9523f42b6c02, type: 3}
 --- !u!114 &3842950314032586059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,8 +228,8 @@ MonoBehaviour:
     runSpeed: 12
     runAcceleration: 2
     airAcceleration: 4
-    groundAcceleration: 3.25
-    jumpSfx: {fileID: 8300000, guid: 2afeca7f04fcb7840ad120e0cde8fe4d, type: 3}
+    groundAcceleration: 3
+    jumpSfx: {fileID: 8300000, guid: 0a7e11f7b84fe6c4ab7176a117d4c542, type: 3}
     jumpTime: 0.4
     jumpHeight: 8
     gravity: 20
@@ -236,6 +237,8 @@ MonoBehaviour:
   flyingMoveProperties:
     moveSpeed: 0
     levelSpeed: 0
+  helplessMoveProperties:
+    spawnPoint: {fileID: 0}
 --- !u!114 &3466660703586230527
 MonoBehaviour:
   m_ObjectHideFlags: 0

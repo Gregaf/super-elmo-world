@@ -36,7 +36,7 @@ public abstract class Entity : MonoBehaviour
 
     protected virtual void Start()
     {
-        print(this.ToString());
+
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D collider)

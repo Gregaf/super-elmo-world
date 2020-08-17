@@ -3,20 +3,22 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerBrain : Entity, ITakeDamage
+public class PlayerBrain : Entity, ITakeDamage, IComparable<PlayerBrain>
 {
     public AnimatorOverrideController smallAnimations;
     public AnimatorOverrideController bigAnimations;
     public AnimatorOverrideController hammerAnimations;
+    public AudioClip damagedSfx;
 
     private bool invincible;
-    private PlayerInputHandler playerInput;
-    private PlayerMovement playerMovement;
+
     private HealthManager health;
     private PlayerData playerData;
-    private PickUp collectable;
     private FSM growthFsm;
-    private Animator animator;
+
+    public PlayerInputHandler playerInput { get; private set; }
+    public Animator playerAnimator { get; private set; }
+    public bool isAlive { get; private set; }
 
     public bool IsMovingDown()
     {
@@ -27,46 +29,49 @@ public class PlayerBrain : Entity, ITakeDamage
     {
         base.Awake();
         playerInput = this.GetComponent<PlayerInputHandler>();
-        playerMovement = this.GetComponent<PlayerMovement>();
         health = this.GetComponent<HealthManager>();
-        animator = this.GetComponentInChildren<Animator>();
-
-        growthFsm = new FSM();
-
-        growthFsm.AddToStateList("Small", new Small(this, animator));
-        growthFsm.AddToStateList("Big", new Big(this, animator));
-        growthFsm.AddToStateList("Glide", new Gliding(this, animator));
+        playerAnimator = this.GetComponentInChildren<Animator>();
 
         
     }
 
     protected override void OnEnable()
     {
-        playerData = GameManager.Instance.eachPlayersData[(playerInput.playerIndex)];
-
         health.OnHealthChange += ChangeState;
+
     }
+
 
     protected override void OnDisable()
     {
         playerInput.playerControls.Basic.ChangeDirection.performed -= Flip;
 
         health.OnHealthChange -= ChangeState;
+
     }
+    private void IsAlive() => isAlive = true;
+    private void IsDead() => isAlive = false;
 
     protected override void Start()
     {
         playerInput.playerControls.Basic.ChangeDirection.performed += Flip;
-        
-        growthFsm.InitializeFSM(growthFsm.GetState("Small"));   
+
+        if(growthFsm == null)
+            growthFsm = new FSM();
+
+        growthFsm.AddToStateList("Small", new Small(this, playerAnimator));
+        growthFsm.AddToStateList("Big", new Big(this, playerAnimator));
+        growthFsm.AddToStateList("Glide", new Gliding(this, playerAnimator));
+
+        InitializePlayer();
     }
 
     private void Update()
     {
-        animator.SetBool("isGrounded", physicsController.ControlState.isGrounded);
-        animator.SetFloat("xMove", Mathf.Abs(physicsController.Velocity.x));
-        animator.SetFloat("yMove", physicsController.Velocity.y);
-        animator.SetBool("invincible", invincible);
+        playerAnimator.SetBool("isGrounded", physicsController.ControlState.isGrounded);
+        playerAnimator.SetFloat("xMove", Mathf.Abs(physicsController.Velocity.x));
+        playerAnimator.SetFloat("yMove", physicsController.Velocity.y);
+        playerAnimator.SetBool("invincible", invincible);
 
         growthFsm.UpdateCurrentState();
     }
@@ -76,6 +81,8 @@ public class PlayerBrain : Entity, ITakeDamage
         if (!invincible)
         {
             health.LoseHealth(1);
+
+            AudioManager.Instance.PlaySingleRandomSfx(damagedSfx);
 
             if(health.currentHealth > 0)
                 StartCoroutine(Invincibility(2));
@@ -140,7 +147,6 @@ public class PlayerBrain : Entity, ITakeDamage
 
     private void Flip(InputAction.CallbackContext context)
     {
-
         if (context.ReadValue<float>() < 0 && isFacingRight || context.ReadValue<float>() > 0 && !isFacingRight)
         {
             isFacingRight = !isFacingRight;
@@ -149,7 +155,6 @@ public class PlayerBrain : Entity, ITakeDamage
 
             this.transform.localScale = localScale;
         }
-
     }
 
     public void ChangeState(System.Object o, GrowthEventArgs e)
@@ -189,5 +194,29 @@ public class PlayerBrain : Entity, ITakeDamage
                 break;
         }
 
+    }
+
+    private void InitializePlayer()
+    {
+        growthFsm.InitializeFSM(growthFsm.GetState("Small"));
+
+        isAlive = true;
+
+        if (playerData == null)
+            playerData = new PlayerData(0, 0, 3);
+
+        // When intializing player for the scene, could access the Player data at this index and fill in the values. So load them at the start, and save them at the end.
+        // Then UI reads from the currentPlayer.
+
+    }
+
+    public int CompareTo(PlayerBrain other)
+    {
+        if (this.playerInput.playerIndex < other.playerInput.playerIndex)
+            return -1;
+        else if (this.playerInput.playerIndex > other.playerInput.playerIndex)
+            return 1;
+        else
+            return 0;
     }
 }
