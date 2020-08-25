@@ -36,6 +36,14 @@ public class FSM
         CurrentState.Enter();
     }
 
+    public bool IsCurrentState(string stateName)
+    {
+        if (CurrentState.Equals(listedStates[stateName]))
+            return true;
+        else 
+            return false;
+    }
+
     public void ReturnToPreviousState()
     {
         CurrentState.Exit();
@@ -70,7 +78,7 @@ public class FSM
     public void UpdateCurrentState()
     {
         if (isActive)
-            CurrentState?.StateUpdate();
+            CurrentState?.Tick();
         else
             Debug.Log($"{this} FSM is not active!");
 

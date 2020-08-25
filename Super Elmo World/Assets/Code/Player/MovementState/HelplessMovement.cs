@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BaseGame;
 
 public class HelplessMovement : IState
 {
@@ -11,10 +12,11 @@ public class HelplessMovement : IState
     private Animator playerAnimator;
 
     private HelplessMoveProperties helplessMoveProperties;
-    private List<PlayerBrain> activePlayers;
-    private Vector2 playerPosToTrack;
+    private List<PlayerController> activePlayers;
+    private List<Transform> activePlayersPositions;
+    private Transform playerPosToTrack;
 
-    public static event Action OnPlayerRespawned;
+    public static event Action OnAllPlayersDead;
 
     public HelplessMovement(HelplessMoveProperties helplessMoveProperties, CharacterController2D controller2D, PlayerInputHandler playerInput, Animator playerAnimator)
     {
@@ -23,38 +25,65 @@ public class HelplessMovement : IState
         this.playerInput = playerInput;
         this.playerAnimator = playerAnimator;
 
-        this.activePlayers = GameManager.Instance.GetActivePlayers();
     }
 
     public void Enter()
     {
         playerAnimator.SetBool("Helpless", true);
-        playerPosToTrack = GetTarget();
+        activePlayers = GameManager.Instance.GetActivePlayers();
+
+        Debug.Log($"Still living players: {GetTarget()}.");
+
+        OnAllPlayersDead += StopMoving;
     }
 
     public void Exit()
     {
         playerAnimator.SetBool("Helpless", false);
-        OnPlayerRespawned?.Invoke();
+
+        OnAllPlayersDead -= StopMoving;
     }
 
 
-    public void StateUpdate()
+    public void Tick()
     {
+        if (playerPosToTrack == null)
+            return;
+
         // If the distance between a player is < certain distance then switch back to ground state.
-        playerInput.transform.position = Vector2.Lerp(playerInput.transform.position, playerPosToTrack, Time.deltaTime);
-        Debug.Log(playerPosToTrack);   
+        if (Vector2.Distance(playerInput.transform.position, playerPosToTrack.position) < .25f)
+        {
+            // Swap states.
+        }
+        else
+        {
+            playerInput.transform.position = Vector2.Lerp(playerInput.transform.position, playerPosToTrack.position, Time.deltaTime);
+            
+        }
     }
 
-    private Vector2 GetTarget()
+    private void StopMoving()
+    {
+        playerPosToTrack = null;
+    }
+
+    private bool GetTarget()
     {
         for(int i = 0; i < activePlayers.Count; i++)
         {
             if (activePlayers[i].isAlive)
-                return activePlayers[i].transform.position;
+            {
+                playerPosToTrack = activePlayers[i].transform;
+                return true;
+            }
         }
 
-        
-        return Vector2.zero;
+        OnAllPlayersDead?.Invoke();
+        return false;
+    }
+
+    public void OnTriggerEnter(Collider2D collider2D)
+    {
+        throw new NotImplementedException();
     }
 }

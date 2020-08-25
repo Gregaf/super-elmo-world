@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using BaseGame;
 using UnityEngine;
 
 public class PowerUp : PickUp
@@ -27,11 +28,11 @@ public class PowerUp : PickUp
     {
         base.OnTriggerEnter2D(collider2D);
 
-        if (collider2D.GetComponent<PlayerBrain>() != null)
+        if (collider2D.GetComponent<PlayerController>() != null)
         {
-            HealthManager playerHealth = collider2D.GetComponent<HealthManager>();
+            PlayerController player = collider2D.GetComponent<PlayerController>();
 
-            playerHealth.SetHealthAndID(powerUpLevel, powerUpID);
+            player.Promote(powerUpLevel, powerUpID);
 
             Destroy(gameObject);
         }

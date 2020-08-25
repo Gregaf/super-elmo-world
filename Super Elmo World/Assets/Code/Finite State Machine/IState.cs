@@ -1,9 +1,14 @@
 ﻿
+using UnityEngine;
+
 public interface IState
 {
+
     void Enter();
 
-    void StateUpdate();
+    void Tick();
 
-    void Exit(); 
+    void Exit();
+
+    void OnTriggerEnter(Collider2D collider2D);
 }

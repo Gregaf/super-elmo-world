@@ -3,18 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-// Review: A FSM could be used, but felt useless as the enemy is so simple.
 public class BasicEnemy : Enemy
 {
+    [Header("Normal State")]
     [SerializeField] private float gravity = 20;
     [SerializeField] private float speed = 5;
-    //private LayerMask detectionMask;
-    private int moveDirection;
+
+    private FSM basicEnemyFsm;
 
     protected override void Awake()
     {
-        base.Awake();
+        base.Awake(); 
+        
+        basicEnemyFsm = new FSM();
     }
 
     protected override void OnDisable()
@@ -30,28 +31,22 @@ public class BasicEnemy : Enemy
     protected override void Start()
     {
         base.Start();
-        moveDirection = isFacingRight ? 1 : -1;
 
+        basicEnemyFsm.AddToStateList("Normal", new BNormal(basicEnemyFsm, controller2D, this, speed, gravity));
+        basicEnemyFsm.AddToStateList("Dead", new EDead(this.gameObject));
+
+        basicEnemyFsm.InitializeFSM(basicEnemyFsm.GetState("Normal"));
     }
 
     private void Update()
     {
+        basicEnemyFsm.UpdateCurrentState();
 
-        physicsController.SetHorizontalForce(Mathf.Lerp(physicsController.Velocity.x, speed * moveDirection, Time.deltaTime * 8));
-
-        physicsController.SetVerticalForce(Mathf.Lerp(physicsController.Velocity.y, -gravity, Time.deltaTime));
-
-        if ((physicsController.ControlState.isCollidingRight && isFacingRight) || (physicsController.ControlState.isCollidingLeft && !isFacingRight))
-        {
-            Flip();
-            moveDirection = isFacingRight ? 1 : -1;
-        }
     }
 
     protected override void OnTriggerEnter2D(Collider2D collider)
     {
-        base.OnTriggerEnter2D(collider);
-
+        basicEnemyFsm.CurrentState.OnTriggerEnter(collider);
     }
 
     protected override void Die()

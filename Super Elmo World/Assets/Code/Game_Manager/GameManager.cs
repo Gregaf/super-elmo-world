@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
+using BaseGame;
+
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get { return instance; } }
     private static GameManager instance;
 
-    private List<PlayerBrain> activePlayers;
-
+    public List<PlayerController> activePlayers;
 
     private void Awake()
     {
@@ -20,7 +22,7 @@ public class GameManager : MonoBehaviour
             Debug.LogAssertion("There is already an instance of " + this.ToString());
 
 
-        activePlayers = new List<PlayerBrain>();
+        activePlayers = new List<PlayerController>();
     }
 
     private void OnEnable()
@@ -47,15 +49,14 @@ public class GameManager : MonoBehaviour
 
     private void UpdateActivePlayers(int numberOfPlayers)
     {
-        PlayerBrain[] players = FindObjectsOfType<PlayerBrain>();
+        PlayerController[] players = FindObjectsOfType<PlayerController>();
 
         activePlayers.Clear();
 
         activePlayers.AddRange(players);
-
     }
 
-    public List<PlayerBrain> GetActivePlayers()
+    public List<PlayerController> GetActivePlayers()
     {
         return this.activePlayers;
     }

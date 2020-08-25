@@ -1,62 +1,45 @@
-﻿using System.Net.NetworkInformation;
-using System.Text;
-using TMPro;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    public Canvas[] screens;
-    private Canvas currentScreen;
-    private Canvas previousScreen;
-    
-    public bool isPaused = false;
-    public TextMeshProUGUI timerText;
+    public GameObject currentMenu;
+    public GameObject[] seperateMenus;
 
-    private void OnEnable()
+    private GameObject previousMenu;
+    private int numberOfMenus;
+
+    protected virtual void Start()
     {
+        numberOfMenus = seperateMenus.Length;
+        currentMenu = seperateMenus[0];
     }
 
-    private void OnDisable()
+    public void SetMenu(int index)
     {
+        if (index >= numberOfMenus)
+            return;
 
+        previousMenu = currentMenu;
+        currentMenu = seperateMenus[index];
+
+        SetCurrentActive();
     }
 
-    private void Start()
+    public void ReturnToPrevious()
     {
-        currentScreen = screens[0];
+        GameObject temp = currentMenu;
+        currentMenu = previousMenu;
+        previousMenu = temp;
+
+        SetCurrentActive();
     }
 
-    public void PauseGame()
+    private void SetCurrentActive()
     {
-        
-        if (!isPaused)
-        {
-            isPaused = true;
-            Time.timeScale = 0;
-            screens[0].gameObject.SetActive(false);
-            screens[1].gameObject.SetActive(true);
-        }
-        else
-        {
-            isPaused = false;
-            Time.timeScale = 1;
-            screens[0].gameObject.SetActive(true);
-            screens[1].gameObject.SetActive(false);
-
-        }
-
-        // Maybe first check whether the game is already paused. so do opposite if the game is already paused.
-        // Game timescale will be set to 0 or 1
-        // Set Game UI canvas to inactive
-        // Then enable the Pause Menu Canvas
-    }
-
-    public void UpdateText(float levelTimer)
-    {
-        int displayedTime = Mathf.RoundToInt(levelTimer);
-
-        timerText.text = $"Time: {displayedTime}";
+        previousMenu.SetActive(false);
+        currentMenu.SetActive(true);
     }
 
 }

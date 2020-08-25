@@ -34,6 +34,8 @@ public class PlayerManager : MonoBehaviour
         playerControls = new PlayerControls();
         players = new PlayerInputHandler[maximumPlayers];
 
+
+
     }
 
     private void OnEnable()
@@ -81,8 +83,6 @@ public class PlayerManager : MonoBehaviour
             Debug.Log($"{device} is not a usable device.");
         }
         
-
-
     }
 
     // This will Spawn a player prefab, And then assign an available device to a newly created input user

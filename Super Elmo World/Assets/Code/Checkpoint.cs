@@ -19,12 +19,7 @@ public class Checkpoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        // Player entered checkpoint zone.
-        if (collider2D.GetComponent<PlayerBrain>() != null)
-        {
-            checkpointActivatedHandler?.Invoke(this, EventArgs.Empty);
-            
-        }
+    
         
 
     }

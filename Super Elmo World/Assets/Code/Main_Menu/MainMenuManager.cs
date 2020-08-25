@@ -9,6 +9,7 @@ public class MainMenuManager : MonoBehaviour
 
     private Canvas currentScreen;
     private Canvas previousScreen;
+    Button button;
 
     private void Start()
     {

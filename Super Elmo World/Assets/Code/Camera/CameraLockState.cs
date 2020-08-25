@@ -21,7 +21,11 @@ public class CameraLockState : IState
         Debug.Log($"{ToString()}, Exited.");
     }
 
-    public void StateUpdate()
+    public void OnTriggerEnter(Collider2D collider2D)
+    {
+    }
+
+    public void Tick()
     {
 
     }

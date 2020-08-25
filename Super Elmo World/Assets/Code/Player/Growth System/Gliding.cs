@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BaseGame;
 
 public class Gliding : IState
 {
-    private PlayerBrain playerBrain;
+    private PlayerController playerBrain;
     private CharacterController2D controller2D;
 
     private Vector2 playerScale;
     private Animator animator;
 
-    public Gliding(PlayerBrain playerBrain, Animator animator)
+    public Gliding(PlayerController playerBrain, Animator animator)
     {
         this.playerBrain = playerBrain;
 
@@ -31,7 +32,12 @@ public class Gliding : IState
     {
     }
 
-    public void StateUpdate()
+    public void OnTriggerEnter(Collider2D collider2D)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void Tick()
     {
         
     }

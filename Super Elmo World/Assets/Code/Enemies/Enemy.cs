@@ -3,34 +3,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : Entity, ITakeDamage
+public class Enemy : Entity, IDamageable, IRanked, IBounceable
 {
+
     // Target would be considered the closest player in some cases.
     protected Transform target;
-    protected HealthManager health;
 
     public void TakeDamage(int damageToTake)
     {
-        health.LoseHealth(damageToTake);
+
     }
 
     protected override void Awake()
     {
         base.Awake();
-        health = this.GetComponent<HealthManager>();
     }
 
     protected override void OnEnable()
     {
-        health.OnEntityDie += Die;
     }
 
     protected override void OnDisable()
     {
-        health.OnEntityDie -= Die;
     }
 
-    protected virtual void Flip()
+    public virtual void Flip()
     {
         isFacingRight = !isFacingRight;
 
@@ -42,18 +39,7 @@ public class Enemy : Entity, ITakeDamage
 
     protected override void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.GetComponent<PlayerBrain>() != null)
-        {
-            PlayerBrain playerTouched = collider.GetComponent<PlayerBrain>();
-
-            if (playerTouched.IsMovingDown() && playerTouched.transform.position.y > transform.position.y)
-            {
-                playerTouched.Bounce();
-                TakeDamage(1);
-                Debug.Log("Take dat Damage.");
-            }
-
-        }
+    
 
     }
 
@@ -63,4 +49,23 @@ public class Enemy : Entity, ITakeDamage
         Destroy(gameObject);
     }
 
+    public void Kill()
+    {
+        throw new NotImplementedException();
+    }
+
+    public virtual void Promote(int level, int specifiedID)
+    {
+
+    }
+
+    public virtual void Demote()
+    {
+
+    }
+
+    public void Bounce(float launchHeight)
+    {
+        controller2D.SetVerticalForce(launchHeight);
+    }
 }

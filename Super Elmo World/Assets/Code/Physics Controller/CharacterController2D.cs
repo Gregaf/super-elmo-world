@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterController2D : MonoBehaviour
 {
     private const float skinWidth = 0.003f;
-    private const int totalHorizontalRays = 8;
+    private const int totalHorizontalRays = 4;
     private const int totalVerticalRays = 4;
 
     private static readonly float slopeLimitTangent = Mathf.Tan(75f * Mathf.Deg2Rad);
@@ -31,7 +31,7 @@ public class CharacterController2D : MonoBehaviour
     private Vector2 raycastTopLeft;
     private Vector2 raycastBottomRight;
     private Vector2 raycastBottomLeft;
-    
+
     private void Awake()
     {
         ControlState = new ControllerState2D();
@@ -76,14 +76,7 @@ public class CharacterController2D : MonoBehaviour
     {
         entityBoxCollider.size = newSize;
         entityBoxCollider.offset = new Vector2(0, newSize.y / 2);
-        //int arb = newLocalScale.y.CompareTo(entityTransform.localScale.y);
-
-        //entityBoxCollider.size = (Vector2) newLocalScale;
-        //entityBoxCollider.offset = new Vector2(0, arb * newLocalScale.y / 2);
-
-        //aesthetic.transform.localScale = newLocalScale;
-        //aesthetic.transform.localPosition = new Vector2(aesthetic.transform.localPosition.x, arb * newLocalScale.y / 2);
-        
+           
         CalculateRayBounds();
     }
 
@@ -103,9 +96,7 @@ public class CharacterController2D : MonoBehaviour
                 HandleVerticalSlope(ref deltaMovement);
 
 
-            if (Mathf.Abs(deltaMovement.x) > 0.001f)
-                MoveHorizontally(ref deltaMovement);
-
+            MoveHorizontally(ref deltaMovement);
 
             MoveVertically(ref deltaMovement);
         }
@@ -280,7 +271,7 @@ public class CharacterController2D : MonoBehaviour
 
         if (Mathf.Abs(angle) < 0.0001f)
             return;
-
+        
         ControlState.isMovingDownSlope = true;
         ControlState.slopeAngle = angle;
 
@@ -292,7 +283,7 @@ public class CharacterController2D : MonoBehaviour
         if (Mathf.RoundToInt(angle) == 90)
             return false;
 
-        if (angle > 90)
+        if (angle > 85)
         {
             deltaMovement.x = 0;
             return true;

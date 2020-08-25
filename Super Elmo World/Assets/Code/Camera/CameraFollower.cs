@@ -19,7 +19,7 @@ public class CameraFollower : MonoBehaviour
     private void Awake()
     {
         cameraFsm = new FSM();
-        PlayerBrain[] targets = FindObjectsOfType<PlayerBrain>();
+        PlayerController[] targets = FindObjectsOfType<PlayerController>();
 
         int length = targets.Length;
         Transform[] targetPositions = new Transform[length];

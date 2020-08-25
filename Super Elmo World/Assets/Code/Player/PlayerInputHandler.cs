@@ -11,25 +11,27 @@ public class PlayerInputHandler : MonoBehaviour
     public bool RunButtonActive { get; private set; }
     public PlayerControls playerControls { get; private set; }
 
-    private PlayerMovement movement;
-
+    private PauseUI uiController;
 
     private void Awake()
     {
         playerControls = new PlayerControls();
         inputUser = new InputUser();
-        movement = this.GetComponent<PlayerMovement>();
+        //uiController = FindObjectOfType<PauseUI>();
+
+    }
+
+    private void OnEnable()
+    {
+        playerControls.Enable();
 
         playerControls.Basic.Jump.started += Jumping;
         playerControls.Basic.Jump.canceled += Jumping;
 
         playerControls.Basic.Run.started += Running;
         playerControls.Basic.Run.canceled += Running;
-    }
 
-    private void OnEnable()
-    {
-        playerControls.Enable();
+        //playerControls.UI.Pause.performed += uiController.TogglePause;
     }
     private void OnDisable()
     {
@@ -40,11 +42,12 @@ public class PlayerInputHandler : MonoBehaviour
 
         playerControls.Basic.Run.started -= Running;
         playerControls.Basic.Run.canceled -= Running;
+
+        //playerControls.UI.Pause.performed -= uiController.TogglePause;
     }
 
     private void Start()
     {
-
 
     }
 

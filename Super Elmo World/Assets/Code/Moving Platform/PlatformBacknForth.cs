@@ -38,7 +38,12 @@ public class PlatformBacknForth : IState
     {
     }
 
-    public void StateUpdate()
+    public void OnTriggerEnter(Collider2D collider2D)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Tick()
     {
         float distanceToPoint = Vector2.Distance(platform.transform.position, path[index].position);
 

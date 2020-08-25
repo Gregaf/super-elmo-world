@@ -7,7 +7,8 @@ public abstract class Entity : MonoBehaviour
 
     [SerializeField] private bool usesPhysics = true;
 
-    protected CharacterController2D physicsController;
+    protected BoxCollider2D entityCollider;
+    protected CharacterController2D controller2D;
     [SerializeField] protected int entityID;
     protected string entityName { get; private set; }
     protected string entityDescription { get; private set; }
@@ -15,8 +16,8 @@ public abstract class Entity : MonoBehaviour
     protected virtual void Awake()
     {
         if (usesPhysics)
-            physicsController = this.GetComponent<CharacterController2D>();
-        
+            controller2D = this.GetComponent<CharacterController2D>();
+        entityCollider = this.GetComponent<BoxCollider2D>();
 
         ReadDescriptionFile();
 

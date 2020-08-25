@@ -42,7 +42,7 @@ public class CameraFollowState : IState
         PlayerManager.OnPlayerJoined -= UpdatePlayers;
     }
 
-    public void StateUpdate()
+    public void Tick()
     {
         if (targets.Length <= 0)
             return;
@@ -116,7 +116,7 @@ public class CameraFollowState : IState
 
     private void UpdatePlayers(int numberOfPlayers)
     {
-        PlayerBrain[] players = GameObject.FindObjectsOfType<PlayerBrain>();
+        PlayerController[] players = GameObject.FindObjectsOfType<PlayerController>();
 
         Array.Resize(ref targets, numberOfPlayers);
 
@@ -126,4 +126,8 @@ public class CameraFollowState : IState
         }
     }
 
+    public void OnTriggerEnter(Collider2D collider2D)
+    {
+        throw new NotImplementedException();
+    }
 }

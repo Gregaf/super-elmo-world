@@ -1,10 +1,11 @@
 ﻿using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using BaseGame;
+
 
 public class GroundMovement : IState
 {
-    private FSM ownerFsm;
     private PlayerInputHandler playerInput;
     private CharacterController2D controller2D;
     private GroundMoveProperties groundMoveProperties;
@@ -16,9 +17,8 @@ public class GroundMovement : IState
     private bool isCrouching = false;
     private Vector2 crouchScale;
     private Animator animator;
-    public GroundMovement(FSM ownerFsm, PlayerInputHandler playerInput, CharacterController2D controller2D, GroundMoveProperties groundMoveProperties, Animator animator)
+    public GroundMovement(PlayerInputHandler playerInput, CharacterController2D controller2D, GroundMoveProperties groundMoveProperties, Animator animator)
     {
-        this.ownerFsm = ownerFsm;
         this.playerInput = playerInput;
         this.controller2D = controller2D;
         this.groundMoveProperties = groundMoveProperties;
@@ -43,7 +43,7 @@ public class GroundMovement : IState
 
     }
 
-    public void StateUpdate()
+    public void Tick()
     {
         float acceleration = controller2D.ControlState.isGrounded ? groundMoveProperties.groundAcceleration : groundMoveProperties.airAcceleration;
 
@@ -104,5 +104,10 @@ public class GroundMovement : IState
         string format = $"Current State: 'Ground', Current Speed: {currentSpeed} Current Gravity: {dynamicGravity}";
 
         return format;
+    }
+
+    public void OnTriggerEnter(Collider2D collider2D)
+    {
+        throw new System.NotImplementedException();
     }
 }

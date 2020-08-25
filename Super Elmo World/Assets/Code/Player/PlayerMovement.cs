@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using BaseGame;
 
 
 [Serializable]
@@ -43,7 +44,7 @@ public class FlyingMoveProperties
 public class PlayerMovement : MonoBehaviour
 {
     private PlayerInputHandler playerInput;
-    private HealthManager health;
+    private PlayerController playerBrain;
     private CharacterController2D controller2D;
     public FSM movementState { get; private set; }
     private Animator playerAnimator;
@@ -55,26 +56,26 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         controller2D = this.GetComponent<CharacterController2D>();
+        playerBrain = this.GetComponent<PlayerController>();
         playerInput = this.GetComponent<PlayerInputHandler>();
-        health = this.GetComponent<HealthManager>();
         playerAnimator = this.GetComponentInChildren<Animator>();
 
         movementState = new FSM();
-        movementState.AddToStateList("Ground", new GroundMovement(movementState, playerInput, controller2D, groundMoveProperties, playerAnimator));
+        movementState.AddToStateList("Ground", new GroundMovement(playerInput, controller2D, groundMoveProperties, playerAnimator));
         movementState.AddToStateList("Flying", new FlyingMovement());
-        movementState.AddToStateList("Death", new DeathMovement(movementState, playerInput, controller2D, gameObject, deathMoveProperties));
-        movementState.AddToStateList("Helpless", new HelplessMovement(helplessMoveProperties, controller2D, playerInput, playerAnimator));
 
+
+        
     }
 
     private void OnEnable()
     {
-        health.OnEntityDie += Die;
+        playerBrain.OnPlayerDeath += DisableMovementFsm;
     }
 
     private void OnDisable()
     {
-        health.OnEntityDie -= Die;
+        playerBrain.OnPlayerDeath -= DisableMovementFsm;
     }
 
     private void Start()
@@ -89,8 +90,12 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void Die()
+    private void DisableMovementFsm()
     {
-        movementState.ChangeCurrentState("Death");
+        movementState.isActive = false;
+    }
+    private void EnableMovementFsm()
+    {
+        movementState.isActive = true;
     }
 }

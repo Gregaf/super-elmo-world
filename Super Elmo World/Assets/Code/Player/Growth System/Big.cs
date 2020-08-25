@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Big : IState
 {
-    private PlayerBrain playerBrain;
+    private PlayerController playerBrain;
     private Animator animator;
     private Vector3 playerScale;
 
-    public Big(PlayerBrain playerBrain, Animator animator)
+    public Big(PlayerController playerBrain, Animator animator)
     {
         this.playerBrain = playerBrain;
         this.animator = animator;
@@ -27,7 +27,12 @@ public class Big : IState
     {
     }
 
-    public void StateUpdate()
+    public void OnTriggerEnter(Collider2D collider2D)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void Tick()
     {
     }
 }

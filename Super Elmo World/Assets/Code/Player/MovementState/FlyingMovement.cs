@@ -17,7 +17,12 @@ public class FlyingMovement : IState
     {
     }
 
-    public void StateUpdate()
+    public void OnTriggerEnter(Collider2D collider2D)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void Tick()
     {
     }
 }

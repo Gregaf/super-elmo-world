@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Small : IState
 {
-    private PlayerBrain playerBrain;
+    private PlayerController playerBrain;
     private Vector3 playerScale;
     private Animator animator;
 
-    public Small(PlayerBrain playerBrain, Animator animator)
+    public Small(PlayerController playerBrain, Animator animator)
     {
         this.playerBrain = playerBrain;
         this.animator = animator;
@@ -29,7 +29,12 @@ public class Small : IState
         
     }
 
-    public void StateUpdate()
+    public void OnTriggerEnter(Collider2D collider2D)
+    {
+
+    }
+
+    public void Tick()
     {
         // May not need anything as of now since the small state has no extra functionality.
     }

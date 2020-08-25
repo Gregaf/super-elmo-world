@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class PickUp : MonoBehaviour
 {
     [SerializeField] protected string pickUpName = "default";
+    [TextArea]
     [SerializeField] protected string description = "Does some stuff.";
     [SerializeField] protected int coinValue = 0;
     [SerializeField] protected int scoreValue = 0;
@@ -62,9 +63,13 @@ public abstract class PickUp : MonoBehaviour
     protected virtual void OnTriggerEnter2D(Collider2D collider2D)
     {
         // If a player was touched.
-        if (collider2D.GetComponent<PlayerBrain>() != null)
+        if (collider2D.GetComponent<PlayerController>() != null)
         {
-            PlayerInputHandler player = collider2D.GetComponent<PlayerInputHandler>();
+            PlayerData player = collider2D.GetComponent<PlayerData>();
+
+            player.AddCoins(coinValue);
+            player.AddScore(scoreValue);
+            player.AddLives(livesValue);
 
             // Review: Will I have every object destroy itself? May come back for object pooling, though most likely unneccessary.
             Destroy(this.gameObject);
