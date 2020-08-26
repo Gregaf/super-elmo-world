@@ -33,7 +33,7 @@ namespace BaseGame
                     player = allPlayerData[i];
             }
 
-
+            
             player.playerData.OnPlayerCoinsChange += UpdateCoinsText;
             player.playerData.OnPlayerScoreChange += UpdateScoreText;
             player.playerData.OnPlayerLivesChange += UpdateLivesText;
