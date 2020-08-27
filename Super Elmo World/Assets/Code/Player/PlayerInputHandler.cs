@@ -6,6 +6,7 @@ public class PlayerInputHandler : MonoBehaviour
 {
     public int playerIndex;
     public InputUser inputUser;
+    public InputDevice deviceBeingUsed = null;
     public Vector2 MovementInput { get; private set; }
     public bool JumpButtonActive { get; private set; }
     public bool RunButtonActive { get; private set; }
@@ -16,8 +17,7 @@ public class PlayerInputHandler : MonoBehaviour
     private void Awake()
     {
         playerControls = new PlayerControls();
-        inputUser = new InputUser();
-        //uiController = FindObjectOfType<PauseUI>();
+        
 
     }
 

@@ -9,7 +9,7 @@ public class SceneSwitcher : MonoBehaviour
     private Scene currentActiveScene;
     // Will have a seperate function to offer ability to pass in scene to change
     private Scene worldMapScene;
-    private const int worldSceneIndex = 2;
+    private const int worldSceneIndex = 1;
     [SerializeField] private bool currentlySwitching = false;
 
     public event Action OnSwitchScene;
@@ -33,7 +33,7 @@ public class SceneSwitcher : MonoBehaviour
     {
         AsyncOperation asyncNewSceneLoad = SceneManager.LoadSceneAsync(newSceneIndex, LoadSceneMode.Additive);
         yield return asyncNewSceneLoad;
-        SceneManager.UnloadSceneAsync(1);
+        SceneManager.UnloadSceneAsync(currentActiveScene.buildIndex);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -18,7 +18,8 @@ namespace WorldMap
 
         private void Awake()
         {
-            PlayerInput = this.GetComponent<PlayerInputHandler>();
+            PlayerInput = FindObjectOfType<PlayerInputHandler>();
+
         }
 
         private void Start()

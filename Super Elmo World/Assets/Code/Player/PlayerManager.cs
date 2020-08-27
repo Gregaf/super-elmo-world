@@ -3,18 +3,20 @@ using UnityEngine.InputSystem;
 using UnityEngine;
 using UnityEngine.InputSystem.Users;
 using System;
-
+using System.Collections.Generic;
 
 public class PlayerManager : MonoBehaviour
 {
+
     public int maximumPlayers;
     public Transform spawnPoint;
     public GameObject playerPrefab;
     public InputAction joinAction;
+    public bool isJoiningAvailable;
 
     public int currentPlayerIndex { get; private set; }
     // Can pass these to the newly created players between scenes.
-    private PlayerInputHandler[] players;
+    private Dictionary<int, GameObject> players = new Dictionary<int, GameObject>();
     private DeviceEventArgs deviceEventArgs;
 
     public bool CanPlayerJoin { get { return (currentPlayerIndex < maximumPlayers); } }
@@ -32,10 +34,8 @@ public class PlayerManager : MonoBehaviour
     {
         deviceEventArgs = new DeviceEventArgs();
         playerControls = new PlayerControls();
-        players = new PlayerInputHandler[maximumPlayers];
-
-
-
+        
+        DontDestroyOnLoad(this.gameObject);
     }
 
     private void OnEnable()
@@ -71,12 +71,15 @@ public class PlayerManager : MonoBehaviour
 
         if (IsDeviceUsable(device, this.playerControls))
         {
-            SpawnPlayer(currentPlayerIndex, device);
+            players.Add((currentPlayerIndex), SpawnPlayer(currentPlayerIndex, device));
             OnPlayerJoined?.Invoke(currentPlayerIndex);
             //InputUser newUser = new InputUser();
             //newUser = InputUser.PerformPairingWithDevice(device, newUser);
             //currentPlayerIndex++;
             //Debug.Log(InputUser.GetUnpairedInputDevices());
+
+            for (int i = 0; i < currentPlayerIndex; i++)
+                Debug.Log(players[i]);
         }
         else
         {
@@ -85,20 +88,43 @@ public class PlayerManager : MonoBehaviour
         
     }
 
-    // This will Spawn a player prefab, And then assign an available device to a newly created input user
-    private void SpawnPlayer(int playerIndex, InputDevice deviceToPair)
+    public void DisconnectAllPlayers()
     {
-        GameObject newPlayer = Instantiate(playerPrefab, spawnPoint.position, Quaternion.identity);
+        for (int i = 0; i < currentPlayerIndex; i++)
+        {
+            GameObject playerToRemove = players[i];            
+         
+            playerToRemove.GetComponent<PlayerInputHandler>().inputUser.UnpairDevicesAndRemoveUser();
+            
+            players.Remove(i);
+
+            Destroy(playerToRemove);
+        }
+
+        currentPlayerIndex = 0;
+    }
+
+    // This will Spawn a player prefab, And then assign an available device to a newly created input user
+    private GameObject SpawnPlayer(int playerIndex, InputDevice deviceToPair)
+    {
+        GameObject newPlayer = Instantiate(playerPrefab, spawnPoint.position, Quaternion.identity, this.transform);
+
         PlayerInputHandler newPlayerInputHandler = newPlayer.GetComponent<PlayerInputHandler>();
         newPlayerInputHandler.playerIndex = playerIndex;
-        InputUser newInputUser = newPlayerInputHandler.inputUser;
-        
+        newPlayerInputHandler.deviceBeingUsed = deviceToPair;
+
+        InputUser newInputUser;
+
         // Clear the list of devices for the player that are automatically registered.          
         newPlayerInputHandler.playerControls.devices = new InputDevice[] { };          
-        newInputUser = InputUser.PerformPairingWithDevice(deviceToPair, newInputUser);        
+        newInputUser = InputUser.PerformPairingWithDevice(deviceToPair);        
         newInputUser.AssociateActionsWithUser(newPlayerInputHandler.playerControls.asset);
-                   
-        currentPlayerIndex++;     
+
+        newPlayerInputHandler.inputUser = newInputUser;
+
+        currentPlayerIndex++;
+
+        return newPlayer;
     }
 
 

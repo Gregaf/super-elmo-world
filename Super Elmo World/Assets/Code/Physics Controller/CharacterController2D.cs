@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
+[AddComponentMenu("Entity/CharacterController2D")]
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
 {
