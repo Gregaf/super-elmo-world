@@ -252,6 +252,8 @@ public class CharacterController2D : MonoBehaviour
 
     }
 
+    
+
     private void HandleVerticalSlope(ref Vector2 deltaMovement)
     {
         float center = (raycastBottomLeft.x + raycastBottomRight.x) / 2;

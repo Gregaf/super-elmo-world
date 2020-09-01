@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SMTest;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -40,13 +41,13 @@ public class PlayerController : Entity, IDamageable, IComparable<PlayerControlle
         
     }
 
-    protected override void OnEnable()
+    protected void OnEnable()
     {
 
     }
 
 
-    protected override void OnDisable()
+    protected void OnDisable()
     {
         playerInput.playerControls.Basic.ChangeDirection.performed -= Flip;
 
@@ -65,8 +66,8 @@ public class PlayerController : Entity, IDamageable, IComparable<PlayerControlle
             rankedFsm = new FSM();
 
         rankedFsm.AddToStateList("Dead", new Dead(this.gameObject, playerInput, null, controller2D));
-        rankedFsm.AddToStateList("Small", new Small(this, playerAnimator));
-        rankedFsm.AddToStateList("Big", new Big(this, playerAnimator));
+        //rankedFsm.AddToStateList("Small", new Small(this, playerAnimator));
+        //rankedFsm.AddToStateList("Big", new Big(this, playerAnimator));
         rankedFsm.AddToStateList("Glide", new Gliding(this, playerAnimator));
 
         rankedFsm.InitializeFSM(rankedFsm.GetState("Small"));

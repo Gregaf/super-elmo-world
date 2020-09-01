@@ -7,11 +7,11 @@ public abstract class Entity : MonoBehaviour
 
     [SerializeField] private bool usesPhysics = true;
 
-    protected BoxCollider2D entityCollider;
     protected CharacterController2D controller2D;
     [SerializeField] protected int entityID;
-    protected string entityName { get; private set; }
-    protected string entityDescription { get; private set; }
+    public BoxCollider2D entityCollider { get; private set; }
+    public string entityName { get; private set; }
+    public string entityDescription { get; private set; }
 
     protected virtual void Awake()
     {
@@ -23,15 +23,6 @@ public abstract class Entity : MonoBehaviour
 
         // If the localScale is positive then the entity is facing to the right.
         isFacingRight = transform.localScale.x > 0;
-
-    }
-
-    protected virtual void OnEnable()
-    { 
-    
-    }
-    protected virtual void OnDisable()
-    {
 
     }
 

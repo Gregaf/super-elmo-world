@@ -1,6 +1,6 @@
 ﻿using System.Security;
 using UnityEngine;
-
+using WorldMap;
 
 public enum CameraState
 { 
@@ -19,10 +19,12 @@ public class CameraFollower : MonoBehaviour
     private void Awake()
     {
         cameraFsm = new FSM();
-        PlayerController[] targets = FindObjectsOfType<PlayerController>();
+        WorldMap.PlayerController[] targets = FindObjectsOfType<WorldMap.PlayerController>();
 
         int length = targets.Length;
         Transform[] targetPositions = new Transform[length];
+
+        Debug.Log(targetPositions.Length);
 
         for (int i = 0; i < length; i++)
         {

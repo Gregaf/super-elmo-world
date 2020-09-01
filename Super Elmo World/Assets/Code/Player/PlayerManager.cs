@@ -35,7 +35,7 @@ public class PlayerManager : MonoBehaviour
         deviceEventArgs = new DeviceEventArgs();
         playerControls = new PlayerControls();
         
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
     }
 
     private void OnEnable()

@@ -19,14 +19,6 @@ public class Enemy : Entity, IDamageable, IRanked, IBounceable
         base.Awake();
     }
 
-    protected override void OnEnable()
-    {
-    }
-
-    protected override void OnDisable()
-    {
-    }
-
     public virtual void Flip()
     {
         isFacingRight = !isFacingRight;

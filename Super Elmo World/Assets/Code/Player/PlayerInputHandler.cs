@@ -8,17 +8,16 @@ public class PlayerInputHandler : MonoBehaviour
     public InputUser inputUser;
     public InputDevice deviceBeingUsed = null;
     public Vector2 MovementInput { get; private set; }
+    public bool IsMovingHorizontally { get { return (Mathf.Abs(MovementInput.x) > 0); } }
     public bool JumpButtonActive { get; private set; }
     public bool RunButtonActive { get; private set; }
     public PlayerControls playerControls { get; private set; }
 
-    private PauseUI uiController;
-
     private void Awake()
     {
         playerControls = new PlayerControls();
-        
 
+        playerControls.Enable();
     }
 
     private void OnEnable()
@@ -31,7 +30,6 @@ public class PlayerInputHandler : MonoBehaviour
         playerControls.Basic.Run.started += Running;
         playerControls.Basic.Run.canceled += Running;
 
-        //playerControls.UI.Pause.performed += uiController.TogglePause;
     }
     private void OnDisable()
     {
@@ -43,7 +41,6 @@ public class PlayerInputHandler : MonoBehaviour
         playerControls.Basic.Run.started -= Running;
         playerControls.Basic.Run.canceled -= Running;
 
-        //playerControls.UI.Pause.performed -= uiController.TogglePause;
     }
 
     private void Start()

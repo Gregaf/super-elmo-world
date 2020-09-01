@@ -1,41 +1,45 @@
-﻿using System.Collections;
+﻿using SMTest;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Small : IState
+public class Small : State
 {
-    private PlayerController playerBrain;
+    private SMTest.PlayerController playerController;
+    private AnimatorOverrideController smallAnimations;
+    private PlayerGrowth playerGrowth;
     private Vector3 playerScale;
-    private Animator animator;
 
-    public Small(PlayerController playerBrain, Animator animator)
+    public Small(SMTest.PlayerController playerController, AnimatorOverrideController smallAnimations, PlayerGrowth playerGrowth)
     {
-        this.playerBrain = playerBrain;
-        this.animator = animator;
+        this.playerController = playerController;
+        this.smallAnimations = smallAnimations;
+        this.playerGrowth = playerGrowth;
 
         playerScale = new Vector2(0.85f, 1.25f);
-
     }
 
-    public void Enter()
+    public override void Enter()
     {
-        animator.runtimeAnimatorController = playerBrain.smallAnimations;
-        // Switch to small sprite...
-        playerBrain.ModifySize(playerScale);
+        playerController.animator.runtimeAnimatorController = smallAnimations;
+
+        playerController.Controller2D.ModifySize(playerScale);
+
+        playerGrowth.OnShrink += ShrinkTo;
     }
 
-    public void Exit()
+    public override void Exit()
+    {
+        playerGrowth.OnShrink -= ShrinkTo;
+    }
+
+    public override void Tick()
     {
         
     }
 
-    public void OnTriggerEnter(Collider2D collider2D)
-    {
-
-    }
-
-    public void Tick()
-    {
-        // May not need anything as of now since the small state has no extra functionality.
+    private void ShrinkTo()
+    { 
+        // Change to Dead state.
     }
 }

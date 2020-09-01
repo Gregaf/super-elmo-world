@@ -56,6 +56,8 @@ public class SerializationManager : MonoBehaviour
     {
         BinaryFormatter binaryFormatter = new BinaryFormatter();
 
+
+
         return binaryFormatter;
     }
 

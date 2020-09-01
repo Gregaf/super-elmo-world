@@ -217,6 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScore: 0
   currentCoins: 0
+  currentLives: 1
 --- !u!114 &7389836740171319553
 MonoBehaviour:
   m_ObjectHideFlags: 0

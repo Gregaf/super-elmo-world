@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace WorldMap
 {
@@ -8,14 +10,19 @@ namespace WorldMap
     {
         public Pin[] levelPaths = new Pin[4];
 
-        [SerializeField] private new string name;
+        [SerializeField] private string levelName;
         [TextArea()]
         [SerializeField] private string description;
-        [SerializeField] private int sceneBuildIndex;
+        [SerializeField] private SceneIndexes levelToLoad;
         private bool isLocked = true;
+        
 
-        public string Name { get { return this.name; } }
+
+        public string Name { get { return this.levelName; } }
         public string Description { get { return this.description; } }
+        public SceneIndexes LevelToLoad { get { return this.levelToLoad; } }
+
+        public static event Action<SceneIndexes> OnLevelChosen;
 
         public void UnLockLevel()
         {
@@ -24,9 +31,8 @@ namespace WorldMap
         }
 
         public void PlayLevel()
-        { 
-            // TODO: add a confimation or ready up portion.
-            // Call the sceneManager and load the level with {sceneBuildIndex}
+        {
+            OnLevelChosen?.Invoke(this.levelToLoad);
 
         }
 

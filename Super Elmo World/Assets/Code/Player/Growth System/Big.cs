@@ -2,37 +2,47 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Big : IState
+namespace SMTest
 {
-    private PlayerController playerBrain;
-    private Animator animator;
-    private Vector3 playerScale;
-
-    public Big(PlayerController playerBrain, Animator animator)
+    public class Big : State
     {
-        this.playerBrain = playerBrain;
-        this.animator = animator;
+        private PlayerController playerController;
+        private AnimatorOverrideController bigAnimations;
+        private PlayerGrowth playerGrowth;
+        private Vector3 playerScale;
 
-        playerScale = new Vector2(0.85f, 1.75f);
-    }
+        public Big(PlayerController playerController, AnimatorOverrideController bigAnimations, PlayerGrowth playerGrowth)
+        {
+            this.playerController = playerController;
+            this.bigAnimations = bigAnimations;
+            this.playerGrowth = playerGrowth;
 
-    public void Enter()
-    {
-        animator.runtimeAnimatorController = playerBrain.bigAnimations;
-        playerBrain.ModifySize(playerScale);
-        // Maybe playerBrain.EnableStrongerHead(); so that way bigger blocks can be broken.
-    }
+            playerScale = new Vector2(0.85f, 1.75f);
+        }
 
-    public void Exit()
-    {
-    }
+        public override void Enter()
+        {
+            playerController.animator.runtimeAnimatorController = bigAnimations;
 
-    public void OnTriggerEnter(Collider2D collider2D)
-    {
-        throw new System.NotImplementedException();
-    }
+            playerController.Controller2D.ModifySize(playerScale);
 
-    public void Tick()
-    {
+            playerGrowth.OnShrink += ShrinkTo;
+        }
+
+        public override void Exit()
+        {
+            playerGrowth.OnShrink -= ShrinkTo;
+
+        }
+
+        public override void Tick()
+        {
+
+        }
+
+        private void ShrinkTo()
+        {
+            // Change to Dead state.
+        }
     }
 }

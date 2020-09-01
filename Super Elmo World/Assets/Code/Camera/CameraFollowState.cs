@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using TMPro;
 using UnityEngine;
 
 public class CameraFollowState : IState
@@ -73,7 +74,7 @@ public class CameraFollowState : IState
         }
 
         target.z = -10;
-        owner.position = Vector3.SmoothDamp(owner.position, target, ref vectorStore, speed);
+        owner.position = Vector3.SmoothDamp(owner.position, new Vector3((int) target.x, (int) target.y, target.z), ref vectorStore, speed);
     }
 
     private Vector2 GetCameraExtents()
@@ -128,6 +129,5 @@ public class CameraFollowState : IState
 
     public void OnTriggerEnter(Collider2D collider2D)
     {
-        throw new NotImplementedException();
     }
 }
