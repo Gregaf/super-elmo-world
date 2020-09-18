@@ -7,7 +7,7 @@ using UnityEngine;
 public class PowerUp : PickUp
 {
     [SerializeField] protected int powerUpLevel;
-    [SerializeField] protected SMTest.PlayerGrowthStates powerUpID;
+    [SerializeField] protected PlayerGrowthStates powerUpID;
 
     protected override void Start()
     {
@@ -28,9 +28,9 @@ public class PowerUp : PickUp
     {
         base.OnTriggerEnter2D(collider2D);
 
-        if (collider2D.GetComponent<SMTest.PlayerController>() != null)
+        if (collider2D.GetComponent<PlayerController>() != null)
         {
-            SMTest.PlayerGrowth player = collider2D.GetComponent<SMTest.PlayerGrowth>();
+            PlayerGrowth player = collider2D.GetComponent<PlayerGrowth>();
 
             player.GrowTo(powerUpID);
 

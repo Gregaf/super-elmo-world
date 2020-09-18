@@ -1,17 +1,21 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 [AddComponentMenu("Entity/CharacterController2D")]
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
 {
-    private const float skinWidth = 0.003f;
-    private const int totalHorizontalRays = 4;
-    private const int totalVerticalRays = 4;
+    private const float skinWidth = 0.015f;
+    private const int totalHorizontalRays = 8;
+    private const int totalVerticalRays = 8;
 
-    private static readonly float slopeLimitTangent = Mathf.Tan(75f * Mathf.Deg2Rad);
+    private static readonly float slopeLimitTangent = Mathf.Tan(75 * Mathf.Deg2Rad);
 
-    public LayerMask platformMask;
+    public LayerMask platformMask = 0;
+    public LayerMask triggerMask = 0;
+
+    public LayerMask oneWayPlatformMask;
 
     public ControllerState2D ControlState { get; private set; }
     public Vector2 Velocity { get { return entityVelocity; } }
@@ -25,6 +29,8 @@ public class CharacterController2D : MonoBehaviour
     private BoxCollider2D entityBoxCollider;
     private float jumpIn;
 
+    bool wasGrounded;
+
     private Vector2 activeLocalPlatformPoint, activeGlobalPlatformPoint;
 
     private float verticalDistanceBetweenRays, horizontalDistanceBetweenRays;
@@ -32,6 +38,38 @@ public class CharacterController2D : MonoBehaviour
     private Vector2 raycastTopLeft;
     private Vector2 raycastBottomRight;
     private Vector2 raycastBottomLeft;
+
+    public event Action<Collider2D> OnTriggerEnterEvent;
+    public event Action<Collider2D> OnTriggerStayEvent;
+    public event Action<Collider2D> OnTriggerExitEvent;
+
+    private Rect windowRect = new Rect(20, 20, 200, 200);
+
+    private void OnGUI()
+    {
+        windowRect = GUI.Window(0, windowRect, DoStuff, "My Window");
+    }
+
+    private void DoStuff(int windowID)
+    {
+        string belowString = "Below: " + ControlState.isCollidingBelow.ToString(); 
+        GUI.Label(new Rect(25, 25, 120, 20), belowString);
+
+        string aboveString = "Above: " + ControlState.isCollidingAbove.ToString();
+        GUI.Label(new Rect(25, 45, 120, 20), aboveString);
+
+        string leftString = "Left: " + ControlState.isCollidingLeft.ToString();
+        GUI.Label(new Rect(25, 65, 120, 20), leftString);
+
+        string rightString = "Right: " + ControlState.isCollidingRight.ToString();
+        GUI.Label(new Rect(25, 85, 120, 20), rightString);
+
+        string upSlopeString = "UpSlope: " + ControlState.isMovingUpSlope.ToString();
+        GUI.Label(new Rect(25, 105, 150, 20), upSlopeString);
+
+        string downSlopeString = "DownSlope: " + ControlState.isMovingDownSlope.ToString();
+        GUI.Label(new Rect(25, 130, 150, 20), downSlopeString);
+    }
 
     private void Awake()
     {
@@ -44,6 +82,7 @@ public class CharacterController2D : MonoBehaviour
         CalculateRayBounds(); 
 
         HandleCollision = true;
+
     }
 
     public void AddForce(Vector2 force)
@@ -68,8 +107,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void LateUpdate()
     {
-        jumpIn -= Time.deltaTime;
-
+        
         Move(Velocity * Time.deltaTime);
     }
 
@@ -84,22 +122,22 @@ public class CharacterController2D : MonoBehaviour
     private void Move(Vector2 deltaMovement)
     {
         // To keep track if we were grounded last frame
-        bool wasGrounded = ControlState.isCollidingBelow;
+        wasGrounded = ControlState.isCollidingBelow;
+
         ControlState.Reset();
 
         if (HandleCollision)
         {
             
-            HandleMovingPlatforms();
-            CalculateRayOrigins();
+            //HandleMovingPlatforms();
+            CalculateRayOrigins();   
 
-            if (deltaMovement.y < 0 && wasGrounded)
-                HandleVerticalSlope(ref deltaMovement);
+            if (deltaMovement.x != 0)
+                MoveHorizontally(ref deltaMovement); 
 
+            if ((deltaMovement.y != 0))
+                MoveVertically(ref deltaMovement);
 
-            MoveHorizontally(ref deltaMovement);
-
-            MoveVertically(ref deltaMovement);
         }
 
         entityTransform.Translate(deltaMovement, Space.World);
@@ -112,47 +150,16 @@ public class CharacterController2D : MonoBehaviour
 
         if (ControlState.isMovingUpSlope)
             entityVelocity.y = 0;
-
-        if (StandingOn != null)
-        {
-            activeGlobalPlatformPoint = transform.position;
-            activeLocalPlatformPoint = StandingOn.transform.InverseTransformPoint(transform.position);
-        }
-    }
-
-    // Handle the entity's velocity depending on the platform's velocity.
-    private void HandleMovingPlatforms()
-    {
-        if (StandingOn != null)
-        {
-            Vector2 newGlobalPlatformPoint = StandingOn.transform.TransformPoint(activeLocalPlatformPoint);
-            Vector2 moveDistance = newGlobalPlatformPoint - activeGlobalPlatformPoint;
-
-            // If the distance between the entity and the platform is not zero, move the entity the distance difference.
-            if (moveDistance != Vector2.zero)
-            {
-                transform.Translate(moveDistance, Space.World);
-            }
-
-            PlatformVelocity = (newGlobalPlatformPoint - activeGlobalPlatformPoint) / Time.deltaTime;
-        }
-        else
-        {
-            PlatformVelocity = Vector2.zero;
-        }
-
-        StandingOn = null;
     }
 
     public void CalculateRayOrigins()
     {
-        Vector2 size = new Vector2(entityBoxCollider.size.x * Mathf.Abs(transform.localScale.x),
-                                   entityBoxCollider.size.y * Mathf.Abs(transform.localScale.y)) / 2;
-        Vector2 center = new Vector2(entityBoxCollider.offset.x * transform.localScale.x, entityBoxCollider.offset.y * transform.localScale.y);
+        Bounds calculatedBounds = entityBoxCollider.bounds;
+        calculatedBounds.Expand(-2 * skinWidth);
 
-        raycastTopLeft = (Vector2) entityTransform.position + new Vector2(center.x - size.x + skinWidth, center.y + size.y - skinWidth);
-        raycastBottomRight = (Vector2) entityTransform.position + new Vector2(center.x + size.x - skinWidth, center.y - size.y + skinWidth);
-        raycastBottomLeft = (Vector2) entityTransform.position + new Vector2(center.x - size.x + skinWidth, center.y - size.y + skinWidth);
+        raycastTopLeft = new Vector2 (calculatedBounds.min.x, calculatedBounds.max.y);
+        raycastBottomRight = new Vector2(calculatedBounds.max.x, calculatedBounds.min.y);
+        raycastBottomLeft = calculatedBounds.min;
     }
 
     private void MoveHorizontally(ref Vector2 deltaMovement)
@@ -165,32 +172,41 @@ public class CharacterController2D : MonoBehaviour
         for (int i = 0; i < totalHorizontalRays; i++)
         {
             Vector2 rayVector = new Vector2(rayOrigin.x, rayOrigin.y + (i * verticalDistanceBetweenRays));
-            Debug.DrawRay(rayVector, rayDirection * rayDistance, Color.yellow);
+            Debug.DrawRay(rayVector, rayDirection * rayDistance, Color.red);
 
             RaycastHit2D rayCastHit = Physics2D.Raycast(rayVector, rayDirection, rayDistance, platformMask);
 
-            if (!rayCastHit)           
-                continue;
-
-            if (i == 0 && HandleHorizontalSlope(ref deltaMovement, Vector2.Angle(rayCastHit.normal, Vector2.up), isGoingRight))
-                break;
-
-            deltaMovement.x = rayCastHit.point.x - rayVector.x;
-            rayDistance = Mathf.Abs(deltaMovement.x);
-
-            if (isGoingRight)
+            if (rayCastHit)           
             {
-                deltaMovement.x -= skinWidth;
-                ControlState.isCollidingRight = true;
-            }
-            else
-            {
-                deltaMovement.x += skinWidth;
-                ControlState.isCollidingLeft = true;
+                // float flushDistance = Mathf.Sign(deltaMovement.x) * (rayCastHit.distance - skinWidth);
+                // transform.Translate(new Vector2(flushDistance, 0));
+                
+                if(i == 0)
+                {
+                    
+                }
+                
+
+                deltaMovement.x = rayCastHit.point.x - rayVector.x;
+                rayDistance = Mathf.Abs(deltaMovement.x);
+                
+                if (isGoingRight)
+                {
+                    deltaMovement.x -= skinWidth;
+                    ControlState.isCollidingRight = true;
+                }
+                else
+                {
+                    deltaMovement.x += skinWidth;
+                    ControlState.isCollidingLeft = true;
+                }
+
+                if (rayDistance < skinWidth + 0.001f)
+                {
+                    break;
+                }
             }
 
-            if (rayDistance < skinWidth + 0.0001f)
-                break;
         }
 
     }
@@ -204,27 +220,16 @@ public class CharacterController2D : MonoBehaviour
 
         rayOrigin.x += deltaMovement.x;
 
-        float standingOnDistance = float.MaxValue;
         for (int i = 0; i < totalVerticalRays; i++)
         {
             Vector2 rayVector = new Vector2(rayOrigin.x + (i * horizontalDistanceBetweenRays), rayOrigin.y);
-            Debug.DrawRay(rayVector, rayDirection * rayDistance, Color.yellow);
+            Debug.DrawRay(rayVector, rayDirection * rayDistance, Color.red);
 
             RaycastHit2D rayCastHit = Physics2D.Raycast(rayVector, rayDirection, rayDistance, platformMask);
 
             // If the ray has not hit anything, then skip the rest of function.
             if (!rayCastHit)            
                 continue;
-
-            if (!isGoingUp)
-            {
-                float verticalDistanceToHit = entityTransform.position.y - rayCastHit.point.y;
-                if (verticalDistanceToHit < standingOnDistance)
-                {
-                    standingOnDistance = verticalDistanceToHit;
-                    StandingOn = rayCastHit.collider.gameObject;
-                }
-            }
 
             deltaMovement.y = rayCastHit.point.y - rayVector.y;
             rayDistance = Mathf.Abs(deltaMovement.y);
@@ -241,87 +246,35 @@ public class CharacterController2D : MonoBehaviour
                 ControlState.isCollidingBelow = true;
             }
 
-            if (!isGoingUp && deltaMovement.y > 0.001f)
-            {
-                ControlState.isMovingUpSlope = true;          
-            }
-
             if (rayDistance < skinWidth + 0.0001f)
                 break;
         }
 
     }
 
-    
-
-    private void HandleVerticalSlope(ref Vector2 deltaMovement)
-    {
-        float center = (raycastBottomLeft.x + raycastBottomRight.x) / 2;
-        Vector2 direction = Vector2.down;
-        float slopeDistance = slopeLimitTangent * (raycastBottomRight.x - center);
-        Vector2 slopeRayVector = new Vector2(center, raycastBottomLeft.y);
-
-        Debug.DrawRay(slopeRayVector, direction * slopeDistance, Color.magenta);
-
-        RaycastHit2D rayCastHit = Physics2D.Raycast(slopeRayVector, direction, slopeDistance, platformMask);
-
-        bool isMovingDownSlope = Mathf.Sign(rayCastHit.normal.x) == Mathf.Sign(deltaMovement.x);
-
-        if (!rayCastHit)
-            return;
-
-        float angle = Vector2.Angle(rayCastHit.normal, Vector2.up);
-
-        if (Mathf.Abs(angle) < 0.0001f)
-            return;
-        
-        ControlState.isMovingDownSlope = true;
-        ControlState.slopeAngle = angle;
-
-        deltaMovement.y = rayCastHit.point.y - slopeRayVector.y;
-
-    }
-    private bool HandleHorizontalSlope(ref Vector2 deltaMovement, float angle, bool isGoingRight)
-    {
-        if (Mathf.RoundToInt(angle) == 90)
-            return false;
-
-        if (angle > 85)
-        {
-            deltaMovement.x = 0;
-            return true;
-        }
-
-        if (deltaMovement.y > .07f)
-            return true;
-
-
-        deltaMovement.x += isGoingRight ? -skinWidth : skinWidth;
-        deltaMovement.y = Mathf.Abs(Mathf.Tan(angle * Mathf.Deg2Rad) * deltaMovement.x);
-        ControlState.isMovingUpSlope = true;
-        ControlState.isCollidingBelow = true;
-
-        return true;
-    }
-
     // Calculate the distance bewtween the horizontal and vertical rays
     public void CalculateRayBounds()
     {
-        float colliderWidth = entityBoxCollider.size.x * Mathf.Abs(entityTransform.localScale.x) - (2 * skinWidth);
-        horizontalDistanceBetweenRays = colliderWidth / (totalVerticalRays - 1);
-
         float colliderHeight = entityBoxCollider.size.y * Mathf.Abs(entityTransform.localScale.y) - (2 * skinWidth);
         verticalDistanceBetweenRays = colliderHeight / (totalHorizontalRays - 1);
+
+        float colliderWidth = entityBoxCollider.size.x * Mathf.Abs(entityTransform.localScale.x) - (2 * skinWidth);
+        horizontalDistanceBetweenRays = colliderWidth / (totalVerticalRays - 1);
     }
 
 
     public void OnTriggerEnter2D(Collider2D otherCol)
     {
-        
+        OnTriggerEnterEvent?.Invoke(otherCol);
+    }
+
+    public void OnTriggerStay2D(Collider2D otherCol)
+    {
+        OnTriggerStayEvent?.Invoke(otherCol);
     }
 
     public void OnTriggerExit2D(Collider2D otherCol)
     {
-        
+        OnTriggerExitEvent?.Invoke(otherCol);
     }
 }

@@ -11,9 +11,6 @@ namespace BaseGame
         [SerializeField] Image playerImage;
         [SerializeField] TextMeshProUGUI coins, score, lives;
 
-        private PlayerController player;
-
-
         private void Awake()
         {
             playerImage = transform.GetChild(0).GetComponent<Image>();
@@ -25,26 +22,12 @@ namespace BaseGame
 
         private void OnEnable()
         {
-            PlayerController[] allPlayerData = FindObjectsOfType<PlayerController>();
 
-            for (int i = 0; i < allPlayerData.Length; i++)
-            {
-                if (allPlayerData[i].playerInput.playerIndex == playerIndex)
-                    player = allPlayerData[i];
-            }
-
-            
-            player.playerData.OnPlayerCoinsChange += UpdateCoinsText;
-            player.playerData.OnPlayerScoreChange += UpdateScoreText;
-            player.playerData.OnPlayerLivesChange += UpdateLivesText;
         }
 
         private void OnDisable()
         {
-
-            player.playerData.OnPlayerCoinsChange -= UpdateCoinsText;
-            player.playerData.OnPlayerScoreChange -= UpdateScoreText;
-            player.playerData.OnPlayerLivesChange -= UpdateLivesText;
+ 
         }
 
         public void UpdateCoinsText(int newCoins)

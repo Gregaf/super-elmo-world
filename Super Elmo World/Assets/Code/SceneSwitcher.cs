@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using WorldMap;
 
 public class SceneSwitcher : MonoBehaviour
 {
@@ -20,12 +19,12 @@ public class SceneSwitcher : MonoBehaviour
 
     private void OnEnable()
     {
-        Level.OnLevelChosen += ChangeToSpecifiedScene;
+
     }
 
     private void OnDisable()
     {
-        Level.OnLevelChosen -= ChangeToSpecifiedScene;
+
     }
 
     public void ChangeToWorldMap()
@@ -68,10 +67,6 @@ public class SceneSwitcher : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<PlayerController>() != null)
-        {
-            ChangeToWorldMap();
-        }
 
     }
 

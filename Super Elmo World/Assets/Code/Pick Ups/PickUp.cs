@@ -63,18 +63,17 @@ public abstract class PickUp : MonoBehaviour
     protected virtual void OnTriggerEnter2D(Collider2D collider2D)
     {
         // If a player was touched.
-        if (collider2D.GetComponent<PlayerController>() != null)
-        {
-            PlayerData player = collider2D.GetComponent<PlayerData>();
+        //if (collider2D.GetComponent<PlayerController>() != null)
+        //{
+        //    PlayerData player = collider2D.GetComponent<PlayerData>();
 
-            player.AddCoins(coinValue);
-            player.AddScore(scoreValue);
-            player.AddLives(livesValue);
+        //    player.AddCoins(coinValue);
+        //    player.AddScore(scoreValue);
+        //    player.AddLives(livesValue);
 
-            // Review: Will I have every object destroy itself? May come back for object pooling, though most likely unneccessary.
-            Destroy(this.gameObject);
-        }
+        //    // Review: Will I have every object destroy itself? May come back for object pooling, though most likely unneccessary.
+        //    Destroy(this.gameObject);
+        //}    }
     }
-
 }
 
