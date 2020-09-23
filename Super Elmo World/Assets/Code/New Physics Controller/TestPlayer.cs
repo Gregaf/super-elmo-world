@@ -15,6 +15,7 @@ public class TestPlayer : MonoBehaviour
     public float walkSpeed;
     public float runSpeed;
     public float currentMoveSpeed;
+    public float knockback;
 
     public float jumpHeight;
     public float minimumJumpHeight;
@@ -29,7 +30,7 @@ public class TestPlayer : MonoBehaviour
     private float gravity;
     private float minJumpTimer;
 
-    public float graceTimer;
+    public float graceTimer; //  Subscribe to fell event on enter for fall?
 
     public Vector2 velocity;
     Controller2D controller;
@@ -54,11 +55,27 @@ public class TestPlayer : MonoBehaviour
     private void OnEnable()
     {
         controller.OnFellEvent += JumpGracePeriod;
+        controller.OnTriggerEnter += PlayerBump;
+        controller.OnYAxisInverted += InvertBounce;
     }
 
     private void OnDisable()
     {
         controller.OnFellEvent -= JumpGracePeriod;
+        controller.OnTriggerEnter -= PlayerBump;
+        controller.OnYAxisInverted -= InvertBounce;
+    }
+
+    private void PlayerBump(Collider2D otherCol)
+    {
+        if (otherCol.GetComponent<TestPlayer>() != null)
+        {
+            TestPlayer otherPlayer = otherCol.GetComponent<TestPlayer>();
+
+            float direction = Mathf.Sign(transform.position.x - otherPlayer.transform.position.x);
+
+            velocity.x = (direction * knockback);
+        }
     }
 
     // Update is called once per frame
@@ -71,15 +88,16 @@ public class TestPlayer : MonoBehaviour
 
         
         // Handle skidding, changing directions when moving fast.
-        if (Mathf.Abs(velocity.x) > walkSpeed && Mathf.Sign(velocity.x) != xInput)
+        if (Mathf.Abs(velocity.x) > 2 && Mathf.Sign(velocity.x) != xInput && controller.collisionInfo.below)
         {
-            currentMoveSpeed = walkSpeed;
+            currentMoveSpeed = 0;
             print("Skidding!");
         }
 
         float dynamicGravity = 0;
 
-        currentMoveSpeed = AdjustMoveSpeed(currentMoveSpeed);
+        if(controller.collisionInfo.isGrounded)
+            currentMoveSpeed = AdjustMoveSpeed(currentMoveSpeed);
 
         if (velocity.y < 0)
         {
@@ -88,12 +106,11 @@ public class TestPlayer : MonoBehaviour
         else
             dynamicGravity = gravity;
 
-        if (currentMode == SmoothMode.lerp) ;
-        //velocity.x = Mathf.Lerp(velocity.x, xInput * moveSpeed, Time.deltaTime * 2);
-        else
-        {
-            velocity.x = Mathf.SmoothDamp(velocity.x, xInput * currentMoveSpeed, ref store, accelerationTime);
-        }
+
+
+
+        velocity.x = Mathf.SmoothDamp(velocity.x, xInput * currentMoveSpeed, ref store, accelerationTime);
+        
         if (Input.GetButtonDown("Jump"))
         {
             if (controller.collisionInfo.isGrounded || graceTimer > 0)
@@ -119,6 +136,10 @@ public class TestPlayer : MonoBehaviour
     }
 
 
+    private void InvertBounce()
+    {
+        velocity = new Vector2(velocity.x, minimumJumpVelocity);
+    }
 
     public void JumpGracePeriod()
     {
@@ -141,5 +162,4 @@ public class TestPlayer : MonoBehaviour
 
         return newSpeed;
     }
-
 }

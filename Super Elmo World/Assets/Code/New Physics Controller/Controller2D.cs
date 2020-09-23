@@ -10,15 +10,16 @@ public class Controller2D : MonoBehaviour
     public int horizontalRayCount = 4, verticalRayCount = 4;
     public CollisionInfo collisionInfo;
     public bool ignoreOneWayPlatformThisFrame;
-    public bool invertYAxis = false;
+    
 
     [SerializeField] private float maxClimbableSlopeAngle = 60f;
     [SerializeField] private float maxDescendableSlopeAngle = 60f;
-
     [SerializeField] private LayerMask collisionMask = 0;
     private LayerMask originalCollisionMask;
     [SerializeField] private LayerMask triggerMask = 0;
     [SerializeField] private LayerMask oneWayPlatformMask;
+    private bool invertYAxis = false;
+
     private const float SKIN_WIDTH = 0.015f;
     private Rigidbody2D rb2d;
     private Transform objectTransform;
@@ -26,12 +27,16 @@ public class Controller2D : MonoBehaviour
     private RaycastOrigins raycastOrigins;
 
     private float horizontalRaySpacing, verticalRaySpacing;
+    private float ignoreSlopeTime = 1f;
+    private float ignoreTimer = 0f;
 
     #region  Events/Properties
+    public bool YAxisIsInverted { get { return invertYAxis; } }
     public float MaxClimbableAngle {get {return maxClimbableSlopeAngle;}}
     public LayerMask CollisionMask {get{return collisionMask;}}
 
 
+    public event Action OnYAxisInverted;
     public event Action OnLandedEvent;
     public event Action OnFellEvent;
     public event Action<Collider2D> OnTriggerEnter;
@@ -161,6 +166,12 @@ public class Controller2D : MonoBehaviour
         return 0;
     }
 
+    public void InvertYAxis()
+    {
+        invertYAxis = !invertYAxis;
+        OnYAxisInverted?.Invoke();
+    }
+
     /// <summary>
     /// Resolves the collisions moving horizontally and vertically, then with the calculated values translates to velocity vector.
     /// </summary>
@@ -193,6 +204,8 @@ public class Controller2D : MonoBehaviour
 
         //if(velocity.y != 0)
             VerticalCollisionRes(ref velocity);
+
+        ignoreSlopeTime -= Time.deltaTime;
 
         ignoreOneWayPlatformThisFrame = false;
 
@@ -270,15 +283,20 @@ public class Controller2D : MonoBehaviour
         float moveDistance = Mathf.Abs(velocity.x);
         float climbVelocityY = Mathf.Sin(slopeAngle * Mathf.Deg2Rad) * moveDistance;
 
-        // If velocity Y is lower then the object is trying to move upward so do not attach to the slope.
-        if(velocity.y <= climbVelocityY)
+        if (velocity.y <= (climbVelocityY))
         {
+            Debug.Log($"Velocity: {velocity.y}, Climb Velocity: {climbVelocityY}");
             velocity.y = Mathf.Sin(slopeAngle * Mathf.Deg2Rad) * moveDistance;
             velocity.x = Mathf.Cos(slopeAngle * Mathf.Deg2Rad) * moveDistance * Mathf.Sign(velocity.x);
-            
+
             collisionInfo.below = true;
             collisionInfo.ascendingSlope = true;
             collisionInfo.currentSlopeAngle = slopeAngle;
+        }
+        else
+        {
+            //ignoreTimer = ignoreSlopeTime;
+            // Start a timer to ingore attatch to slope for few frames.
         }
     }
 

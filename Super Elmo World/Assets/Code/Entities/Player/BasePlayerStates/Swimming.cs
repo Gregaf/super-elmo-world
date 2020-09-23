@@ -42,15 +42,9 @@ public class Swimming : PlayerState
 
     }
 
-    private bool AbleToPaddle()
-    {
-        return (swimTimer >= playerMove.swimJumpInterval);
-    }
-
     private void Paddle(InputAction.CallbackContext context)
     {
-        if (!AbleToPaddle())
-            return;
+        
 
         //controller2D.SetVerticalForce(playerMove.paddleVelocity);
 

@@ -31,7 +31,7 @@ public class Move : GroundState
         playerMove.currentSpeed = HandleRunSpeed(playerMove.currentSpeed, playerMove.runAcceleration);
 
         //controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, playerMove.currentSpeed * playerInput.MovementInput.x, Time.deltaTime * playerMove.groundAcceleration));
-        playerEntity.velocity.x = Mathf.SmoothDamp(playerEntity.velocity.x, playerMove.currentSpeed * playerInput.MovementInput.x, ref storeFloat, 0.25f);
+        playerEntity.velocity.x = Mathf.SmoothDamp(playerEntity.velocity.x, playerMove.currentSpeed * playerInput.MovementInput.x, ref storeFloat, playerMove.groundAccelerationTime);
 
         if (!playerInput.IsMovingHorizontally)
             playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.IdleState);

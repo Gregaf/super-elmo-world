@@ -10,6 +10,8 @@ public class WallSliding : PlayerState
     private float wallStickTimer;
     private bool unstickTimerStart;
 
+    private float fStore;
+
     public WallSliding(PlayerController playerEntity) : base(playerEntity)
     {
 
@@ -65,7 +67,8 @@ public class WallSliding : PlayerState
         }
 
         //controller2D.SetVerticalForce(Mathf.Lerp(controller2D.Velocity.y, -playerMove.wallSlideSpeed, Time.deltaTime * 3f));
-        playerEntity.velocity.y = Mathf.Lerp(playerEntity.velocity.y, -playerMove.wallSlideSpeed, Time.deltaTime * 3f);
+        //playerEntity.velocity.y = Mathf.Lerp(playerEntity.velocity.y, -playerMove.wallSlideSpeed, Time.deltaTime * 3f);
+        playerEntity.velocity.y = Mathf.SmoothDamp(playerEntity.velocity.y, -playerMove.walkSpeed, ref fStore, .25f);
     }
 
     private void LaunchFromWall(InputAction.CallbackContext context)

@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 
 public class GroundState : PlayerState
 {
+
     private float successfulJumpTime = 0.085f;
     private float successfulJumpTimer = 0;
 
@@ -22,7 +23,7 @@ public class GroundState : PlayerState
     {
         playerInput.playerControls.Basic.Jump.performed += TransitionToJump;
 
-        playerMove.dynamicGravity = playerMove.baseGravity;
+        //playerMove.dynamicGravity = playerMove.baseGravity;
 
         successfulJumpTimer = successfulJumpTime;
     }
@@ -40,7 +41,7 @@ public class GroundState : PlayerState
 
         successfulJumpTimer -= Time.deltaTime;
 
-        playerEntity.velocity.y += -(playerMove.dynamicGravity * Time.deltaTime);
+        playerEntity.velocity.y += (playerMove.dynamicGravity * Time.deltaTime);
 
 
         if (playerInput.MovementInput.y == -1)
@@ -65,7 +66,7 @@ public class GroundState : PlayerState
         if (successCount == requiredSuccessfulJumps)
         {
             successCount = 0;
-            playerEntity.velocity.y = playerMove.jumpVelocity * 1.5f;
+            playerEntity.velocity.y = playerMove.jumpVelocity * 1;
 
         }
         else
@@ -74,6 +75,8 @@ public class GroundState : PlayerState
         }
 
         playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.JumpState);
+
+        Debug.LogError("Check velocity.");
     }
 }
 

@@ -41,8 +41,8 @@ public class Crouch : PlayerState
         //controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, 0, Time.deltaTime * playerMove.groundAcceleration));
         //controller2D.SetVerticalForce(Mathf.Lerp(controller2D.Velocity.y, -playerMove.baseGravity * 4, Time.deltaTime));
 
-        playerEntity.velocity.x = Mathf.Lerp(playerEntity.velocity.x, 0, Time.deltaTime * playerMove.groundAcceleration);
-        playerEntity.velocity.y = Mathf.Lerp(playerEntity.velocity.y, -playerMove.baseGravity * 4, Time.deltaTime);
+        //playerEntity.velocity.x = Mathf.Lerp(playerEntity.velocity.x, 0, Time.deltaTime * playerMove.groundAcceleration);
+        //playerEntity.velocity.y = Mathf.Lerp(playerEntity.velocity.y, -playerMove.baseGravity * 4, Time.deltaTime);
 
         if (CanStand() && playerInput.MovementInput.y != -1)
         {

@@ -12,6 +12,8 @@ public class PlayerController : Entity
     public LayerMask WhatIsBackWall;
     public float inviciblityTime;
 
+    private SpriteRenderer spriteRenderer;
+
     public PlayerInputHandler PlayerInputHandler { get; private set; }
     public Animator animator { get; private set; }
     //public FSM movementModeFsm { get; private set; }
@@ -28,11 +30,6 @@ public class PlayerController : Entity
     #endregion
 
     private PlayerGrowth playerGrowth;
-
-    public bool isCrouching;
-    private Vector2 crouchSize;
-    private Vector2 originalSize;
-
     private Invincibility invincibility;
 
     protected override void Awake()
@@ -41,6 +38,7 @@ public class PlayerController : Entity
         
         PlayerInputHandler = this.GetComponent<PlayerInputHandler>();
         invincibility = this.GetComponent<Invincibility>();
+        spriteRenderer = this.GetComponentInChildren<SpriteRenderer>();
         baseMovementFSM = new FSM();
         //movementModeFsm = new FSM();
         animator = this.GetComponentInChildren<Animator>();
@@ -63,12 +61,8 @@ public class PlayerController : Entity
         GroundPoundState = new GroundPound(this);
 
         baseMovementFSM.InitializeFSM(IdleState);
-
-        playerMoveProperties.baseGravity = (playerMoveProperties.jumpHeight) / (2 * (playerMoveProperties.jumpTime * playerMoveProperties.jumpTime));
-
-        playerMoveProperties.jumpVelocity = Mathf.Sqrt(2 * playerMoveProperties.jumpHeight * playerMoveProperties.baseGravity);
-
-        crouchSize = new Vector2(1, 0.9f);
+        
+        playerMoveProperties.CalculatePhysicsValues();
 
         PlayerInputHandler.playerControls.Basic.ChangeDirection.performed += Flip;
     }
@@ -94,6 +88,8 @@ public class PlayerController : Entity
         baseMovementFSM.UpdateCurrentState();   
 
         controller2D.Move(velocity * Time.deltaTime);
+
+        spriteRenderer.flipX = velocity.x > 0 ? (true & !controller2D.YAxisIsInverted) : (controller2D.YAxisIsInverted);
     }
 
     private void LateUpdate()
@@ -121,11 +117,11 @@ public class PlayerController : Entity
     {
         if (context.ReadValue<float>() < 0 && isFacingRight || context.ReadValue<float>() > 0 && !isFacingRight)
         {
-            isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1;
+            //isFacingRight = !isFacingRight;
+            //Vector3 localScale = transform.localScale;
+            //localScale.x *= -1;
 
-            this.transform.localScale = localScale;
+            //this.transform.localScale = localScale;
         }
     }
 

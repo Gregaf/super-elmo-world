@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Jump : AirState
 {
+    private float minimumJumpTimer;
+
     public Jump(PlayerController playerEntity) : base(playerEntity)
     {
     }
@@ -12,7 +14,10 @@ public class Jump : AirState
     public override void Enter()
     {
         base.Enter();
-        //SetJump();
+
+        playerMove.dynamicGravity = playerMove.normalGravity;
+
+        minimumJumpTimer = playerMove.minimumJumpTime;
     }
 
     public override void Exit()
@@ -25,8 +30,13 @@ public class Jump : AirState
     {
         base.Tick();
 
-        if (!playerInput.JumpButtonActive)
-            playerMove.dynamicGravity = playerMove.baseGravity * playerMove.fallMultiplier;
+        minimumJumpTimer -= Time.deltaTime;
+
+        if (!playerInput.JumpButtonActive && minimumJumpTimer > 0)
+        {
+            playerEntity.velocity.y = playerMove.minimumJumpVelocity;
+            playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.FallState);
+        }
 
         if (playerEntity.velocity.y < -0.1f)
         {

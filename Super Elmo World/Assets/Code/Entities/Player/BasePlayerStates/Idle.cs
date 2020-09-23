@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Idle : GroundState
 {
-    float storeFloat;
+    private float storeFloat;
 
     public Idle(PlayerController playerEntity) : base(playerEntity)
     {
@@ -32,7 +32,7 @@ public class Idle : GroundState
 
         // Need to multiply by Acceleration.
         //controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, 0, Time.deltaTime * playerMove.groundAcceleration));
-        playerEntity.velocity.x = Mathf.SmoothDamp(playerEntity.velocity.x, 0, ref storeFloat, 0.25f);
+        playerEntity.velocity.x = Mathf.SmoothDamp(playerEntity.velocity.x, 0, ref storeFloat, playerMove.groundAccelerationTime);
 
         if (playerInput.IsMovingHorizontally)
         {

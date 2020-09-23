@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class AirState : PlayerState
 {
-    private float wallJumpTimer;
-    private float wallJumpWaitTime = 0.05f;
+    
+    private float storeFloat = 0;
 
     public AirState(PlayerController playerEntity) : base(playerEntity)
     {
@@ -15,11 +15,6 @@ public class AirState : PlayerState
 
     public override void Enter()
     {
-        if (playerEntity.baseMovementFSM.PreviousState == playerEntity.WallSlideState)
-        {
-            wallJumpTimer = wallJumpWaitTime;
-        }
-
     }
 
     public override void Exit()
@@ -29,16 +24,14 @@ public class AirState : PlayerState
 
     public override void Tick()
     {
-        wallJumpTimer -= Time.deltaTime;
-
-        playerEntity.velocity.x = Mathf.Lerp(playerEntity.velocity.x, playerInput.MovementInput.x * playerMove.currentSpeed, Time.deltaTime * playerMove.airAcceleration);
-        playerEntity.velocity.y += -(playerMove.dynamicGravity * Time.deltaTime);
+        //playerEntity.velocity.x = Mathf.Lerp(playerEntity.velocity.x, playerInput.MovementInput.x * playerMove.currentSpeed, Time.deltaTime * playerMove.airAcceleration);
+        //playerEntity.velocity.y += -(playerMove.dynamicGravity * Time.deltaTime);
         //controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, playerInput.MovementInput.x * playerMove.currentSpeed, Time.deltaTime * playerMove.airAcceleration));
         //controller2D.SetVerticalForce(Mathf.Lerp(controller2D.Velocity.y, -playerMove.dynamicGravity, Time.deltaTime));
 
         //if (playerEntity.TouchingWall((int)playerInput.MovementInput.x) && wallJumpTimer < 0)
-        if(WallJumpCol() && wallJumpTimer < 0)
-            playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.WallSlideState);
+        playerEntity.velocity.x = Mathf.SmoothDamp(playerEntity.velocity.x, playerMove.currentSpeed * playerInput.MovementInput.x, ref storeFloat, playerMove.airAccelerationTime);
+        playerEntity.velocity.y += playerMove.dynamicGravity * Time.deltaTime;
 
         if (playerInput.MovementInput.y == -1)
         {
@@ -46,16 +39,6 @@ public class AirState : PlayerState
                 playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.GroundPoundState);
 
         }
-    }
-
-    public bool WallJumpCol()
-    {
-        if (controller2D.collisionInfo.left && playerInput.MovementInput.x == -1)
-            return true;
-        else if (controller2D.collisionInfo.right && playerInput.MovementInput.x == 1)
-            return true;
-        else
-            return false; 
     }
 
 }
