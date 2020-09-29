@@ -64,7 +64,7 @@ public class PlayerController : Entity
         
         playerMoveProperties.CalculatePhysicsValues();
 
-        PlayerInputHandler.playerControls.Basic.ChangeDirection.performed += Flip;
+        //PlayerInputHandler.playerControls.Basic.ChangeDirection.performed += Flip;
     }
 
     private void OnEnable()
@@ -76,20 +76,24 @@ public class PlayerController : Entity
     {
         controller2D.OnTriggerEnter -= BounceOnPlayer;
 
-        PlayerInputHandler.playerControls.Basic.ChangeDirection.performed -= Flip;
+        //PlayerInputHandler.playerControls.Basic.ChangeDirection.performed -= Flip;
     }
 
     private void Update()
     {
         // Stop y movement when hitting head.
-        if((controller2D.collisionInfo.below && velocity.y < 0 && !controller2D.collisionInfo.isOnSlope) || controller2D.collisionInfo.above)
+        if ((controller2D.collisionInfo.below && velocity.y < 0 && !controller2D.collisionInfo.isOnSlope) || controller2D.collisionInfo.above)
             velocity.y = 0;
-        
+
+        if (controller2D.collisionInfo.above)
+            velocity.y = 0;
+
         baseMovementFSM.UpdateCurrentState();   
 
         controller2D.Move(velocity * Time.deltaTime);
 
         spriteRenderer.flipX = velocity.x > 0 ? (true & !controller2D.YAxisIsInverted) : (controller2D.YAxisIsInverted);
+
     }
 
     private void LateUpdate()
@@ -113,17 +117,17 @@ public class PlayerController : Entity
         }
     }
 
-    private void Flip(InputAction.CallbackContext context)
-    {
-        if (context.ReadValue<float>() < 0 && isFacingRight || context.ReadValue<float>() > 0 && !isFacingRight)
-        {
-            //isFacingRight = !isFacingRight;
-            //Vector3 localScale = transform.localScale;
-            //localScale.x *= -1;
+    //private void Flip(InputAction.CallbackContext context)
+    //{
+    //    if (context.ReadValue<float>() < 0 && isFacingRight || context.ReadValue<float>() > 0 && !isFacingRight)
+    //    {
+    //        //isFacingRight = !isFacingRight;
+    //        //Vector3 localScale = transform.localScale;
+    //        //localScale.x *= -1;
 
-            //this.transform.localScale = localScale;
-        }
-    }
+    //        //this.transform.localScale = localScale;
+    //    }
+    //}
 
     private void SetAnimatorParameters()
     {

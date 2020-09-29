@@ -18,7 +18,6 @@ public class PlayerGrowth : MonoBehaviour, IDamageable
 
     public event Action OnShrink;
 
-
     private void Awake()
     {
         playerController = this.GetComponent<PlayerController>();
@@ -27,8 +26,19 @@ public class PlayerGrowth : MonoBehaviour, IDamageable
 
     }
 
+    private void OnEnable()
+    {
+    }
+
+    private void OnDisable()
+    {
+        playerController.controller2D.OnTriggerEnter -= OnTouchEnemy;
+    }
+
     private void Start()
     {
+        playerController.controller2D.OnTriggerEnter += OnTouchEnemy;
+
         growthFsm.AddToStateList((int)PlayerGrowthStates.SMALL, new Small(playerController, smallAnimations, this));
         growthFsm.AddToStateList((int)PlayerGrowthStates.BIG, new Big(playerController, bigAnimations, this));
 
@@ -37,7 +47,7 @@ public class PlayerGrowth : MonoBehaviour, IDamageable
 
     private void Update()
     {
-
+        growthFsm.UpdateCurrentState();
     }
 
     public void GrowTo(PlayerGrowthStates growthState)
@@ -52,30 +62,17 @@ public class PlayerGrowth : MonoBehaviour, IDamageable
         growthFsm.ChangeCurrentState((int)growthState);
     }
 
-    public void Shrink()
+    private void OnTouchEnemy(Collider2D collider2D)
     {
+        Enemy collidingWith = collider2D.GetComponent<Enemy>();
 
-    }
-
-    private void OnTriggerEnter2D(Collider2D collider2D)
-    {
-        if (collider2D.GetComponent<Enemy>() != null)
+        if (transform.position.y > collider2D.transform.position.y && collidingWith.isVunerable)
         {
-            Enemy collidingWith = collider2D.GetComponent<Enemy>();
-
-
-            float posDif = Mathf.Abs(playerController.entityCollider.bounds.min.y - collidingWith.entityCollider.bounds.max.y);
-
-            if (posDif < .5f && collidingWith.isVunerable)
-            {
-                //playerController.Controller2D.SetVerticalForce(15f);
-            }
-            else
-            {
-                TakeDamage(1);
-            }
-
-
+            //playerController.Controller2D.SetVerticalForce(15f);
+        }
+        else
+        {
+            TakeDamage(1);
         }
     }
 
@@ -87,11 +84,10 @@ public class PlayerGrowth : MonoBehaviour, IDamageable
         invincibility.BecomeInvicible(1.25f);
 
         OnShrink?.Invoke();
-
     }
 
     public void Kill()
     {
-
+        // Change to the death state.
     }
 }

@@ -33,15 +33,19 @@ public class MatchFloorOrient : MonoBehaviour
 
     private void Update()
     {
-        RaycastHit2D hit2D = Physics2D.Raycast(aestheticTransform.position, direction, 2f, collisionMask);
+        RaycastHit2D hit2D = Physics2D.Raycast(aestheticTransform.position, direction, float.PositiveInfinity, collisionMask);
 
         if (hit2D)
         {
-            
+            bool slopeDir = Mathf.Sign(hit2D.normal.x) <= 0 ? true : false;
+
 
             float angle = Vector2.Angle(hit2D.normal, Vector2.up);
 
             Vector3 newRotation = Vector3.zero;
+
+            if (!slopeDir)
+                angle = -angle;
 
             newRotation.z = angle;
 

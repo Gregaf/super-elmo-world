@@ -6,7 +6,7 @@ public class WallSliding : PlayerState
 {
 
     private int wallDirection = 0;
-    private float timeTillUnstick = 0.15f;
+    private float timeTillUnstick = 0.25f;
     private float wallStickTimer;
     private bool unstickTimerStart;
 
@@ -55,9 +55,9 @@ public class WallSliding : PlayerState
             wallStickTimer -= Time.deltaTime;
 
 
-        if (wallStickTimer <= 0)
+        if (wallStickTimer <= 0 || !(controller2D.collisionInfo.left || controller2D.collisionInfo.right))
         {
-            playerEntity.velocity = new Vector2((-wallDirection * playerMove.wallLaunchVelocity.x) / 2, playerMove.wallLaunchVelocity.y / 4);
+            playerEntity.velocity = new Vector2((-wallDirection * playerMove.wallLaunchVelocity.x) / 3, playerMove.wallLaunchVelocity.y / 4);
             playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.FallState);
         }
 
@@ -66,8 +66,6 @@ public class WallSliding : PlayerState
             playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.IdleState);
         }
 
-        //controller2D.SetVerticalForce(Mathf.Lerp(controller2D.Velocity.y, -playerMove.wallSlideSpeed, Time.deltaTime * 3f));
-        //playerEntity.velocity.y = Mathf.Lerp(playerEntity.velocity.y, -playerMove.wallSlideSpeed, Time.deltaTime * 3f);
         playerEntity.velocity.y = Mathf.SmoothDamp(playerEntity.velocity.y, -playerMove.walkSpeed, ref fStore, .25f);
     }
 

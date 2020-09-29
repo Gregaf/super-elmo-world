@@ -23,7 +23,7 @@ public class GroundState : PlayerState
     {
         playerInput.playerControls.Basic.Jump.performed += TransitionToJump;
 
-        //playerMove.dynamicGravity = playerMove.baseGravity;
+        playerMove.dynamicGravity = playerMove.normalGravity;
 
         successfulJumpTimer = successfulJumpTime;
     }
@@ -31,7 +31,6 @@ public class GroundState : PlayerState
     public override void Exit()
     {
         playerInput.playerControls.Basic.Jump.performed -= TransitionToJump;
-
     }
 
     public override void Tick()
@@ -43,19 +42,13 @@ public class GroundState : PlayerState
 
         playerEntity.velocity.y += (playerMove.dynamicGravity * Time.deltaTime);
 
-
         if (playerInput.MovementInput.y == -1)
-        {
             playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.CrouchState);
 
-        }
 
-        if (!playerEntity.controller2D.collisionInfo.isGrounded)
-        {
-            // Reset y velocity as it accumulates.
-            //playerEntity.entityVelocity.y = 0;
+        if (!playerEntity.controller2D.collisionInfo.isGrounded)     
             playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.FallState);
-        }
+        
     }
 
     private void TransitionToJump(InputAction.CallbackContext context)
@@ -75,8 +68,6 @@ public class GroundState : PlayerState
         }
 
         playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.JumpState);
-
-        Debug.LogError("Check velocity.");
     }
 }
 

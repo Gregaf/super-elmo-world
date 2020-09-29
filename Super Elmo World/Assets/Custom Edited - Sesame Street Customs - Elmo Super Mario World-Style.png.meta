@@ -2064,7 +2064,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -2104,132 +2104,6 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites:
-    - serializedVersion: 2
-      name: Custom Edited - Sesame Street Customs - Elmo Super Mario World-Style_0
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 687
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bd001258af0e8d10800000000000000
-      internalID: 2129656889398529464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Sesame Street Customs - Elmo Super Mario World-Style_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 687
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27c5f9370c68e1510800000000000000
-      internalID: 1521801885229472882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Sesame Street Customs - Elmo Super Mario World-Style_2
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 687
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ff34f76cd8f12480800000000000000
-      internalID: -8925579360951058443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Sesame Street Customs - Elmo Super Mario World-Style_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 687
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9774609bee6f22140800000000000000
-      internalID: 4693585266840323961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Sesame Street Customs - Elmo Super Mario World-Style_4
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 687
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48ea49a7cf5f94c70800000000000000
-      internalID: 8955959798740070020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Custom Edited - Sesame Street Customs - Elmo Super Mario World-Style_5
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 687
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcba92f9a1d57bb00800000000000000
-      internalID: 844245824076098509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: Custom Edited - Sesame Street Customs - Elmo Super Mario World-Style_6
       rect:
@@ -2655,9 +2529,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 365
-        y: 657
+        y: 658
         width: 15
-        height: 20
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2676,9 +2550,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 382
-        y: 657
+        y: 659
         width: 16
-        height: 20
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2697,9 +2571,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 401
-        y: 657
+        y: 658
         width: 14
-        height: 20
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2739,9 +2613,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 433
-        y: 657
+        y: 659
         width: 16
-        height: 20
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2760,9 +2634,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 450
-        y: 657
+        y: 658
         width: 16
-        height: 20
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2823,9 +2697,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 501
-        y: 657
+        y: 658
         width: 15
-        height: 21
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2865,9 +2739,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 535
-        y: 657
+        y: 660
         width: 15
-        height: 21
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3008,27 +2882,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Sesame Street Customs - Elmo Super Mario World-Style_43
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 619
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56686ef4f74943870800000000000000
-      internalID: 8661711257862571621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Custom Edited - Sesame Street Customs - Elmo Super Mario World-Style_44
       rect:
         serializedVersion: 2
@@ -3096,9 +2949,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 174
-        y: 619
+        y: 621
         width: 15
-        height: 20
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

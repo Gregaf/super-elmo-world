@@ -43,7 +43,7 @@ public class Enemy : Entity, IDamageable, IBounceable
 
     protected override void OnTriggerEnter2D(Collider2D collider2D)
     {
-        EnemyFsm.CurrentState.OnTriggerEnter2D(collider2D);
+        //EnemyFsm.CurrentState.OnTriggerEnter2D(collider2D);
 
     }
 

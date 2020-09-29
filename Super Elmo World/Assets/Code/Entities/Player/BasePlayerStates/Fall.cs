@@ -27,7 +27,7 @@ public class Fall : AirState
 
         playerInput.playerControls.Basic.Jump.performed += JumpTransition;
 
-        controller2D.OnFellEvent += ResetGraceTime;
+        controller2D.OnFellEvent += ResetOnFall;
     }
 
     public override void Exit()
@@ -36,7 +36,7 @@ public class Fall : AirState
 
         playerInput.playerControls.Basic.Jump.performed -= JumpTransition;
 
-        controller2D.OnFellEvent -= ResetGraceTime;
+        controller2D.OnFellEvent -= ResetOnFall;
     }
 
     public override void Tick()
@@ -54,10 +54,6 @@ public class Fall : AirState
         {
             playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.IdleState);
 
-            //if (!playerInput.IsMovingHorizontally)
-            //    locomotionFsm.ChangeCurrentState((int)PlayerGroundStates.IDLE);
-            //else
-            //    locomotionFsm.ChangeCurrentState((int)PlayerGroundStates.MOVING);
         }
     }
 
@@ -70,10 +66,9 @@ public class Fall : AirState
         }
     }
 
-    private void ResetGraceTime()
+    private void ResetOnFall()
     {
         graceTimer = playerMove.graceTime;
-        Debug.Log("GG");
     }
     
     public bool WallJumpCol()

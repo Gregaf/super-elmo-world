@@ -9,10 +9,11 @@ public class Crouch : PlayerState
 
     private Vector2 crouchSize;
     private Vector2 originalSize;
+    private float store;
 
     public Crouch(PlayerController playerEntity) : base(playerEntity)
     {
-        crouchSize = new Vector2(1, 0.9f);
+        crouchSize = new Vector2(1, 0.75f);
     }
 
     public override void Enter()
@@ -44,6 +45,9 @@ public class Crouch : PlayerState
         //playerEntity.velocity.x = Mathf.Lerp(playerEntity.velocity.x, 0, Time.deltaTime * playerMove.groundAcceleration);
         //playerEntity.velocity.y = Mathf.Lerp(playerEntity.velocity.y, -playerMove.baseGravity * 4, Time.deltaTime);
 
+        playerEntity.velocity.y += playerMove.normalGravity * 4 * Time.deltaTime;
+        playerEntity.velocity.x = Mathf.SmoothDamp(playerEntity.velocity.x, 0, ref store, 0.35f);
+
         if (CanStand() && playerInput.MovementInput.y != -1)
         {
             playerEntity.baseMovementFSM.ReturnToPreviousState();
@@ -55,15 +59,20 @@ public class Crouch : PlayerState
     {
         if (controller2D.collisionInfo.isGrounded)
         {
-            playerEntity.velocity = new Vector2(2 * playerInput.MovementInput.x, playerMove.jumpVelocity / 1.25f);
+            playerEntity.velocity = new Vector2((2 * playerInput.MovementInput.x) + playerEntity.velocity.x, playerMove.jumpVelocity / 1.25f);
             //controller2D.SetForce(new Vector2(2 * playerInput.MovementInput.x, playerMove.jumpVelocity / 1.25f));
         }
     }
 
     public bool CanStand()
     {
-        float yPoint = Mathf.Abs(crouchSize.y - originalSize.y);
-        Vector2 standPoint = new Vector2(playerEntity.entityCollider.bounds.center.x, playerEntity.entityCollider.bounds.max.y + yPoint);
+        float yPoint = controller2D.YAxisIsInverted ? crouchSize.y - originalSize.y : originalSize.y - crouchSize.y;
+        float extent = controller2D.YAxisIsInverted ? playerEntity.entityCollider.bounds.min.y : playerEntity.entityCollider.bounds.max.y;
+
+        Vector2 standPoint = new Vector2(playerEntity.entityCollider.bounds.center.x, extent + yPoint);
+
+        
+            
 
         Debug.DrawLine(playerEntity.transform.position, standPoint);
         
