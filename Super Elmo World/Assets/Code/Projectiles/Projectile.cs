@@ -7,22 +7,21 @@ public abstract class Projectile : MonoBehaviour
 {
     public LayerMask whoToDamage;
 
-    protected float travelSpeed;
-    protected float bulletAcceleration;
+    [SerializeField] protected float travelSpeed;
+    [SerializeField] protected float bulletAcceleration;
 
-    protected CharacterController2D controller2D;
-    private BoxCollider2D bulletCollider2D;
+
+    protected Vector2 velocity;
+    protected Controller2D controller2D;
+    protected BoxCollider2D bulletCollider2D;
+
 
     protected virtual void Awake()
     {
-        controller2D = this.GetComponent<CharacterController2D>();
+        controller2D = this.GetComponent<Controller2D>();
         bulletCollider2D = this.GetComponent<BoxCollider2D>();
     }
 
-    public virtual void Launch()
-    { 
-        
-    }
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (bulletCollider2D.IsTouchingLayers(whoToDamage))

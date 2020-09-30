@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController2D))]
 public class Fireball : Projectile, ILaunchable
 {
     public float fallSpeed;
     public float bounceHeight;
 
+    private float currentXVelocity;
 
     protected override void Awake()
     {
@@ -17,17 +17,18 @@ public class Fireball : Projectile, ILaunchable
 
     private void Update()
     {
-        controller2D.SetVerticalForce(Mathf.Lerp(controller2D.Velocity.y, -fallSpeed, Time.deltaTime));
-        controller2D.SetHorizontalForce(Mathf.Lerp(controller2D.Velocity.x, travelSpeed, Time.deltaTime * bulletAcceleration));
+        velocity.y += fallSpeed * Time.deltaTime;
+        velocity.x = Mathf.SmoothDamp(velocity.x, travelSpeed, ref currentXVelocity, bulletAcceleration);
 
-        if (controller2D.ControlState.isGrounded)
-            controller2D.SetVerticalForce(bounceHeight);
+        if (controller2D.collisionInfo.isGrounded)
+            velocity.y = bounceHeight;
 
+        controller2D.Move(velocity * Time.deltaTime);
     }
 
     public void Launch(float launchSpeed, int direction)
     {
-        controller2D.SetHorizontalForce(launchSpeed * direction);
+        velocity.x = launchSpeed * direction;
 
         travelSpeed *= direction;
     }

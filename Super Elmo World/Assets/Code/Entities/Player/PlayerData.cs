@@ -9,6 +9,8 @@ public class PlayerData : MonoBehaviour
     [SerializeField] private int currentLives = 1;
     private ItemManager itemManager;
     
+
+    // Events to be raised for UI.
     public event Action<int> OnPlayerCoinsChange;
     public event Action<int> OnPlayerScoreChange;
     public event Action<int> OnPlayerLivesChange;

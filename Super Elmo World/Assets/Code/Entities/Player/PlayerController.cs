@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 
 [RequireComponent(typeof(Controller2D), typeof(PlayerInputHandler))]
-public class PlayerController : Entity
+public class PlayerController : Entity, IDamageable
 {
     public PlayerMoveProperties playerMoveProperties;
     public LayerMask WhatIsWallJumpable;
@@ -13,11 +12,17 @@ public class PlayerController : Entity
     public float inviciblityTime;
 
     private SpriteRenderer spriteRenderer;
+    private Invincibility invincibility;
+
+    [Header("Animator Overrides")]
+    [SerializeField] private AnimatorOverrideController smallAnimations;
+    [SerializeField] private AnimatorOverrideController bigAnimations;
 
     public PlayerInputHandler PlayerInputHandler { get; private set; }
     public Animator animator { get; private set; }
     //public FSM movementModeFsm { get; private set; }
     public FSM baseMovementFSM { get; private set; }
+    public FSM growthFsm { get; private set; }
 
     #region PlayerBaseStates
     public Idle IdleState { get; private set; }
@@ -29,8 +34,11 @@ public class PlayerController : Entity
     public GroundPound GroundPoundState { get; private set; }
     #endregion
 
-    private PlayerGrowth playerGrowth;
-    private Invincibility invincibility;
+    public Dead DeadState { get; private set; }
+
+
+    public event Action OnShrink;
+
 
     protected override void Awake()
     {
@@ -38,19 +46,17 @@ public class PlayerController : Entity
         
         PlayerInputHandler = this.GetComponent<PlayerInputHandler>();
         invincibility = this.GetComponent<Invincibility>();
+
         spriteRenderer = this.GetComponentInChildren<SpriteRenderer>();
-        baseMovementFSM = new FSM();
-        //movementModeFsm = new FSM();
         animator = this.GetComponentInChildren<Animator>();
+
+        baseMovementFSM = new FSM();
+        growthFsm = new FSM();
     }
 
     protected override void Start()
     {
         base.Start();
-
-        //movementModeFsm.AddToStateList((int)PlayerMoveModes.GROUND, new GroundMovement(this));
-
-        //movementModeFsm.InitializeFSM((int)PlayerMoveModes.GROUND);
 
         IdleState = new Idle(this);
         MoveState = new Move(this);
@@ -60,11 +66,14 @@ public class PlayerController : Entity
         CrouchState = new Crouch(this);
         GroundPoundState = new GroundPound(this);
 
+        growthFsm.AddToStateList((int)PlayerGrowthStates.SMALL, new Small(this, smallAnimations));
+        growthFsm.AddToStateList((int)PlayerGrowthStates.BIG, new Big(this, bigAnimations));
+
+        growthFsm.InitializeFSM((int)PlayerGrowthStates.SMALL);
         baseMovementFSM.InitializeFSM(IdleState);
         
-        playerMoveProperties.CalculatePhysicsValues();
 
-        //PlayerInputHandler.playerControls.Basic.ChangeDirection.performed += Flip;
+        playerMoveProperties.CalculatePhysicsValues();
     }
 
     private void OnEnable()
@@ -75,8 +84,6 @@ public class PlayerController : Entity
     private void OnDisable()
     {
         controller2D.OnTriggerEnter -= BounceOnPlayer;
-
-        //PlayerInputHandler.playerControls.Basic.ChangeDirection.performed -= Flip;
     }
 
     private void Update()
@@ -117,27 +124,14 @@ public class PlayerController : Entity
         }
     }
 
-    //private void Flip(InputAction.CallbackContext context)
-    //{
-    //    if (context.ReadValue<float>() < 0 && isFacingRight || context.ReadValue<float>() > 0 && !isFacingRight)
-    //    {
-    //        //isFacingRight = !isFacingRight;
-    //        //Vector3 localScale = transform.localScale;
-    //        //localScale.x *= -1;
-
-    //        //this.transform.localScale = localScale;
-    //    }
-    //}
-
     private void SetAnimatorParameters()
     {
         animator.SetBool("isGrounded", controller2D.collisionInfo.isGrounded);
         animator.SetFloat("xMove", Mathf.Abs(velocity.x));
         animator.SetFloat("yMove", velocity.y);
         animator.SetBool("invincible", invincibility.isInvincible);
-
-
     }
+
     public bool TouchingWall(int direction)
     {
         if (direction == 0)
@@ -147,6 +141,27 @@ public class PlayerController : Entity
         Vector2 wallpoint = new Vector2(xPoint + (0.02f * direction), this.entityCollider.bounds.center.y);
 
         return Physics2D.OverlapPoint(wallpoint, WhatIsWallJumpable);
+    }
+
+    public void TakeDamage(int damageToTake)
+    {
+        if (!invincibility.isInvincible)
+        {
+            invincibility.BecomeInvicible(inviciblityTime);
+
+            OnShrink?.Invoke();
+        }
+        else
+        { 
+            // Trying to take damage while invincible.
+        }
+    
+    }
+
+    public void Kill()
+    {
+        
+        growthFsm.ChangeCurrentState(DeadState);
     }
 
 }

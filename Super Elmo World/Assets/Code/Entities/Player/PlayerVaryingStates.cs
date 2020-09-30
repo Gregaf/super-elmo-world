@@ -20,6 +20,7 @@ public enum PlayerGroundStates
 public enum PlayerGrowthStates
 {
     SMALL = 0,
-    BIG = 1
+    BIG = 1,
+    DEAD = 2
 }
 

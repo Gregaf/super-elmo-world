@@ -1,0 +1,1 @@
+Unsure how I want to make use of the different movement modes. Not sure if I want to treat Ground, Swimming, and flying as their own State using a hierarchial FSM.
