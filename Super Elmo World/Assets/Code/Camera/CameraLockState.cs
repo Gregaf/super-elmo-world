@@ -2,12 +2,13 @@
 
 public class CameraLockState : State
 {
-    private FSM ownerFsm;
+    private CameraFollower owner;
+    private Transform lockPoint;
 
-    public CameraLockState(FSM ownerFsm, GameObject owner)
+    public CameraLockState(CameraFollower owner, Transform lockPoint)
     {
-        this.ownerFsm = ownerFsm;
-
+        this.owner = owner;
+        this.lockPoint = lockPoint;
     }
 
     public override void Enter()
@@ -32,6 +33,11 @@ public class CameraLockState : State
 
     public override void Tick()
     {
+        Vector3 targetPoint = lockPoint.position;
 
+
+        owner.MoveCamera(1f, Vector3.zero, targetPoint);
+
+        owner.ZoomCamera(4f, 2f);
     }
 }

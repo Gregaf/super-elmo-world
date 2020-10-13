@@ -8,15 +8,13 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
-
-    [Header("Music")]
-    [Range(0,1)]
-    [SerializeField] private float musicVolume = 1f;
     [SerializeField] private float fadeTime = 1f;
 
+    [Header("Music")]
+    private float musicVolume = 1f;
+
     [Header("Sfx")]
-    [Range(0, 1)]
-    [SerializeField] private float sfxVolume = 1f;
+    private float sfxVolume = 1f;
 
     private void Awake()
     {
@@ -25,10 +23,12 @@ public class AudioManager : MonoBehaviour
         else
             Debug.LogError($"There is already an instance of {this}");
 
-        // musicSource = this.GetComponent<AudioSource>();
-        // sfxSource = this.GetComponent<AudioSource>();
+        //sfxSource.volume = this.sfxVolume;
+    }
 
-        sfxSource.volume = this.sfxVolume;
+    private void Start()
+    {
+        
     }
 
     public void PlaySingleSfx(AudioClip sfxAudioClip)
@@ -59,13 +59,9 @@ public class AudioManager : MonoBehaviour
     public void StopTrack()
     {
         StartCoroutine(FadeMusic(this.musicVolume, 0));
-
-
     }
 
-
-
-
+    
     private IEnumerator FadeMusic(float beginning, float ending)
     {
         float fadeValue = 0;

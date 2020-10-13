@@ -48,6 +48,9 @@ TagManager:
   - name: MiddleGround
     uniqueID: 793522373
     locked: 0
+  - name: Details
+    uniqueID: 475621125
+    locked: 0
   - name: Entities
     uniqueID: 987805017
     locked: 0

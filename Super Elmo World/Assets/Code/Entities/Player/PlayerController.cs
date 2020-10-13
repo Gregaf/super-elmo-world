@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Controller2D), typeof(PlayerInputHandler))]
 public class PlayerController : Entity, IDamageable
 {
+    public AudioClip jumpSfx;
+
     public PlayerMoveProperties playerMoveProperties;
     public LayerMask WhatIsWallJumpable;
     public LayerMask WhatIsBackWall;
@@ -94,6 +96,9 @@ public class PlayerController : Entity, IDamageable
 
         if (controller2D.collisionInfo.above)
             velocity.y = 0;
+
+        if (Input.GetButtonDown("Jump"))
+            AudioManager.Instance.PlaySingleSfx(jumpSfx);
 
         baseMovementFSM.UpdateCurrentState();   
 

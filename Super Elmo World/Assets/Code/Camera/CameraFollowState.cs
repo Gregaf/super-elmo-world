@@ -8,39 +8,21 @@ public class CameraFollowState : State
 {
     private FSM ownerFsm;
     private float speed;
-    private Transform[] targets;
-    private Transform owner;
-    private Vector3 vectorStore;
-    private Vector3 offset = new Vector3(0, 0, 0);
+    private List<Transform> targets;
+    private CameraFollower owner;
+    private Vector3 offset = Vector3.zero;
     private bool active;
-    private BoxCollider2D levelBounds;
 
     float minimumZoomDistance = 10f;
     float maximumZoomDistance = 12f;
-    private Camera gameCamera;
     
 
-    public CameraFollowState(FSM ownerFsm, GameObject owner, Transform[] targets, float speed, BoxCollider2D levelBounds)
+    public CameraFollowState(CameraFollower owner, List<Transform> targets, float speed, Vector3 offset)
     {
-        this.ownerFsm = ownerFsm;
-        this.owner = owner.transform;
+        this.owner = owner;
         this.targets = targets;
         this.speed = speed;
-        this.levelBounds = levelBounds;
-
-        gameCamera = GameObject.FindObjectOfType<Camera>();
-    }
-
-
-    private void MoveCamera()
-    {
-        
-        Vector3 target = offset;
-
-        //Vector2 camBounds = GetCameraExtents();
-
-        target.z = -10;
-        owner.position = Vector3.SmoothDamp(owner.position, new Vector3((int) target.x, (int) target.y, target.z), ref vectorStore, speed);
+        this.offset = offset;
     }
 
     public void OnTriggerEnter(Collider2D collider2D)
@@ -49,17 +31,21 @@ public class CameraFollowState : State
 
     public override void Enter()
     {
-        throw new NotImplementedException();
+
     }
 
     public override void Exit()
     {
-        throw new NotImplementedException();
+
     }
 
     public override void Tick()
     {
-        throw new NotImplementedException();
+        Vector3 targetPoint = owner.GetCenterPoint();
+
+        Debug.Log(targetPoint);
+
+        owner.MoveCamera(speed, offset, targetPoint);
     }
 
     public override void OnTriggerEnter2D(Collider2D collider2D)
