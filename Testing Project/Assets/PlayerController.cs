@@ -15,10 +15,12 @@ public class PlayerController : MonoBehaviour
 
     Vector2 input;
 
+    Item data;
+
     private void Start()
     {
         rb2D = this.GetComponent<Rigidbody2D>();
-
+        
     }
 
     private void Update()

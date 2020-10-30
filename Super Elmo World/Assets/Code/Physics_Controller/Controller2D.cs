@@ -68,7 +68,7 @@ public class Controller2D : RayCastController
 
     private void OnGUI()
     {
-        windowRect = GUI.Window(0, windowRect, DoStuff, "My Window");
+        //windowRect = GUI.Window(0, windowRect, DoStuff, "My Window");
     }
 
     private void DoStuff(int windowID)
@@ -136,12 +136,15 @@ public class Controller2D : RayCastController
     }
     public void ModifySize(Vector2 newSize)
     {
+        Vector2 difference = objectCollider.size - newSize;
         objectCollider.size = newSize;
 
-        if (YAxisIsInverted)
-            newSize.y *= -1;
+        if (!YAxisIsInverted)
+            difference.y *= -1;
 
-        objectCollider.offset = new Vector2(0, newSize.y / 2);
+        float newY = objectCollider.offset.y + (difference.y / 2);
+
+        objectCollider.offset = new Vector2(0, newY);
 
         aestheticTransform.localPosition = objectCollider.offset;
 
@@ -288,7 +291,6 @@ public class Controller2D : RayCastController
 
         if (deltaMovement.y <= (climbVelocityY))
         {
-            Debug.Log($"Velocity: {deltaMovement.y}, Climb Velocity: {climbVelocityY}");
             deltaMovement.y = Mathf.Sin(slopeAngle * Mathf.Deg2Rad) * moveDistance;
             deltaMovement.x = Mathf.Cos(slopeAngle * Mathf.Deg2Rad) * moveDistance * Mathf.Sign(deltaMovement.x);
 
@@ -332,7 +334,7 @@ public class Controller2D : RayCastController
                     {
                         float moveDistance = Mathf.Abs(deltaMovement.x);
                         float descendVelocityY = Mathf.Sin(slopeAngle * Mathf.Deg2Rad) * moveDistance;
-                        print(descendVelocityY);
+
 
                         deltaMovement.x = Mathf.Cos(slopeAngle * Mathf.Deg2Rad) * moveDistance * Mathf.Sign(deltaMovement.x);
                         deltaMovement.y -= descendVelocityY;

@@ -1,0 +1,3748 @@
+fileFormatVersion: 2
+guid: d6860810fa4140349ae34b3f1c68a7dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3385910766683593483
+    second: Green Elmo Sprites_0
+  - first:
+      213: 6380627179766127380
+    second: Green Elmo Sprites_1
+  - first:
+      213: 7464343147966863519
+    second: Green Elmo Sprites_2
+  - first:
+      213: -3817953043829671849
+    second: Green Elmo Sprites_3
+  - first:
+      213: 7465855582438931885
+    second: Green Elmo Sprites_4
+  - first:
+      213: -159792680049869417
+    second: Green Elmo Sprites_5
+  - first:
+      213: 5135881608877728029
+    second: Green Elmo Sprites_6
+  - first:
+      213: 2449552820844180754
+    second: Green Elmo Sprites_7
+  - first:
+      213: -1453564740601169508
+    second: Green Elmo Sprites_8
+  - first:
+      213: -326044488868304166
+    second: Green Elmo Sprites_9
+  - first:
+      213: -5280259059573789931
+    second: Green Elmo Sprites_10
+  - first:
+      213: -2547875681883050409
+    second: Green Elmo Sprites_11
+  - first:
+      213: -2839644254797260676
+    second: Green Elmo Sprites_12
+  - first:
+      213: -3187326855291095364
+    second: Green Elmo Sprites_13
+  - first:
+      213: -2067255045050394655
+    second: Green Elmo Sprites_14
+  - first:
+      213: -1010673214462357451
+    second: Green Elmo Sprites_15
+  - first:
+      213: 590914136010818402
+    second: Green Elmo Sprites_16
+  - first:
+      213: 682416240690856643
+    second: Green Elmo Sprites_17
+  - first:
+      213: 6860221021371346010
+    second: Green Elmo Sprites_18
+  - first:
+      213: -1435098179997796877
+    second: Green Elmo Sprites_19
+  - first:
+      213: -7082713403764185181
+    second: Green Elmo Sprites_20
+  - first:
+      213: 684885245282770541
+    second: Green Elmo Sprites_21
+  - first:
+      213: 7856631156775866888
+    second: Green Elmo Sprites_22
+  - first:
+      213: -4731057012201834843
+    second: Green Elmo Sprites_23
+  - first:
+      213: 3169754464361771618
+    second: Green Elmo Sprites_24
+  - first:
+      213: 4915794762721288066
+    second: Green Elmo Sprites_25
+  - first:
+      213: 6392631163584078669
+    second: Green Elmo Sprites_26
+  - first:
+      213: 3742997706243265393
+    second: Green Elmo Sprites_27
+  - first:
+      213: -2579044723682607994
+    second: Green Elmo Sprites_28
+  - first:
+      213: -922007380970102067
+    second: Green Elmo Sprites_29
+  - first:
+      213: 5174885183769669980
+    second: Green Elmo Sprites_30
+  - first:
+      213: 2020961106732119907
+    second: Green Elmo Sprites_31
+  - first:
+      213: -14355775072628201
+    second: Green Elmo Sprites_32
+  - first:
+      213: -4577213467349613885
+    second: Green Elmo Sprites_33
+  - first:
+      213: -354811219914733549
+    second: Green Elmo Sprites_34
+  - first:
+      213: -5046659685998877253
+    second: Green Elmo Sprites_35
+  - first:
+      213: 3303204297740547354
+    second: Green Elmo Sprites_36
+  - first:
+      213: -8554481866754320820
+    second: Green Elmo Sprites_37
+  - first:
+      213: 1531333945921420165
+    second: Green Elmo Sprites_38
+  - first:
+      213: -7986473750606375520
+    second: Green Elmo Sprites_39
+  - first:
+      213: 3431252522666304441
+    second: Green Elmo Sprites_40
+  - first:
+      213: -6194708043448342392
+    second: Green Elmo Sprites_41
+  - first:
+      213: -2473178327755371557
+    second: Green Elmo Sprites_42
+  - first:
+      213: -1119468402078514038
+    second: Green Elmo Sprites_43
+  - first:
+      213: 6764291715699757547
+    second: Green Elmo Sprites_44
+  - first:
+      213: 8466176694693211527
+    second: Green Elmo Sprites_45
+  - first:
+      213: 4260445535784296869
+    second: Green Elmo Sprites_46
+  - first:
+      213: 2756692106992236173
+    second: Green Elmo Sprites_47
+  - first:
+      213: -8443704371313068610
+    second: Green Elmo Sprites_48
+  - first:
+      213: -2021172977903747215
+    second: Green Elmo Sprites_49
+  - first:
+      213: -9048826437983211501
+    second: Green Elmo Sprites_50
+  - first:
+      213: -6965256276818785432
+    second: Green Elmo Sprites_51
+  - first:
+      213: 617418227448574594
+    second: Green Elmo Sprites_52
+  - first:
+      213: -8790270213007816793
+    second: Green Elmo Sprites_53
+  - first:
+      213: 767582990830537096
+    second: Green Elmo Sprites_54
+  - first:
+      213: 5954873519632081751
+    second: Green Elmo Sprites_55
+  - first:
+      213: -2825878665241142583
+    second: Green Elmo Sprites_56
+  - first:
+      213: 6168623562148085141
+    second: Green Elmo Sprites_57
+  - first:
+      213: -8395030737314208419
+    second: Green Elmo Sprites_58
+  - first:
+      213: -7062289236653453044
+    second: Green Elmo Sprites_59
+  - first:
+      213: 3328573279390709815
+    second: Green Elmo Sprites_60
+  - first:
+      213: -432642816467990605
+    second: Green Elmo Sprites_61
+  - first:
+      213: -6988533084995111119
+    second: Green Elmo Sprites_62
+  - first:
+      213: 6258269172313150441
+    second: Green Elmo Sprites_63
+  - first:
+      213: -4455389653185233229
+    second: Green Elmo Sprites_64
+  - first:
+      213: -3577652978665344893
+    second: Green Elmo Sprites_65
+  - first:
+      213: -1567425625866825786
+    second: Green Elmo Sprites_66
+  - first:
+      213: 1252251944370805741
+    second: Green Elmo Sprites_67
+  - first:
+      213: -234069342968531688
+    second: Green Elmo Sprites_68
+  - first:
+      213: 3854983964336190337
+    second: Green Elmo Sprites_69
+  - first:
+      213: -5938746859186450260
+    second: Green Elmo Sprites_70
+  - first:
+      213: 8134753423251370423
+    second: Green Elmo Sprites_71
+  - first:
+      213: 8476585172880629698
+    second: Green Elmo Sprites_72
+  - first:
+      213: 4413759985955362725
+    second: Green Elmo Sprites_73
+  - first:
+      213: -39875844679266806
+    second: Green Elmo Sprites_74
+  - first:
+      213: 5977728234358279424
+    second: Green Elmo Sprites_75
+  - first:
+      213: -2079075125796148836
+    second: Green Elmo Sprites_76
+  - first:
+      213: 2252249490489305604
+    second: Green Elmo Sprites_77
+  - first:
+      213: 280308445129730834
+    second: Green Elmo Sprites_78
+  - first:
+      213: 1286336168743699938
+    second: Green Elmo Sprites_79
+  - first:
+      213: -337862957508884879
+    second: Green Elmo Sprites_80
+  - first:
+      213: 4179452745699440610
+    second: Green Elmo Sprites_81
+  - first:
+      213: -4946289984899489568
+    second: Green Elmo Sprites_82
+  - first:
+      213: 4209247913388704058
+    second: Green Elmo Sprites_83
+  - first:
+      213: 5267063889539670723
+    second: Green Elmo Sprites_84
+  - first:
+      213: 7123822789718046047
+    second: Green Elmo Sprites_85
+  - first:
+      213: -4579424250132150043
+    second: Green Elmo Sprites_86
+  - first:
+      213: 4100879188081272137
+    second: Green Elmo Sprites_87
+  - first:
+      213: -1861990134566963169
+    second: Green Elmo Sprites_88
+  - first:
+      213: 843528842993803339
+    second: Green Elmo Sprites_89
+  - first:
+      213: 2102054824381197294
+    second: Green Elmo Sprites_90
+  - first:
+      213: 7146256739374060535
+    second: Green Elmo Sprites_91
+  - first:
+      213: -8153308085761501822
+    second: Green Elmo Sprites_92
+  - first:
+      213: 6906848763740648177
+    second: Green Elmo Sprites_93
+  - first:
+      213: 5456586758015851275
+    second: Green Elmo Sprites_94
+  - first:
+      213: -2263374849014075550
+    second: Green Elmo Sprites_95
+  - first:
+      213: -5283515181197923829
+    second: Green Elmo Sprites_96
+  - first:
+      213: -2498127570235681481
+    second: Green Elmo Sprites_97
+  - first:
+      213: -460350309561243124
+    second: Green Elmo Sprites_98
+  - first:
+      213: -4220590892671297235
+    second: Green Elmo Sprites_99
+  - first:
+      213: -6713571468704980349
+    second: Green Elmo Sprites_100
+  - first:
+      213: -5465825957267004853
+    second: Green Elmo Sprites_101
+  - first:
+      213: -1906671650922338805
+    second: Green Elmo Sprites_102
+  - first:
+      213: 5910511843392693197
+    second: Green Elmo Sprites_103
+  - first:
+      213: 1578078811973132399
+    second: Green Elmo Sprites_104
+  - first:
+      213: 7829544595282948960
+    second: Green Elmo Sprites_105
+  - first:
+      213: 6898059025168149274
+    second: Green Elmo Sprites_106
+  - first:
+      213: -1638118109310181752
+    second: Green Elmo Sprites_107
+  - first:
+      213: -1939002681454281437
+    second: Green Elmo Sprites_108
+  - first:
+      213: 7393148094565270069
+    second: Green Elmo Sprites_109
+  - first:
+      213: 1941358997636430304
+    second: Green Elmo Sprites_110
+  - first:
+      213: -6682689961431307007
+    second: Green Elmo Sprites_111
+  - first:
+      213: 6735353019619473742
+    second: Green Elmo Sprites_112
+  - first:
+      213: 3379828407319138557
+    second: Green Elmo Sprites_113
+  - first:
+      213: -5359787333048525401
+    second: Green Elmo Sprites_114
+  - first:
+      213: -753486373871798640
+    second: Green Elmo Sprites_115
+  - first:
+      213: -5925868478314402614
+    second: Green Elmo Sprites_116
+  - first:
+      213: -4301502665776122399
+    second: Green Elmo Sprites_117
+  - first:
+      213: -4443806616071987621
+    second: Green Elmo Sprites_118
+  - first:
+      213: 8025249947129706747
+    second: Green Elmo Sprites_119
+  - first:
+      213: 3918624267780837275
+    second: Green Elmo Sprites_120
+  - first:
+      213: 7085768415897351971
+    second: Green Elmo Sprites_121
+  - first:
+      213: 1647570763463277851
+    second: Green Elmo Sprites_122
+  - first:
+      213: -9205353226861582157
+    second: Green Elmo Sprites_123
+  - first:
+      213: -3630625136686746785
+    second: Green Elmo Sprites_124
+  - first:
+      213: 5098279478099168977
+    second: Green Elmo Sprites_125
+  - first:
+      213: 6624205648375070250
+    second: Green Elmo Sprites_126
+  - first:
+      213: -783749024631459828
+    second: Green Elmo Sprites_127
+  - first:
+      213: 1216277793164281939
+    second: Green Elmo Sprites_128
+  - first:
+      213: 2485476388670787151
+    second: Green Elmo Sprites_129
+  - first:
+      213: 8957598349518961495
+    second: Green Elmo Sprites_130
+  - first:
+      213: -6076624728133468463
+    second: Green Elmo Sprites_131
+  - first:
+      213: -7137960394622556131
+    second: Green Elmo Sprites_132
+  - first:
+      213: -8125439395622784274
+    second: Green Elmo Sprites_133
+  - first:
+      213: -1289626590176027281
+    second: Green Elmo Sprites_134
+  - first:
+      213: 1311635166440538034
+    second: Green Elmo Sprites_135
+  - first:
+      213: -7398034209934098715
+    second: Green Elmo Sprites_136
+  - first:
+      213: -1071750471891197425
+    second: Green Elmo Sprites_137
+  - first:
+      213: -926089907440230252
+    second: Green Elmo Sprites_138
+  - first:
+      213: 1417813042907016679
+    second: Green Elmo Sprites_139
+  - first:
+      213: 8318921585869357621
+    second: Green Elmo Sprites_140
+  - first:
+      213: -6402197654860670382
+    second: Green Elmo Sprites_141
+  - first:
+      213: 827211537833592177
+    second: Green Elmo Sprites_142
+  - first:
+      213: -715585321466502068
+    second: Green Elmo Sprites_143
+  - first:
+      213: 5686923950043916167
+    second: Green Elmo Sprites_144
+  - first:
+      213: 2864021361435570100
+    second: Green Elmo Sprites_145
+  - first:
+      213: 1654028842975916132
+    second: Green Elmo Sprites_146
+  - first:
+      213: 1734077378515559721
+    second: Green Elmo Sprites_147
+  - first:
+      213: -3939533858079796037
+    second: Green Elmo Sprites_148
+  - first:
+      213: 6831919673532090880
+    second: Green Elmo Sprites_149
+  - first:
+      213: -3956363296244246295
+    second: Green Elmo Sprites_150
+  - first:
+      213: 1640625111345551696
+    second: Green Elmo Sprites_151
+  - first:
+      213: 2203009623320130390
+    second: Green Elmo Sprites_152
+  - first:
+      213: -7458306544499814416
+    second: Green Elmo Sprites_153
+  - first:
+      213: -8243150936546628246
+    second: Green Elmo Sprites_154
+  - first:
+      213: -1809136469147421851
+    second: Green Elmo Sprites_155
+  - first:
+      213: 5849728043304505449
+    second: Green Elmo Sprites_156
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Green Elmo Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d116e99bc11564740800000000000000
+      internalID: 5135881608877728029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21539f0ff4f8ef120800000000000000
+      internalID: 2449552820844180754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c993f6ad196e3dbe0800000000000000
+      internalID: -1453564740601169508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 341
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adae70cc348a97bf0800000000000000
+      internalID: -326044488868304166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 341
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51be0108c50c8b6b0800000000000000
+      internalID: -5280259059573789931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 343
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e2189019024acd0800000000000000
+      internalID: -2547875681883050409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c789458689e8798d0800000000000000
+      internalID: -2839644254797260676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6bf4fbc1754c3d0800000000000000
+      internalID: -3187326855291095364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e713a34d72af43e0800000000000000
+      internalID: -2067255045050394655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53018f3f01e59f1f0800000000000000
+      internalID: -1010673214462357451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2638ea1a649533800800000000000000
+      internalID: 590914136010818402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2065f84fd687900800000000000000
+      internalID: 682416240690856643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 341
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ca1830ca6643f50800000000000000
+      internalID: 6860221021371346010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 341
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5fb6b0fc1851ce0800000000000000
+      internalID: -1435098179997796877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 341
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7ecb26fa525bd90800000000000000
+      internalID: -7082713403764185181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e5cfc7083318900800000000000000
+      internalID: 684885245282770541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80254ee296c580d60800000000000000
+      internalID: 7856631156775866888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6b69fa6b8e75eb0800000000000000
+      internalID: -4731057012201834843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 341
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262fd7924ea3dfb20800000000000000
+      internalID: 3169754464361771618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f5abcaa49683440800000000000000
+      internalID: 4915794762721288066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 342
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4365857c2037b850800000000000000
+      internalID: 6392631163584078669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1735bb3259cc1f330800000000000000
+      internalID: 3742997706243265393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 342
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c7d09fc74653cd0800000000000000
+      internalID: -2579044723682607994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc22df80c2f5433f0800000000000000
+      internalID: -922007380970102067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f50c28a2e0d740800000000000000
+      internalID: 5174885183769669980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367f5a74b65eb0c10800000000000000
+      internalID: 2020961106732119907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 341
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7121256af7ffccff0800000000000000
+      internalID: -14355775072628201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c20e714a987a70c0800000000000000
+      internalID: -4577213467349613885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318c8aa4315731bf0800000000000000
+      internalID: -354811219914733549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 341
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5a0c101c9a6f9b0800000000000000
+      internalID: -5046659685998877253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 344
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a157e53cec657dd20800000000000000
+      internalID: 3303204297740547354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c469696d010684980800000000000000
+      internalID: -8554481866754320820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bb4274c14604510800000000000000
+      internalID: 1531333945921420165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5102f10785a2190800000000000000
+      internalID: -7986473750606375520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b320346df14e9f20800000000000000
+      internalID: 3431252522666304441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888a10ffad9f70aa0800000000000000
+      internalID: -6194708043448342392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb42f31a618dadd0800000000000000
+      internalID: -2473178327755371557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 303
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8406d46b69d670f0800000000000000
+      internalID: -1119468402078514038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1d6670a779fdd50800000000000000
+      internalID: 6764291715699757547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d21ec19d6ed7570800000000000000
+      internalID: 8466176694693211527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1625954a4202b30800000000000000
+      internalID: 4260445535784296869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 305
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d863560addcb14620800000000000000
+      internalID: 2756692106992236173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 302
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b8776c9fe1da80800000000000000
+      internalID: -8443704371313068610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 303
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fbd6e92e953f3e0800000000000000
+      internalID: -2021172977903747215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310f8d12c4c1c6280800000000000000
+      internalID: -9048826437983211501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b08aad150765f90800000000000000
+      internalID: -6965256276818785432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2827cec4b92819800800000000000000
+      internalID: 617418227448574594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7c8f960dfa20680800000000000000
+      internalID: -8790270213007816793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 232
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8890610d9a007aa00800000000000000
+      internalID: 767582990830537096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 232
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753ec047ae5f3a250800000000000000
+      internalID: 5954873519632081751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 232
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca52fb735678c8d0800000000000000
+      internalID: -2825878665241142583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 206
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59df0fe627a5b9550800000000000000
+      internalID: 6168623562148085141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 206
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55a6efe50cde7b80800000000000000
+      internalID: -8395030737314208419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 206
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01d43c5b55bdfd90800000000000000
+      internalID: -7062289236653453044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738b0f613c7713e20800000000000000
+      internalID: 3328573279390709815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b70dc196a1fef9f0800000000000000
+      internalID: -432642816467990605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1373dcf9f2eb30f90800000000000000
+      internalID: -6988533084995111119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3d08c87a6d9d650800000000000000
+      internalID: 6258269172313150441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 171
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be71f157b64b22c0800000000000000
+      internalID: -4455389653185233229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 172
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380b805329f995ec0800000000000000
+      internalID: -3577652978665344893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 173
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf0d56a2b26f3ae0800000000000000
+      internalID: -1567425625866825786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb93893284e06110800000000000000
+      internalID: 1252251944370805741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8153d873c2b60ccf0800000000000000
+      internalID: -234069342968531688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 172
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183f511bd77af7530800000000000000
+      internalID: 3854983964336190337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 173
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca099374235559da0800000000000000
+      internalID: -5938746859186450260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 171
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b17a40832374e070800000000000000
+      internalID: 8134753423251370423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf94e9cd41e2a570800000000000000
+      internalID: 8476585172880629698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7d3b67253d04d30800000000000000
+      internalID: 4413759985955362725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 172
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e06ca6125527ff0800000000000000
+      internalID: -39875844679266806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d8fb4682825f250800000000000000
+      internalID: 5977728234358279424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99e1914034a523e0800000000000000
+      internalID: -2079075125796148836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 176
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a6b2a8af8914f10800000000000000
+      internalID: 2252249490489305604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bef73bb0bd3e300800000000000000
+      internalID: 280308445129730834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e584bf1eebf9d110800000000000000
+      internalID: 1286336168743699938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1768be22e6baf4bf0800000000000000
+      internalID: -337862957508884879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e732f6e026600a30800000000000000
+      internalID: 4179452745699440610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 171
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e06efd177f3b5bb0800000000000000
+      internalID: -4946289984899489568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a318619fca04a6a30800000000000000
+      internalID: 4209247913388704058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 173
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2ac4193be581940800000000000000
+      internalID: 5267063889539670723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55f9f76517ecd260800000000000000
+      internalID: 7123822789718046047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 141
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8401748ed9270c0800000000000000
+      internalID: -4579424250132150043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 141
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9456068e4ef39e830800000000000000
+      internalID: 4100879188081272137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18badd76d1e826e0800000000000000
+      internalID: -1861990134566963169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4021747301d4bb00800000000000000
+      internalID: 843528842993803339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb23a1c9bffb2d10800000000000000
+      internalID: 2102054824381197294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 138
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3d12854aa9c2360800000000000000
+      internalID: 7146256739374060535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2859ddb7e71a9de80800000000000000
+      internalID: -8153308085761501822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f27b184b5e0adf50800000000000000
+      internalID: 6906848763740648177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 137
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b92a50fb0b9bb40800000000000000
+      internalID: 5456586758015851275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f66f21190e690e0800000000000000
+      internalID: -2263374849014075550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a605b9fee2da6b0800000000000000
+      internalID: -5283515181197923829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 137
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7351e74e53ed45dd0800000000000000
+      internalID: -2498127570235681481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 137
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a6c5e15d18c99f0800000000000000
+      internalID: -460350309561243124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29141cd1f27d65c0800000000000000
+      internalID: -4220590892671297235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 137
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38264a9b15a94d2a0800000000000000
+      internalID: -6713571468704980349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 137
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42adf4404c7524b0800000000000000
+      internalID: -5465825957267004853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 137
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0667774c342a85e0800000000000000
+      internalID: -1906671650922338805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 138
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc32922d43b560250800000000000000
+      internalID: 5910511843392693197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 140
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60aa37815676e510800000000000000
+      internalID: 1578078811973132399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 142
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0637be2a35128ac60800000000000000
+      internalID: 7829544595282948960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 140
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b23dac224dabf50800000000000000
+      internalID: 6898059025168149274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 137
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e9e6a324c3449e0800000000000000
+      internalID: -1638118109310181752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 137
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d3361a5574715e0800000000000000
+      internalID: -1939002681454281437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 89
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5324b6c750db99660800000000000000
+      internalID: 7393148094565270069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 89
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9b0abf8b711fa10800000000000000
+      internalID: 1941358997636430304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 90
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d61d0f2e05243a0800000000000000
+      internalID: -6682689961431307007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 90
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49f54bc2e7c87d50800000000000000
+      internalID: 6735353019619473742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 91
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df01804870097ee20800000000000000
+      internalID: 3379828407319138557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 91
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad110661d53e95b0800000000000000
+      internalID: -5359787333048525401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 88
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096364692241b85f0800000000000000
+      internalID: -753486373871798640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 88
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acca26cf30613cda0800000000000000
+      internalID: -5925868478314402614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5b406ad1efd44c0800000000000000
+      internalID: -4301502665776122399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e9f7e4d6d6452c0800000000000000
+      internalID: -4443806616071987621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8736cae4a6f5f60800000000000000
+      internalID: 8025249947129706747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f4d418200c16630800000000000000
+      internalID: 3918624267780837275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3277e3e05d4b55260800000000000000
+      internalID: 7085768415897351971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d3c8251e85dd610800000000000000
+      internalID: 1647570763463277851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b86be02304004080800000000000000
+      internalID: -9205353226861582157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53be2f8cad6d9dc0800000000000000
+      internalID: -3630625136686746785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 89
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dec3c96c2ab0c640800000000000000
+      internalID: 5098279478099168977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 89
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e388ec0f7edeb50800000000000000
+      internalID: 6624205648375070250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 89
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0078c12a609f15f0800000000000000
+      internalID: -783749024631459828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 90
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358c0c1753611e010800000000000000
+      internalID: 1216277793164281939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ec75c5b9f2e7220800000000000000
+      internalID: 2485476388670787151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bf3bf4d38cf4c70800000000000000
+      internalID: 8957598349518961495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1deff3e410e7baba0800000000000000
+      internalID: -6076624728133468463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 18
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1827b1f6ded0fc90800000000000000
+      internalID: -7137960394622556131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 18
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee270fb8be3ac3f80800000000000000
+      internalID: -8125439395622784274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 18
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dd8afe2735a1ee0800000000000000
+      internalID: -1289626590176027281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 18
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf399a0c3dd33210800000000000000
+      internalID: 1311635166440538034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 18
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eeb0b02517e45990800000000000000
+      internalID: -7398034209934098715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02611bcf906021f0800000000000000
+      internalID: -1071750471891197425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 18
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49063f4c22ed523f0800000000000000
+      internalID: -926089907440230252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 18
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed636c53751da310800000000000000
+      internalID: 1417813042907016679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 18
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53282185b1fb27370800000000000000
+      internalID: 8318921585869357621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 18
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ad0383723d627a0800000000000000
+      internalID: -6402197654860670382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 18
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1750daac288da7b00800000000000000
+      internalID: 827211537833592177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44618301fab116f0800000000000000
+      internalID: -715585321466502068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7876703b3330cee40800000000000000
+      internalID: 5686923950043916167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 19
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf6f75014c0fb720800000000000000
+      internalID: 2864021361435570100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46074d1287a44f610800000000000000
+      internalID: 1654028842975916132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925e57f203ea01810800000000000000
+      internalID: 1734077378515559721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4978024d6f359c0800000000000000
+      internalID: -3939533858079796037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 18
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a02eafebadfce50800000000000000
+      internalID: 6831919673532090880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8d7f43b8c2819c0800000000000000
+      internalID: -3956363296244246295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059565ba8dba4c610800000000000000
+      internalID: 1640625111345551696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65373c29499a29e10800000000000000
+      internalID: 2203009623320130390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 18
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff0e1da6b5ce7890800000000000000
+      internalID: -7458306544499814416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6da535b5e17a9d80800000000000000
+      internalID: -8243150936546628246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563734e67f7a4e6e0800000000000000
+      internalID: -1809136469147421851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Elmo Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9605ec589a86e2150800000000000000
+      internalID: 5849728043304505449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

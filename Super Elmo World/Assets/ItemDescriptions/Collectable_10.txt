@@ -1,0 +1,1 @@
+A currency in Elmo Land worth 10 units.

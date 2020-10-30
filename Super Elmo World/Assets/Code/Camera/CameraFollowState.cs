@@ -13,10 +13,6 @@ public class CameraFollowState : State
     private Vector3 offset = Vector3.zero;
     private bool active;
 
-    float minimumZoomDistance = 10f;
-    float maximumZoomDistance = 12f;
-    
-
     public CameraFollowState(CameraFollower owner, List<Transform> targets, float speed, Vector3 offset)
     {
         this.owner = owner;
@@ -43,9 +39,9 @@ public class CameraFollowState : State
     {
         Vector3 targetPoint = owner.GetCenterPoint();
 
-        Debug.Log(targetPoint);
 
-        owner.MoveCamera(speed, offset, targetPoint);
+        
+        owner.MoveCamera(speed, offset, targetPoint);     
     }
 
     public override void OnTriggerEnter2D(Collider2D collider2D)

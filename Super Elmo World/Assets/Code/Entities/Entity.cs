@@ -1,22 +1,27 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using UnityEngine;
 
+[RequireComponent(typeof(Controller2D))]
 public abstract class Entity : MonoBehaviour
 {
     public Vector2 velocity;
     public bool isFacingRight { get; protected set; }
-
-    public Controller2D controller2D {get; private set;}
     [SerializeField] protected int entityID;
-    public BoxCollider2D entityCollider { get; private set; }
+
+    protected SpriteRenderer SpriteRenderer { get; private set; }
+    public Transform EntityTransform { get; private set; }
+    public Controller2D Control2D { get; private set; }
+    public BoxCollider2D EntityCollider { get; private set; }
     public string entityName { get; private set; }
     public string entityDescription { get; private set; }
 
     protected virtual void Awake()
-    {
-
-        controller2D = this.GetComponent<Controller2D>();
-        entityCollider = this.GetComponent<BoxCollider2D>();
+    {          
+        Control2D = this.GetComponent<Controller2D>();         
+        EntityCollider = this.GetComponent<BoxCollider2D>();           
+        SpriteRenderer = this.GetComponentInChildren<SpriteRenderer>();
+        EntityTransform = this.transform;
 
         ReadDescriptionFile();
 
@@ -40,7 +45,7 @@ public abstract class Entity : MonoBehaviour
     // Reads the name and description from a text file that corresponds to the EntityID and writes to entityName and entityDescription.
     private void ReadDescriptionFile()
     {
-        string filePath = "Assets/EntityDescriptions/EntityID" + entityID + ".txt";
+        string filePath = $"Assets/EntityDescriptions/EntityID{entityID}.txt";
 
         // Throws fileNotFoundException if file doesn't Exist or path is incorrect.
         StreamReader streamReader = new StreamReader(filePath);

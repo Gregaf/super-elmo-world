@@ -1,0 +1,3874 @@
+fileFormatVersion: 2
+guid: 6359f455f5fcc5c4da909731db9a5276
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6165387018713890515
+    second: Yellow Elmo Sprites_0
+  - first:
+      213: 5404030722768959015
+    second: Yellow Elmo Sprites_1
+  - first:
+      213: -117613670492985497
+    second: Yellow Elmo Sprites_2
+  - first:
+      213: 5617122805227941549
+    second: Yellow Elmo Sprites_3
+  - first:
+      213: -8822564948666585473
+    second: Yellow Elmo Sprites_4
+  - first:
+      213: -4411914917659063142
+    second: Yellow Elmo Sprites_5
+  - first:
+      213: 4033489286578378396
+    second: Yellow Elmo Sprites_6
+  - first:
+      213: 1305368958659275409
+    second: Yellow Elmo Sprites_7
+  - first:
+      213: 6875911037978166199
+    second: Yellow Elmo Sprites_8
+  - first:
+      213: 2673744895519454630
+    second: Yellow Elmo Sprites_9
+  - first:
+      213: -8713706592841008490
+    second: Yellow Elmo Sprites_10
+  - first:
+      213: -4254591722538349880
+    second: Yellow Elmo Sprites_11
+  - first:
+      213: -2195583870802555191
+    second: Yellow Elmo Sprites_12
+  - first:
+      213: -8457807807779907490
+    second: Yellow Elmo Sprites_13
+  - first:
+      213: 1934922831513371201
+    second: Yellow Elmo Sprites_14
+  - first:
+      213: -2179103469239394121
+    second: Yellow Elmo Sprites_15
+  - first:
+      213: 6128433039190828320
+    second: Yellow Elmo Sprites_16
+  - first:
+      213: -5883085856925982548
+    second: Yellow Elmo Sprites_17
+  - first:
+      213: -4591163564235822967
+    second: Yellow Elmo Sprites_18
+  - first:
+      213: 882477238155296311
+    second: Yellow Elmo Sprites_19
+  - first:
+      213: 1358205177694456111
+    second: Yellow Elmo Sprites_20
+  - first:
+      213: -4195798587139140987
+    second: Yellow Elmo Sprites_21
+  - first:
+      213: -8073301368501649040
+    second: Yellow Elmo Sprites_22
+  - first:
+      213: -2029648228690673285
+    second: Yellow Elmo Sprites_23
+  - first:
+      213: 1108378898372181711
+    second: Yellow Elmo Sprites_24
+  - first:
+      213: -3941825629908837131
+    second: Yellow Elmo Sprites_25
+  - first:
+      213: -34148291519853314
+    second: Yellow Elmo Sprites_26
+  - first:
+      213: -411268469587616107
+    second: Yellow Elmo Sprites_27
+  - first:
+      213: 2691892143757773426
+    second: Yellow Elmo Sprites_28
+  - first:
+      213: -2202384500414730946
+    second: Yellow Elmo Sprites_29
+  - first:
+      213: -7796916221797548053
+    second: Yellow Elmo Sprites_30
+  - first:
+      213: -6811043470382118778
+    second: Yellow Elmo Sprites_31
+  - first:
+      213: 2764463660038121369
+    second: Yellow Elmo Sprites_32
+  - first:
+      213: -1347341754391319029
+    second: Yellow Elmo Sprites_33
+  - first:
+      213: -2915806020895902035
+    second: Yellow Elmo Sprites_34
+  - first:
+      213: -8898343641261532349
+    second: Yellow Elmo Sprites_35
+  - first:
+      213: -1531102147713339386
+    second: Yellow Elmo Sprites_36
+  - first:
+      213: -3082090827043036047
+    second: Yellow Elmo Sprites_37
+  - first:
+      213: 2987799229341760354
+    second: Yellow Elmo Sprites_38
+  - first:
+      213: -8736274522209684503
+    second: Yellow Elmo Sprites_39
+  - first:
+      213: 5598915668238848784
+    second: Yellow Elmo Sprites_40
+  - first:
+      213: -1638214764186753663
+    second: Yellow Elmo Sprites_41
+  - first:
+      213: 6485679265177029292
+    second: Yellow Elmo Sprites_42
+  - first:
+      213: 5046812362962333849
+    second: Yellow Elmo Sprites_43
+  - first:
+      213: 8132130579645144726
+    second: Yellow Elmo Sprites_44
+  - first:
+      213: 9093148899085582036
+    second: Yellow Elmo Sprites_45
+  - first:
+      213: 3833274734113944897
+    second: Yellow Elmo Sprites_46
+  - first:
+      213: 799233678501271281
+    second: Yellow Elmo Sprites_47
+  - first:
+      213: 1539771840038483748
+    second: Yellow Elmo Sprites_48
+  - first:
+      213: -8352780298629197604
+    second: Yellow Elmo Sprites_49
+  - first:
+      213: 7622841299666381931
+    second: Yellow Elmo Sprites_50
+  - first:
+      213: -4587010011117992646
+    second: Yellow Elmo Sprites_51
+  - first:
+      213: -1807707141691701449
+    second: Yellow Elmo Sprites_52
+  - first:
+      213: 7132553198678722556
+    second: Yellow Elmo Sprites_53
+  - first:
+      213: -3678549595669081704
+    second: Yellow Elmo Sprites_54
+  - first:
+      213: -8010149789853872179
+    second: Yellow Elmo Sprites_55
+  - first:
+      213: -1332190656943820086
+    second: Yellow Elmo Sprites_56
+  - first:
+      213: 7154896617740953058
+    second: Yellow Elmo Sprites_57
+  - first:
+      213: 4290686316515651811
+    second: Yellow Elmo Sprites_58
+  - first:
+      213: 4161957659922987687
+    second: Yellow Elmo Sprites_59
+  - first:
+      213: -4492198935163676535
+    second: Yellow Elmo Sprites_60
+  - first:
+      213: -4552271291573814780
+    second: Yellow Elmo Sprites_61
+  - first:
+      213: 7343966972299290859
+    second: Yellow Elmo Sprites_62
+  - first:
+      213: 1341997416283564134
+    second: Yellow Elmo Sprites_63
+  - first:
+      213: 5331427339353993906
+    second: Yellow Elmo Sprites_64
+  - first:
+      213: -1990321870522813527
+    second: Yellow Elmo Sprites_65
+  - first:
+      213: -6145542950222008637
+    second: Yellow Elmo Sprites_66
+  - first:
+      213: -8092954219984386666
+    second: Yellow Elmo Sprites_67
+  - first:
+      213: 1548878035271936825
+    second: Yellow Elmo Sprites_68
+  - first:
+      213: -4263435206167668545
+    second: Yellow Elmo Sprites_69
+  - first:
+      213: -337083480904081692
+    second: Yellow Elmo Sprites_70
+  - first:
+      213: -5246215964677625537
+    second: Yellow Elmo Sprites_71
+  - first:
+      213: 7129087861199837671
+    second: Yellow Elmo Sprites_72
+  - first:
+      213: -5912705034073719665
+    second: Yellow Elmo Sprites_73
+  - first:
+      213: 6869243178453663032
+    second: Yellow Elmo Sprites_74
+  - first:
+      213: 4265840472567592585
+    second: Yellow Elmo Sprites_75
+  - first:
+      213: -9152798202920526628
+    second: Yellow Elmo Sprites_76
+  - first:
+      213: 2053595207491646069
+    second: Yellow Elmo Sprites_77
+  - first:
+      213: 5530321705361949009
+    second: Yellow Elmo Sprites_78
+  - first:
+      213: 8440012714199243272
+    second: Yellow Elmo Sprites_79
+  - first:
+      213: -7423267219950721766
+    second: Yellow Elmo Sprites_80
+  - first:
+      213: 1403776378890366165
+    second: Yellow Elmo Sprites_81
+  - first:
+      213: -413448070143564939
+    second: Yellow Elmo Sprites_82
+  - first:
+      213: -43740681358648277
+    second: Yellow Elmo Sprites_83
+  - first:
+      213: 1322678948747712675
+    second: Yellow Elmo Sprites_84
+  - first:
+      213: -1458649124329376303
+    second: Yellow Elmo Sprites_85
+  - first:
+      213: 1118693373743680779
+    second: Yellow Elmo Sprites_86
+  - first:
+      213: -4785485742442911593
+    second: Yellow Elmo Sprites_87
+  - first:
+      213: 4183404517726101586
+    second: Yellow Elmo Sprites_88
+  - first:
+      213: 4206319377172379472
+    second: Yellow Elmo Sprites_89
+  - first:
+      213: 3611281102915040442
+    second: Yellow Elmo Sprites_90
+  - first:
+      213: -1796031337540289216
+    second: Yellow Elmo Sprites_91
+  - first:
+      213: 181952748978511791
+    second: Yellow Elmo Sprites_92
+  - first:
+      213: -1592674723116047369
+    second: Yellow Elmo Sprites_93
+  - first:
+      213: 6869254927367176867
+    second: Yellow Elmo Sprites_94
+  - first:
+      213: -6401374390950175728
+    second: Yellow Elmo Sprites_95
+  - first:
+      213: 6930481855885198655
+    second: Yellow Elmo Sprites_96
+  - first:
+      213: -5835706308690449062
+    second: Yellow Elmo Sprites_97
+  - first:
+      213: -2368183780672997425
+    second: Yellow Elmo Sprites_98
+  - first:
+      213: 9028686618563007807
+    second: Yellow Elmo Sprites_99
+  - first:
+      213: 3172739473658223513
+    second: Yellow Elmo Sprites_100
+  - first:
+      213: -9201308694836019087
+    second: Yellow Elmo Sprites_101
+  - first:
+      213: -8531672373204519840
+    second: Yellow Elmo Sprites_102
+  - first:
+      213: -6493093269882994494
+    second: Yellow Elmo Sprites_103
+  - first:
+      213: -8605306110508151176
+    second: Yellow Elmo Sprites_104
+  - first:
+      213: -2970856591418500035
+    second: Yellow Elmo Sprites_105
+  - first:
+      213: 8800508299279393613
+    second: Yellow Elmo Sprites_106
+  - first:
+      213: -7763301968907073508
+    second: Yellow Elmo Sprites_107
+  - first:
+      213: -7318196784619852031
+    second: Yellow Elmo Sprites_108
+  - first:
+      213: 3653608534126695440
+    second: Yellow Elmo Sprites_109
+  - first:
+      213: -5244265858220673070
+    second: Yellow Elmo Sprites_110
+  - first:
+      213: 7594156568388693273
+    second: Yellow Elmo Sprites_111
+  - first:
+      213: 348838324421131011
+    second: Yellow Elmo Sprites_112
+  - first:
+      213: 3064319742311549604
+    second: Yellow Elmo Sprites_113
+  - first:
+      213: 7076192958886651211
+    second: Yellow Elmo Sprites_114
+  - first:
+      213: 1910541503303242909
+    second: Yellow Elmo Sprites_115
+  - first:
+      213: 7953773966898842338
+    second: Yellow Elmo Sprites_116
+  - first:
+      213: -1692332436089677285
+    second: Yellow Elmo Sprites_117
+  - first:
+      213: -1511575379689000009
+    second: Yellow Elmo Sprites_118
+  - first:
+      213: -6224570400731676812
+    second: Yellow Elmo Sprites_119
+  - first:
+      213: 3178762217863627614
+    second: Yellow Elmo Sprites_120
+  - first:
+      213: -7672246413496993661
+    second: Yellow Elmo Sprites_121
+  - first:
+      213: -707459205911344498
+    second: Yellow Elmo Sprites_122
+  - first:
+      213: -1013391984949052655
+    second: Yellow Elmo Sprites_123
+  - first:
+      213: 2729943148968483376
+    second: Yellow Elmo Sprites_124
+  - first:
+      213: 5434050137585869253
+    second: Yellow Elmo Sprites_125
+  - first:
+      213: 6400390519928875411
+    second: Yellow Elmo Sprites_126
+  - first:
+      213: 4372900618159188124
+    second: Yellow Elmo Sprites_127
+  - first:
+      213: 5722372310565031260
+    second: Yellow Elmo Sprites_128
+  - first:
+      213: 47495723575449858
+    second: Yellow Elmo Sprites_129
+  - first:
+      213: 6512714804472137199
+    second: Yellow Elmo Sprites_130
+  - first:
+      213: 4846877201697247792
+    second: Yellow Elmo Sprites_131
+  - first:
+      213: -1057363151528980662
+    second: Yellow Elmo Sprites_132
+  - first:
+      213: -6448909260324752644
+    second: Yellow Elmo Sprites_133
+  - first:
+      213: 8475804011351950698
+    second: Yellow Elmo Sprites_134
+  - first:
+      213: -5810172672907755889
+    second: Yellow Elmo Sprites_135
+  - first:
+      213: -1552783238735733057
+    second: Yellow Elmo Sprites_136
+  - first:
+      213: 6957626632761426833
+    second: Yellow Elmo Sprites_137
+  - first:
+      213: 2588496495348066018
+    second: Yellow Elmo Sprites_138
+  - first:
+      213: 4711826094468102032
+    second: Yellow Elmo Sprites_139
+  - first:
+      213: -3717626724380544378
+    second: Yellow Elmo Sprites_140
+  - first:
+      213: 1196444218514195008
+    second: Yellow Elmo Sprites_141
+  - first:
+      213: -2897977093889922407
+    second: Yellow Elmo Sprites_142
+  - first:
+      213: 5776123754796180042
+    second: Yellow Elmo Sprites_143
+  - first:
+      213: 4964214000042416531
+    second: Yellow Elmo Sprites_144
+  - first:
+      213: 3266041829884714165
+    second: Yellow Elmo Sprites_145
+  - first:
+      213: -9103814280262699661
+    second: Yellow Elmo Sprites_146
+  - first:
+      213: -4737986346802899369
+    second: Yellow Elmo Sprites_147
+  - first:
+      213: 839874476757427935
+    second: Yellow Elmo Sprites_148
+  - first:
+      213: 5655618329355851290
+    second: Yellow Elmo Sprites_149
+  - first:
+      213: 343676663083547269
+    second: Yellow Elmo Sprites_150
+  - first:
+      213: 7750379259162047138
+    second: Yellow Elmo Sprites_151
+  - first:
+      213: 6156343029204720789
+    second: Yellow Elmo Sprites_152
+  - first:
+      213: 7456395601461401643
+    second: Yellow Elmo Sprites_153
+  - first:
+      213: -523745018104811210
+    second: Yellow Elmo Sprites_154
+  - first:
+      213: -8137701742410632642
+    second: Yellow Elmo Sprites_155
+  - first:
+      213: -3626801194440507451
+    second: Yellow Elmo Sprites_156
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 371
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3defe31f3dadf8550800000000000000
+      internalID: 6165387018713890515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 371
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726f0f18f49fefa40800000000000000
+      internalID: 5404030722768959015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 371
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76729856df62e5ef0800000000000000
+      internalID: -117613670492985497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 371
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae6b593e6704fd40800000000000000
+      internalID: 5617122805227941549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 371
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e6ae25ce3ff8580800000000000000
+      internalID: -8822564948666585473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 371
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c4fa9f1cab5c2c0800000000000000
+      internalID: -4411914917659063142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9619d3c225d9f730800000000000000
+      internalID: 4033489286578378396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a25b9d62a9d1210800000000000000
+      internalID: 1305368958659275409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b340eda8a42c6f50800000000000000
+      internalID: 6875911037978166199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 341
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5737df0dc0b1520800000000000000
+      internalID: 2673744895519454630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 341
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a7bb06502b21780800000000000000
+      internalID: -8713706592841008490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 343
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cac8c1ce57a4f4c0800000000000000
+      internalID: -4254591722538349880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce8c3a2a18b781e0800000000000000
+      internalID: -2195583870802555191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58d0c63c94df9a80800000000000000
+      internalID: -8457807807779907490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142c528401a3ada10800000000000000
+      internalID: 1934922831513371201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b02a2ba0f442c1e0800000000000000
+      internalID: -2179103469239394121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025acba11619c0550800000000000000
+      internalID: 6128433039190828320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca06dc245941b5ea0800000000000000
+      internalID: -5883085856925982548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 341
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988e1083019e840c0800000000000000
+      internalID: -4591163564235822967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 341
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e3d9e5f503f3c00800000000000000
+      internalID: 882477238155296311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 341
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29039cb96059d210800000000000000
+      internalID: 1358205177694456111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5825c705a6785c5c0800000000000000
+      internalID: -4195798587139140987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071c8c5fd2fd5ff80800000000000000
+      internalID: -8073301368501649040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7144e580bd35d3e0800000000000000
+      internalID: -2029648228690673285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 341
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce33025cb0c16f00800000000000000
+      internalID: 1108378898372181711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcd0ca6972db49c0800000000000000
+      internalID: -3941825629908837131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 342
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcc54e4f4ea68ff0800000000000000
+      internalID: -34148291519853314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e59e28181ea4af0800000000000000
+      internalID: -411268469587616107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 342
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ac85a74a58b5520800000000000000
+      internalID: 2691892143757773426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d24f137fe8f61e0800000000000000
+      internalID: -2202384500414730946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befb640910acbc390800000000000000
+      internalID: -7796916221797548053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6884126dc005a71a0800000000000000
+      internalID: -6811043470382118778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 341
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9976c035d095d5620800000000000000
+      internalID: 2764463660038121369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e247a10d74d4de0800000000000000
+      internalID: -1347341754391319029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6fd826fd9f887d0800000000000000
+      internalID: -2915806020895902035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 341
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b104d8a9bb28480800000000000000
+      internalID: -8898343641261532349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 344
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60075b275be60cae0800000000000000
+      internalID: -1531102147713339386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1742c90f8b63a35d0800000000000000
+      internalID: -3082090827043036047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bf91da19bc67920800000000000000
+      internalID: 2987799229341760354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3756bdb9482c680800000000000000
+      internalID: -8736274522209684503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013debcc22853bd40800000000000000
+      internalID: 5598915668238848784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18529d20a54e349e0800000000000000
+      internalID: -1638214764186753663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa4ef7dde2c10a50800000000000000
+      internalID: 6485679265177029292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 303
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9907b6eda11e90640800000000000000
+      internalID: 5046812362962333849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e17d22da12bd070800000000000000
+      internalID: 8132130579645144726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4defab30fba513e70800000000000000
+      internalID: 9093148899085582036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1457755af07823530800000000000000
+      internalID: 3833274734113944897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 305
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6d89bcbc2771b00800000000000000
+      internalID: 799233678501271281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 302
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427b4a8945e5e5510800000000000000
+      internalID: 1539771840038483748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 303
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd05355c296f41c80800000000000000
+      internalID: -8352780298629197604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6caac546c5c9c960800000000000000
+      internalID: 7622841299666381931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35c62aa2baa750c0800000000000000
+      internalID: -4587010011117992646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7378789aeebb9e6e0800000000000000
+      internalID: -1807707141691701449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf742d4285bebf260800000000000000
+      internalID: 7132553198678722556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 232
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891dc7de1aa23fcc0800000000000000
+      internalID: -3678549595669081704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 232
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf071aa43b36d090800000000000000
+      internalID: -8010149789853872179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 232
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2f4cfd7ab138de0800000000000000
+      internalID: -1332190656943820086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 206
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5e719c09c4b4360800000000000000
+      internalID: 7154896617740953058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 206
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e07b8ac8749b8b30800000000000000
+      internalID: 4290686316515651811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 206
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aafce1d07e32c930800000000000000
+      internalID: 4161957659922987687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9885e218ed088a1c0800000000000000
+      internalID: -4492198935163676535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ab888116513d0c0800000000000000
+      internalID: -4552271291573814780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8a9122d030be560800000000000000
+      internalID: 7343966972299290859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668e2173a8bbf9210800000000000000
+      internalID: 1341997416283564134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 171
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b230040be80df940800000000000000
+      internalID: 5331427339353993906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 172
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3fbcecdc4f064e0800000000000000
+      internalID: -1990321870522813527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 173
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce6c1c4f35a6baa0800000000000000
+      internalID: -6145542950222008637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6950556e30d00bf80800000000000000
+      internalID: -8092954219984386666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93be9c4ed58be7510800000000000000
+      internalID: 1548878035271936825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 172
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb85b75c44c35d4c0800000000000000
+      internalID: -4263435206167668545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 173
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee5f0d2c50725bf0800000000000000
+      internalID: -337083480904081692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 171
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3928623062b137b0800000000000000
+      internalID: -5246215964677625537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e99d5363ab9fe260800000000000000
+      internalID: 7129087861199837671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c3f5e291ad1fda0800000000000000
+      internalID: -5912705034073719665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 172
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d7187a644745f50800000000000000
+      internalID: 6869243178453663032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98630e3fe4f433b30800000000000000
+      internalID: 4265840472567592585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc961e278abaf080800000000000000
+      internalID: -9152798202920526628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 176
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572fbf6f5f5df7c10800000000000000
+      internalID: 2053595207491646069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1514bb54a46afbc40800000000000000
+      internalID: 5530321705361949009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a50a1b8d2f02570800000000000000
+      internalID: 8440012714199243272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15290a2bc14bf890800000000000000
+      internalID: -7423267219950721766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc28d7dd273b7310800000000000000
+      internalID: 1403776378890366165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 171
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573a506bb23234af0800000000000000
+      internalID: -413448070143564939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c5261051a946ff0800000000000000
+      internalID: -43740681358648277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 173
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a89efbfe791b5210800000000000000
+      internalID: 1322678948747712675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5b9648956d1cbe0800000000000000
+      internalID: -1458649124329376303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 141
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d439242b5668f00800000000000000
+      internalID: 1118693373743680779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 141
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7986ef3621a869db0800000000000000
+      internalID: -4785485742442911593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25024d68e307e0a30800000000000000
+      internalID: 4183404517726101586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057b3300039df5a30800000000000000
+      internalID: 4206319377172379472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4f45b9709dd1230800000000000000
+      internalID: 3611281102915040442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 138
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04df078a3073317e0800000000000000
+      internalID: -1796031337540289216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf15c8af0d668200800000000000000
+      internalID: 181952748978511791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3ace517cea5e9e0800000000000000
+      internalID: -1592674723116047369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 137
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2825926fe745f50800000000000000
+      internalID: 6869254927367176867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cd12948efb927a0800000000000000
+      internalID: -6401374390950175728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35c35657840e2060800000000000000
+      internalID: 6930481855885198655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 137
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5deff8f708630fa0800000000000000
+      internalID: -5835706308690449062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 137
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7f42e0665822fd0800000000000000
+      internalID: -2368183780672997425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3555cfb4a65c4d70800000000000000
+      internalID: 9028686618563007807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 137
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b124ccdb5d70c20800000000000000
+      internalID: 3172739473658223513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 137
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170069f1e726e4080800000000000000
+      internalID: -9201308694836019087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 137
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0647127ed29699980800000000000000
+      internalID: -8531672373204519840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 138
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0052ba216e3e5a0800000000000000
+      internalID: -6493093269882994494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 140
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ec9a37fafc39880800000000000000
+      internalID: -8605306110508151176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 142
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c5fdd9ba565c6d0800000000000000
+      internalID: -2970856591418500035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 140
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43ec6dcbafa12a70800000000000000
+      internalID: 8800508299279393613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 137
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c180433bdf5334490800000000000000
+      internalID: -7763301968907073508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 137
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fe3504cca807a90800000000000000
+      internalID: -7318196784619852031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 89
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01415f8aa9934b230800000000000000
+      internalID: 3653608534126695440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 89
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d73c0dbcff9837b0800000000000000
+      internalID: -5244265858220673070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 90
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91de183d92dd36960800000000000000
+      internalID: 7594156568388693273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 90
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bf92b9b9257d400800000000000000
+      internalID: 348838324421131011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 91
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa42b6f196a68a20800000000000000
+      internalID: 3064319742311549604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 91
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b452f8c3100b33260800000000000000
+      internalID: 7076192958886651211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 88
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94d701ff5b938a10800000000000000
+      internalID: 1910541503303242909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 88
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea41c0384b716e60800000000000000
+      internalID: 7953773966898842338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ad001ad90a388e0800000000000000
+      internalID: -1692332436089677285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3396a633ec50be0800000000000000
+      internalID: -1511575379689000009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f3af02332ed99a0800000000000000
+      internalID: -6224570400731676812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53c135356b3d1c20800000000000000
+      internalID: 3178762217863627614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3883f364984b68590800000000000000
+      internalID: -7672246413496993661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a039ab9999e26f0800000000000000
+      internalID: -707459205911344498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b32eedb55bfe1f0800000000000000
+      internalID: -1013391984949052655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a174384d4b2e520800000000000000
+      internalID: 2729943148968483376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 89
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1e77e2fcf996b40800000000000000
+      internalID: 5434050137585869253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 89
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39963246441c2d850800000000000000
+      internalID: 6400390519928875411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 89
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98e67f81f9afac30800000000000000
+      internalID: 4372900618159188124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 90
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d82cb4c43f96f40800000000000000
+      internalID: 5722372310565031260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2099014eb1db8a000800000000000000
+      internalID: 47495723575449858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe54dfbdb9fc16a50800000000000000
+      internalID: 6512714804472137199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0329a159221934340800000000000000
+      internalID: 4846877201697247792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 18
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f078ad0dd7351f0800000000000000
+      internalID: -1057363151528980662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 18
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2bd9d023fd086a0800000000000000
+      internalID: -6448909260324752644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 18
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65c67277da10a570800000000000000
+      internalID: 8475804011351950698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 18
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8eb6a3dcbe1e5fa0800000000000000
+      internalID: -5810172672907755889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 18
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbed9f11fd7637ae0800000000000000
+      internalID: -1552783238735733057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193ca853f847e8060800000000000000
+      internalID: 6957626632761426833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 18
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6a09b19df2ce320800000000000000
+      internalID: 2588496495348066018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 18
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097ff2c5ed4c36140800000000000000
+      internalID: 4711826094468102032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 18
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6827cc5e036586cc0800000000000000
+      internalID: -3717626724380544378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 18
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042cb1e7daf9a9010800000000000000
+      internalID: 1196444218514195008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 18
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ae87fef2158c7d0800000000000000
+      internalID: -2897977093889922407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a426257a3f9e82050800000000000000
+      internalID: 5776123754796180042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3999c8dd45e64e440800000000000000
+      internalID: 4964214000042416531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 19
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc58d37dbf435d20800000000000000
+      internalID: 3266041829884714165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37530db6521c8a180800000000000000
+      internalID: -9103814280262699661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7569920458a4f3eb0800000000000000
+      internalID: -4737986346802899369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62b030365d7ab00800000000000000
+      internalID: 839874476757427935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 18
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a169172e7eacc7e40800000000000000
+      internalID: 5655618329355851290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58abfacaa1cf4c400800000000000000
+      internalID: 343676663083547269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2b8e87fd0ee8b60800000000000000
+      internalID: 7750379259162047138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c133b0e59bf6550800000000000000
+      internalID: 6156343029204720789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 18
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2854e93b407a7760800000000000000
+      internalID: 7456395601461401643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6317bf25ea84bb8f0800000000000000
+      internalID: -523745018104811210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3279837163111f80800000000000000
+      internalID: -8137701742410632642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Elmo Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf396e77830badc0800000000000000
+      internalID: -3626801194440507451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -22,8 +22,8 @@ TagManager:
   - OneWayPlatform
   - Interactable
   - Projectile
-  - 
-  - 
+  - PickUp
+  - Hazard
   - 
   - 
   - 
@@ -45,6 +45,9 @@ TagManager:
   - name: Background
     uniqueID: 3956908433
     locked: 0
+  - name: Hazards
+    uniqueID: 496007905
+    locked: 0
   - name: MiddleGround
     uniqueID: 793522373
     locked: 0
@@ -56,4 +59,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 2811561205
+    locked: 0
+  - name: UI
+    uniqueID: 2917554237
     locked: 0

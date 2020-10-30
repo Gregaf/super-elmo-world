@@ -1,35 +1,31 @@
-﻿using SMTest;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Small : State
+public class Small : GrowthState
 {
-    private PlayerController playerController;
     private AnimatorOverrideController smallAnimations;
 
     private Vector3 playerScale;
 
-    public Small(PlayerController playerController, AnimatorOverrideController smallAnimations)
+    public Small(PlayerController playerController, float shieldAmount, AnimatorOverrideController smallAnimations) : base(playerController, shieldAmount)
     {
-        this.playerController = playerController;
         this.smallAnimations = smallAnimations;
 
-        playerScale = new Vector2(0.85f, 1.25f);
     }
 
     public override void Enter()
     {
+        base.Enter();
         playerController.animator.runtimeAnimatorController = smallAnimations;
 
-        //playerController.Controller2D.ModifySize(playerScale);
-
-        playerController.OnShrink += ShrinkTo;
+        playerController.Control2D.ModifySize(new Vector2(0.75f, 1f));
     }
 
     public override void Exit()
     {
-        playerController.OnShrink -= ShrinkTo;
+        base.Exit();
+
     }
 
     public override void OnTriggerEnter2D(Collider2D collider2D)
@@ -41,8 +37,8 @@ public class Small : State
         
     }
 
-    private void ShrinkTo()
-    { 
-        // Change to Dead state.
+    protected override void ShrinkTo()
+    {
+        playerController.growthFsm.ChangeCurrentState((int) PlayerGrowthStates.DEAD);
     }
 }

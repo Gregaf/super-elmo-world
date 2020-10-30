@@ -9,9 +9,9 @@ public class BouncePad : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        if (collider2D.GetComponent<IBounceable>() != null)
+        if (collider2D.GetComponent<IBouncer>() != null)
         {
-            collider2D.GetComponent<IBounceable>().Bounce(launchHeight);
+            collider2D.GetComponent<IBouncer>().Bounce(launchHeight);
         }
     }
 

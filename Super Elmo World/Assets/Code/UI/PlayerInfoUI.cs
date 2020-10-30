@@ -7,7 +7,6 @@ namespace BaseGame
 {
     public class PlayerInfoUI : MonoBehaviour
     {
-        [SerializeField] private int playerIndex = 0;
         [SerializeField] Image playerImage;
         [SerializeField] TextMeshProUGUI coins, score, lives;
 

@@ -1,0 +1,3748 @@
+fileFormatVersion: 2
+guid: 1312f833aa6f1e049a53fbdef68b3a53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4942734149585342964
+    second: Blue Elmo Sprites_0
+  - first:
+      213: 1176105832945545344
+    second: Blue Elmo Sprites_1
+  - first:
+      213: -5883225811282167528
+    second: Blue Elmo Sprites_2
+  - first:
+      213: -8748796813008939539
+    second: Blue Elmo Sprites_3
+  - first:
+      213: 532895777530158225
+    second: Blue Elmo Sprites_4
+  - first:
+      213: -4062005823227820800
+    second: Blue Elmo Sprites_5
+  - first:
+      213: 7195010813813535979
+    second: Blue Elmo Sprites_6
+  - first:
+      213: -7374295508369033896
+    second: Blue Elmo Sprites_7
+  - first:
+      213: -2846134454608935096
+    second: Blue Elmo Sprites_8
+  - first:
+      213: -2001850361543301195
+    second: Blue Elmo Sprites_9
+  - first:
+      213: 8593350335749986337
+    second: Blue Elmo Sprites_10
+  - first:
+      213: -417025541788857635
+    second: Blue Elmo Sprites_11
+  - first:
+      213: -3294289432941592191
+    second: Blue Elmo Sprites_12
+  - first:
+      213: -6442278787501217544
+    second: Blue Elmo Sprites_13
+  - first:
+      213: 1057782859973932975
+    second: Blue Elmo Sprites_14
+  - first:
+      213: 3151596474958481247
+    second: Blue Elmo Sprites_15
+  - first:
+      213: -6323509412804513124
+    second: Blue Elmo Sprites_16
+  - first:
+      213: 8113124298965228063
+    second: Blue Elmo Sprites_17
+  - first:
+      213: 1743868859516929746
+    second: Blue Elmo Sprites_18
+  - first:
+      213: 6287658833354932378
+    second: Blue Elmo Sprites_19
+  - first:
+      213: 4721241460024553669
+    second: Blue Elmo Sprites_20
+  - first:
+      213: 3553701521903998580
+    second: Blue Elmo Sprites_21
+  - first:
+      213: 5630206479345939897
+    second: Blue Elmo Sprites_22
+  - first:
+      213: 7573043899768122371
+    second: Blue Elmo Sprites_23
+  - first:
+      213: 3953048000707777887
+    second: Blue Elmo Sprites_24
+  - first:
+      213: -176838557896398783
+    second: Blue Elmo Sprites_25
+  - first:
+      213: -2811566372124866859
+    second: Blue Elmo Sprites_26
+  - first:
+      213: 2356333544040999875
+    second: Blue Elmo Sprites_27
+  - first:
+      213: -2751337649810587036
+    second: Blue Elmo Sprites_28
+  - first:
+      213: -8155664467103577330
+    second: Blue Elmo Sprites_29
+  - first:
+      213: -60677411367320399
+    second: Blue Elmo Sprites_30
+  - first:
+      213: -450456233377740307
+    second: Blue Elmo Sprites_31
+  - first:
+      213: 5605926362307554786
+    second: Blue Elmo Sprites_32
+  - first:
+      213: 6882538472901133313
+    second: Blue Elmo Sprites_33
+  - first:
+      213: -2240385701013892127
+    second: Blue Elmo Sprites_34
+  - first:
+      213: -1232776351273513731
+    second: Blue Elmo Sprites_35
+  - first:
+      213: 8832719168258793391
+    second: Blue Elmo Sprites_36
+  - first:
+      213: -3085731085291419404
+    second: Blue Elmo Sprites_37
+  - first:
+      213: 5415034477737557630
+    second: Blue Elmo Sprites_38
+  - first:
+      213: -4248659457390037677
+    second: Blue Elmo Sprites_39
+  - first:
+      213: 6672675497544548837
+    second: Blue Elmo Sprites_40
+  - first:
+      213: -4516937621657596950
+    second: Blue Elmo Sprites_41
+  - first:
+      213: -1303537030355765500
+    second: Blue Elmo Sprites_42
+  - first:
+      213: 7942678384390377169
+    second: Blue Elmo Sprites_43
+  - first:
+      213: -7711468420061973383
+    second: Blue Elmo Sprites_44
+  - first:
+      213: -5158057161273168551
+    second: Blue Elmo Sprites_45
+  - first:
+      213: -2892423182485807199
+    second: Blue Elmo Sprites_46
+  - first:
+      213: 2281210953780667849
+    second: Blue Elmo Sprites_47
+  - first:
+      213: 2414912167597226471
+    second: Blue Elmo Sprites_48
+  - first:
+      213: 7820837841648047671
+    second: Blue Elmo Sprites_49
+  - first:
+      213: -416224525857548081
+    second: Blue Elmo Sprites_50
+  - first:
+      213: 590310292048190534
+    second: Blue Elmo Sprites_51
+  - first:
+      213: -5149483319012577072
+    second: Blue Elmo Sprites_52
+  - first:
+      213: 7798394693446441037
+    second: Blue Elmo Sprites_53
+  - first:
+      213: 2703261306391477670
+    second: Blue Elmo Sprites_54
+  - first:
+      213: -2961241997847715461
+    second: Blue Elmo Sprites_55
+  - first:
+      213: -3372100806441751058
+    second: Blue Elmo Sprites_56
+  - first:
+      213: -6433105869527635952
+    second: Blue Elmo Sprites_57
+  - first:
+      213: 7302847639443136787
+    second: Blue Elmo Sprites_58
+  - first:
+      213: -9188488769521910774
+    second: Blue Elmo Sprites_59
+  - first:
+      213: 7248071786440402151
+    second: Blue Elmo Sprites_60
+  - first:
+      213: -7319006809604984974
+    second: Blue Elmo Sprites_61
+  - first:
+      213: -1364523924856936171
+    second: Blue Elmo Sprites_62
+  - first:
+      213: 8445114170608295257
+    second: Blue Elmo Sprites_63
+  - first:
+      213: -625368115900154944
+    second: Blue Elmo Sprites_64
+  - first:
+      213: 4917416861247509316
+    second: Blue Elmo Sprites_65
+  - first:
+      213: 5376849641391156387
+    second: Blue Elmo Sprites_66
+  - first:
+      213: -2697902685537658399
+    second: Blue Elmo Sprites_67
+  - first:
+      213: -1551197505850584252
+    second: Blue Elmo Sprites_68
+  - first:
+      213: -8423099082984204926
+    second: Blue Elmo Sprites_69
+  - first:
+      213: 5604246063845749562
+    second: Blue Elmo Sprites_70
+  - first:
+      213: 2522079856624250733
+    second: Blue Elmo Sprites_71
+  - first:
+      213: 2795227515864835384
+    second: Blue Elmo Sprites_72
+  - first:
+      213: 6250869368939563433
+    second: Blue Elmo Sprites_73
+  - first:
+      213: -1887901794703284327
+    second: Blue Elmo Sprites_74
+  - first:
+      213: 1705173364269601034
+    second: Blue Elmo Sprites_75
+  - first:
+      213: -2222904171986950016
+    second: Blue Elmo Sprites_76
+  - first:
+      213: -1655335363739849337
+    second: Blue Elmo Sprites_77
+  - first:
+      213: 7717134663537307771
+    second: Blue Elmo Sprites_78
+  - first:
+      213: 8586338187470974390
+    second: Blue Elmo Sprites_79
+  - first:
+      213: -5521274747675745337
+    second: Blue Elmo Sprites_80
+  - first:
+      213: -3186410609912287735
+    second: Blue Elmo Sprites_81
+  - first:
+      213: 9002702107374805787
+    second: Blue Elmo Sprites_82
+  - first:
+      213: 762241498590056376
+    second: Blue Elmo Sprites_83
+  - first:
+      213: 4616934189881988940
+    second: Blue Elmo Sprites_84
+  - first:
+      213: -2551371017826479213
+    second: Blue Elmo Sprites_85
+  - first:
+      213: 1718122211257967595
+    second: Blue Elmo Sprites_86
+  - first:
+      213: -8616417693817469536
+    second: Blue Elmo Sprites_87
+  - first:
+      213: -329223457408284347
+    second: Blue Elmo Sprites_88
+  - first:
+      213: -455372622943938871
+    second: Blue Elmo Sprites_89
+  - first:
+      213: -1786530346315827745
+    second: Blue Elmo Sprites_90
+  - first:
+      213: 6137337212466609450
+    second: Blue Elmo Sprites_91
+  - first:
+      213: -8469184558824396101
+    second: Blue Elmo Sprites_92
+  - first:
+      213: -2328597006795208674
+    second: Blue Elmo Sprites_93
+  - first:
+      213: -6875473767168298986
+    second: Blue Elmo Sprites_94
+  - first:
+      213: -8440958242845698681
+    second: Blue Elmo Sprites_95
+  - first:
+      213: 6180760007089216606
+    second: Blue Elmo Sprites_96
+  - first:
+      213: -8495884177657909679
+    second: Blue Elmo Sprites_97
+  - first:
+      213: -2169281644448602400
+    second: Blue Elmo Sprites_98
+  - first:
+      213: -7286471360852377960
+    second: Blue Elmo Sprites_99
+  - first:
+      213: 1808189249006892522
+    second: Blue Elmo Sprites_100
+  - first:
+      213: 7155227531618565350
+    second: Blue Elmo Sprites_101
+  - first:
+      213: -2780692979526946633
+    second: Blue Elmo Sprites_102
+  - first:
+      213: 7407818625901140899
+    second: Blue Elmo Sprites_103
+  - first:
+      213: -2428437972773311535
+    second: Blue Elmo Sprites_104
+  - first:
+      213: 1066238783645038998
+    second: Blue Elmo Sprites_105
+  - first:
+      213: 4694490994890025451
+    second: Blue Elmo Sprites_106
+  - first:
+      213: 6714251988735356517
+    second: Blue Elmo Sprites_107
+  - first:
+      213: -7194861479250361615
+    second: Blue Elmo Sprites_108
+  - first:
+      213: 2701808227262223603
+    second: Blue Elmo Sprites_109
+  - first:
+      213: -831430558134449196
+    second: Blue Elmo Sprites_110
+  - first:
+      213: -8881909068245673182
+    second: Blue Elmo Sprites_111
+  - first:
+      213: -1953422424131419311
+    second: Blue Elmo Sprites_112
+  - first:
+      213: 6146712824457218016
+    second: Blue Elmo Sprites_113
+  - first:
+      213: -1237922398934041201
+    second: Blue Elmo Sprites_114
+  - first:
+      213: 2612903861302394731
+    second: Blue Elmo Sprites_115
+  - first:
+      213: -6610096388748743170
+    second: Blue Elmo Sprites_116
+  - first:
+      213: 4731937315295946475
+    second: Blue Elmo Sprites_117
+  - first:
+      213: 5266644426313217340
+    second: Blue Elmo Sprites_118
+  - first:
+      213: 3509941749569089024
+    second: Blue Elmo Sprites_119
+  - first:
+      213: 540569317899447070
+    second: Blue Elmo Sprites_120
+  - first:
+      213: -3578630626899517370
+    second: Blue Elmo Sprites_121
+  - first:
+      213: -940519230955159484
+    second: Blue Elmo Sprites_122
+  - first:
+      213: 7685969971601405769
+    second: Blue Elmo Sprites_123
+  - first:
+      213: 9200048470481526184
+    second: Blue Elmo Sprites_124
+  - first:
+      213: -6643329666827146926
+    second: Blue Elmo Sprites_125
+  - first:
+      213: 8198840606771360746
+    second: Blue Elmo Sprites_126
+  - first:
+      213: -7404548122898531868
+    second: Blue Elmo Sprites_127
+  - first:
+      213: -4512178228149503697
+    second: Blue Elmo Sprites_128
+  - first:
+      213: 126763971707947259
+    second: Blue Elmo Sprites_129
+  - first:
+      213: 6462225978503660412
+    second: Blue Elmo Sprites_130
+  - first:
+      213: -7432992225589119127
+    second: Blue Elmo Sprites_131
+  - first:
+      213: 692072256765891141
+    second: Blue Elmo Sprites_132
+  - first:
+      213: -3710111800359088940
+    second: Blue Elmo Sprites_133
+  - first:
+      213: -3366093327213964947
+    second: Blue Elmo Sprites_134
+  - first:
+      213: -5400980103960617923
+    second: Blue Elmo Sprites_135
+  - first:
+      213: 1085800513700772388
+    second: Blue Elmo Sprites_136
+  - first:
+      213: -1200022459755817402
+    second: Blue Elmo Sprites_137
+  - first:
+      213: -6089005933017346885
+    second: Blue Elmo Sprites_138
+  - first:
+      213: 2650523050081235929
+    second: Blue Elmo Sprites_139
+  - first:
+      213: -3995977783458977039
+    second: Blue Elmo Sprites_140
+  - first:
+      213: -3697869235161170497
+    second: Blue Elmo Sprites_141
+  - first:
+      213: -1579218843795180226
+    second: Blue Elmo Sprites_142
+  - first:
+      213: 7551819193423215747
+    second: Blue Elmo Sprites_143
+  - first:
+      213: 1593677087598323207
+    second: Blue Elmo Sprites_144
+  - first:
+      213: 2243815230766210813
+    second: Blue Elmo Sprites_145
+  - first:
+      213: 2719634077749221481
+    second: Blue Elmo Sprites_146
+  - first:
+      213: 3888199781252097057
+    second: Blue Elmo Sprites_147
+  - first:
+      213: 9026330139988081865
+    second: Blue Elmo Sprites_148
+  - first:
+      213: 3654476597267955743
+    second: Blue Elmo Sprites_149
+  - first:
+      213: -8588130179462078777
+    second: Blue Elmo Sprites_150
+  - first:
+      213: -1635220790090488654
+    second: Blue Elmo Sprites_151
+  - first:
+      213: -1778063498416240474
+    second: Blue Elmo Sprites_152
+  - first:
+      213: 8179137204127571292
+    second: Blue Elmo Sprites_153
+  - first:
+      213: 4319566369039506098
+    second: Blue Elmo Sprites_154
+  - first:
+      213: 237084864406280765
+    second: Blue Elmo Sprites_155
+  - first:
+      213: -6366928920902387070
+    second: Blue Elmo Sprites_156
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be43370e630d9d360800000000000000
+      internalID: 7195010813813535979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855b7ea4e4d39a990800000000000000
+      internalID: -7374295508369033896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847c8020bcf7088d0800000000000000
+      internalID: -2846134454608935096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 341
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b769b2d3bff734e0800000000000000
+      internalID: -2001850361543301195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 341
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1289cd0d996b14770800000000000000
+      internalID: 8593350335749986337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 343
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda096faa7d663af0800000000000000
+      internalID: -417025541788857635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1818132f6355842d0800000000000000
+      internalID: -3294289432941592191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8a4fe439d6896a0800000000000000
+      internalID: -6442278787501217544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa73e3228effdae00800000000000000
+      internalID: 1057782859973932975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57064dcb48bcbb20800000000000000
+      internalID: 3151596474958481247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92b2f341b16e38a0800000000000000
+      internalID: -6323509412804513124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a9962909b979070800000000000000
+      internalID: 8113124298965228063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 341
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d64f520d77733810800000000000000
+      internalID: 1743868859516929746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 341
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90c7fe3560424750800000000000000
+      internalID: 6287658833354932378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 341
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c03c9bf718358140800000000000000
+      internalID: 4721241460024553669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4765ad2b4b8415130800000000000000
+      internalID: 3553701521903998580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5748d76f2822e40800000000000000
+      internalID: 5630206479345939897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c2e1a9d4bd81960800000000000000
+      internalID: 7573043899768122371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 341
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f555146663c0cd630800000000000000
+      internalID: 3953048000707777887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1482efdb44ebb8df0800000000000000
+      internalID: -176838557896398783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 342
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d64017e74f4bf8d0800000000000000
+      internalID: -2811566372124866859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cba6e8bfd063b020800000000000000
+      internalID: 2356333544040999875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 342
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462c1e51cf841d9d0800000000000000
+      internalID: -2751337649810587036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b0403b06241de80800000000000000
+      internalID: -8155664467103577330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b48f81473e682ff0800000000000000
+      internalID: -60677411367320399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9c8ae3178afb9f0800000000000000
+      internalID: -450456233377740307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 341
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ede65633504ccd40800000000000000
+      internalID: 5605926362307554786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1044b3e9640b38f50800000000000000
+      internalID: 6882538472901133313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3d333331d88e0e0800000000000000
+      internalID: -2240385701013892127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 341
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc07d6a07c44eee0800000000000000
+      internalID: -1232776351273513731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 344
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf59d8294f149a70800000000000000
+      internalID: 8832719168258793391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f803d44de74d25d0800000000000000
+      internalID: -3085731085291419404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e3a0cda21162b40800000000000000
+      internalID: 5415034477737557630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355b9aedbbab905c0800000000000000
+      internalID: -4248659457390037677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1889cf20b1a9c50800000000000000
+      internalID: 6672675497544548837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb40843a2d9051c0800000000000000
+      internalID: -4516937621657596950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407b3123af7e8ede0800000000000000
+      internalID: -1303537030355765500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 303
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de03c298ef0a3e60800000000000000
+      internalID: 7942678384390377169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974309d345c5bf490800000000000000
+      internalID: -7711468420061973383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d27232756ea68b0800000000000000
+      internalID: -5158057161273168551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af14d3b07c0cd7d0800000000000000
+      internalID: -2892423182485807199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 305
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5a3dda64d78af10800000000000000
+      internalID: 2281210953780667849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 302
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9b66952dd738120800000000000000
+      internalID: 2414912167597226471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 303
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7365d559492398c60800000000000000
+      internalID: 7820837841648047671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8947dbff5493af0800000000000000
+      internalID: -416224525857548081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c1ac04514313800800000000000000
+      internalID: 590310292048190534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0b479543c5988b0800000000000000
+      internalID: -5149483319012577072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d489a21f7a6793c60800000000000000
+      internalID: 7798394693446441037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 232
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adb58ee5d9e38520800000000000000
+      internalID: 2703261306391477670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 232
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a150a71e87e6d0800000000000000
+      internalID: -2961241997847715461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 232
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed2b35ce24e331d0800000000000000
+      internalID: -3372100806441751058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 206
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0182354bb4409b6a0800000000000000
+      internalID: -6433105869527635952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 206
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311eec56c3de85560800000000000000
+      internalID: 7302847639443136787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 206
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cfaf5952eeb7080800000000000000
+      internalID: -9188488769521910774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4af4943e2569460800000000000000
+      internalID: 7248071786440402151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f64dc951aad6a90800000000000000
+      internalID: -7319006809604984974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519616b48bc301de0800000000000000
+      internalID: -1364523924856936171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d99b21892133570800000000000000
+      internalID: 8445114170608295257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 171
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb7aed030f3257f0800000000000000
+      internalID: -625368115900154944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 172
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4439c2be49c2e3440800000000000000
+      internalID: 4917416861247509316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 173
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac6ec5d2486e9a40800000000000000
+      internalID: 5376849641391156387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e994f53dcf1f8ad0800000000000000
+      internalID: -2697902685537658399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443dd47461a097ae0800000000000000
+      internalID: -1551197505850584252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 172
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285dec2f2042b1b80800000000000000
+      internalID: -8423099082984204926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 173
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33386d3a1846cd40800000000000000
+      internalID: 5604246063845749562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 171
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fa14d544a300320800000000000000
+      internalID: 2522079856624250733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835658dad94aac620800000000000000
+      internalID: 2795227515864835384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a94301929c8fb650800000000000000
+      internalID: 6250869368939563433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 172
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99763ebf153dcc5e0800000000000000
+      internalID: -1887901794703284327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a015fb1f32ef9a710800000000000000
+      internalID: 1705173364269601034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088ebfade68a621e0800000000000000
+      internalID: -2222904171986950016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 176
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78de42cc1411709e0800000000000000
+      internalID: -1655335363739849337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70beffd615c81b60800000000000000
+      internalID: 7717134663537307771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd2491d61dc82770800000000000000
+      internalID: 8586338187470974390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3e375bedd7063b0800000000000000
+      internalID: -5521274747675745337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e64afbe6897c3d0800000000000000
+      internalID: -3186410609912287735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 171
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b136cb84ed500fc70800000000000000
+      internalID: 9002702107374805787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf858cba96049a00800000000000000
+      internalID: 762241498590056376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 173
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4795432f25a21040800000000000000
+      internalID: 4616934189881988940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393d938b395b79cd0800000000000000
+      internalID: -2551371017826479213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 141
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be36db25c0ff7d710800000000000000
+      internalID: 1718122211257967595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 141
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a58e9b52c55c6880800000000000000
+      internalID: -8616417693817469536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5490471820d5e6bf0800000000000000
+      internalID: -329223457408284347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c61df813013ea9f0800000000000000
+      internalID: -455372622943938871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5b36f8d18f437e0800000000000000
+      internalID: -1786530346315827745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 138
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dbbdf7da33c2550800000000000000
+      internalID: 6137337212466609450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba6c02f389677a80800000000000000
+      internalID: -8469184558824396101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e180fe81c592fafd0800000000000000
+      internalID: -2328597006795208674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 137
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610ba6d59096590a0800000000000000
+      internalID: -6875473767168298986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785d6434331bbda80800000000000000
+      internalID: -8440958242845698681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c5e78ba7876c550800000000000000
+      internalID: 6180760007089216606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 137
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ea6d18a5e881a80800000000000000
+      internalID: -8495884177657909679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 137
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6add476d925e1e0800000000000000
+      internalID: -2169281644448602400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e365617e041ea90800000000000000
+      internalID: -7286471360852377960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 137
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae57cb1ba8af71910800000000000000
+      internalID: 1808189249006892522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 137
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec383da7897c4360800000000000000
+      internalID: 7155227531618565350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 137
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0bfd5c77ef869d0800000000000000
+      internalID: -2780692979526946633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 138
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab1c5dbacbddc660800000000000000
+      internalID: 7407818625901140899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 140
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbe6c9b7847c4ed0800000000000000
+      internalID: -2428437972773311535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 142
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69938e8468a0cce00800000000000000
+      internalID: 1066238783645038998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 140
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9a0b7ffae262140800000000000000
+      internalID: 4694490994890025451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 137
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ee7013c90dd2d50800000000000000
+      internalID: 6714251988735356517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 137
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f20429ca97b62c90800000000000000
+      internalID: -7194861479250361615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 89
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f451359440ce7520800000000000000
+      internalID: 2701808227262223603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 89
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbcdfeff4a2674f0800000000000000
+      internalID: -831430558134449196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 90
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b55e3c2ce1db480800000000000000
+      internalID: -8881909068245673182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 90
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1534d59a7ac04e4e0800000000000000
+      internalID: -1953422424131419311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 91
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e74c164fb28d4550800000000000000
+      internalID: 6146712824457218016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 91
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d7900132402dee0800000000000000
+      internalID: -1237922398934041201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 88
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ffc25d736e24420800000000000000
+      internalID: 2612903861302394731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 88
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efde9813b583444a0800000000000000
+      internalID: -6610096388748743170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be661a9dae73ba140800000000000000
+      internalID: 4731937315295946475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35b0bca331e61940800000000000000
+      internalID: 5266644426313217340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ee06dbc61d5b030800000000000000
+      internalID: 3509941749569089024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b2fd93eec708700800000000000000
+      internalID: 540569317899447070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640225db766265ec0800000000000000
+      internalID: -3578630626899517370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4408e761eba92f2f0800000000000000
+      internalID: -940519230955159484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947fe9797fc0aaa60800000000000000
+      internalID: 7685969971601405769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad5d6707532daf70800000000000000
+      internalID: 9200048470481526184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 89
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25924faadd62ec3a0800000000000000
+      internalID: -6643329666827146926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 89
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3b7a0b71228c170800000000000000
+      internalID: 8198840606771360746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 89
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9f85496b2cd3990800000000000000
+      internalID: -7404548122898531868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 90
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29b5ebdec58161c0800000000000000
+      internalID: -4512178228149503697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf848ff192b52c100800000000000000
+      internalID: 126763971707947259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7303030a407ea950800000000000000
+      internalID: 6462225978503660412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9673587d3f4b8d890800000000000000
+      internalID: -7432992225589119127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 18
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5421f6ffc0cba9900800000000000000
+      internalID: 692072256765891141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 18
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc8c9e79f8038cc0800000000000000
+      internalID: -3710111800359088940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 18
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61599604fb3941d0800000000000000
+      internalID: -3366093327213964947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 18
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c9978063ddb05b0800000000000000
+      internalID: -5400980103960617923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 18
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a321c70d9811f00800000000000000
+      internalID: 1085800513700772388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64693cb4ee9a85fe0800000000000000
+      internalID: -1200022459755817402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 18
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc41476d518f7ba0800000000000000
+      internalID: -6089005933017346885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 18
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3b315cbac88c420800000000000000
+      internalID: 2650523050081235929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 18
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa2396a06f6b88c0800000000000000
+      internalID: -3995977783458977039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 18
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd7f54d5878eacc0800000000000000
+      internalID: -3697869235161170497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 18
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e353cf024dc751ae0800000000000000
+      internalID: -1579218843795180226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cb7ff8b837dc860800000000000000
+      internalID: 7551819193423215747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7062af41ed0ed1610800000000000000
+      internalID: 1593677087598323207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 19
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe5e6b6012a32f10800000000000000
+      internalID: 2243815230766210813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9681a43d8c41eb520800000000000000
+      internalID: 2719634077749221481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1246849b919a5f530800000000000000
+      internalID: 3888199781252097057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc34635077f34d70800000000000000
+      internalID: 9026330139988081865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 18
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10822c5a1f47b230800000000000000
+      internalID: 3654476597267955743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ced9588a15d0d880800000000000000
+      internalID: -8588130179462078777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4a25dea578e49e0800000000000000
+      internalID: -1635220790090488654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8cfc43bac0357e0800000000000000
+      internalID: -1778063498416240474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 18
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d9435c3f1228170800000000000000
+      internalID: 8179137204127571292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad2520abe22fb30800000000000000
+      internalID: 4319566369039506098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ade849d6b4a4300800000000000000
+      internalID: 237084864406280765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Elmo Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ab37f31ef14a7a0800000000000000
+      internalID: -6366928920902387070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

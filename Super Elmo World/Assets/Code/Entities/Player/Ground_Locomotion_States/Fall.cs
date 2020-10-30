@@ -25,6 +25,8 @@ public class Fall : AirState
 
         playerMove.dynamicGravity = playerMove.normalGravity * playerMove.gravityScale;
 
+        controller2D.OnTriggerEnter += Stomp;
+
         playerInput.playerControls.Basic.Jump.performed += JumpTransition;
 
         controller2D.OnFellEvent += ResetOnFall;
@@ -33,6 +35,8 @@ public class Fall : AirState
     public override void Exit()
     {
         base.Exit();
+
+        controller2D.OnTriggerEnter -= Stomp;
 
         playerInput.playerControls.Basic.Jump.performed -= JumpTransition;
 
@@ -79,5 +83,15 @@ public class Fall : AirState
             return true;
         else
             return false;
+    }
+
+    private void Stomp(Collider2D otherCollider)
+    {
+        if (otherCollider.GetComponent<IDamageable>() != null)
+        {
+
+            otherCollider.GetComponent<IDamageable>().TakeDamage(1);
+
+        }
     }
 }

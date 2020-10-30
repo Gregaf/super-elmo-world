@@ -1,0 +1,3872 @@
+fileFormatVersion: 2
+guid: a49b7ff4821ec5e469f7f90c91e69a05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2529351823380741298
+    second: Elmo 1 Sprites_0
+  - first:
+      213: 8381680508645219962
+    second: Elmo 1 Sprites_1
+  - first:
+      213: -9140307608148006233
+    second: Elmo 1 Sprites_2
+  - first:
+      213: -2897820527095611836
+    second: Elmo 1 Sprites_3
+  - first:
+      213: 5293385599607567394
+    second: Elmo 1 Sprites_4
+  - first:
+      213: 4137184854178154582
+    second: Elmo 1 Sprites_5
+  - first:
+      213: -4518350692301435772
+    second: Elmo 1 Sprites_6
+  - first:
+      213: 1312997652484176285
+    second: Elmo 1 Sprites_7
+  - first:
+      213: 812299679007845000
+    second: Elmo 1 Sprites_8
+  - first:
+      213: -2970437876559225029
+    second: Elmo 1 Sprites_9
+  - first:
+      213: -872425705043067949
+    second: Elmo 1 Sprites_10
+  - first:
+      213: 2151406159360869476
+    second: Elmo 1 Sprites_11
+  - first:
+      213: 7520495089705978855
+    second: Elmo 1 Sprites_12
+  - first:
+      213: 7829106891274031271
+    second: Elmo 1 Sprites_13
+  - first:
+      213: 4723119616778901694
+    second: Elmo 1 Sprites_14
+  - first:
+      213: -4197634799322651778
+    second: Elmo 1 Sprites_15
+  - first:
+      213: -3314281687769872460
+    second: Elmo 1 Sprites_16
+  - first:
+      213: -1919209960208770017
+    second: Elmo 1 Sprites_17
+  - first:
+      213: -3170642860802356948
+    second: Elmo 1 Sprites_18
+  - first:
+      213: 983958428451977912
+    second: Elmo 1 Sprites_19
+  - first:
+      213: 4184116361720197953
+    second: Elmo 1 Sprites_20
+  - first:
+      213: -1736117880062439744
+    second: Elmo 1 Sprites_21
+  - first:
+      213: 5559688143330292367
+    second: Elmo 1 Sprites_22
+  - first:
+      213: 2344630728250108559
+    second: Elmo 1 Sprites_23
+  - first:
+      213: -9067109256337899331
+    second: Elmo 1 Sprites_24
+  - first:
+      213: -4213318562860142629
+    second: Elmo 1 Sprites_25
+  - first:
+      213: 7680147581027214259
+    second: Elmo 1 Sprites_26
+  - first:
+      213: 7699417571730761508
+    second: Elmo 1 Sprites_27
+  - first:
+      213: -7381219815083713237
+    second: Elmo 1 Sprites_28
+  - first:
+      213: 8720437795739064091
+    second: Elmo 1 Sprites_29
+  - first:
+      213: -4540515241398328324
+    second: Elmo 1 Sprites_30
+  - first:
+      213: 5913637661803589842
+    second: Elmo 1 Sprites_31
+  - first:
+      213: -8897800887297290209
+    second: Elmo 1 Sprites_32
+  - first:
+      213: -1417376107478492793
+    second: Elmo 1 Sprites_33
+  - first:
+      213: 5956915365714433728
+    second: Elmo 1 Sprites_34
+  - first:
+      213: 704556348857932747
+    second: Elmo 1 Sprites_35
+  - first:
+      213: 1689354138222085248
+    second: Elmo 1 Sprites_36
+  - first:
+      213: 2092020337390295757
+    second: Elmo 1 Sprites_37
+  - first:
+      213: -212930842492517308
+    second: Elmo 1 Sprites_38
+  - first:
+      213: 8870890081516769647
+    second: Elmo 1 Sprites_39
+  - first:
+      213: 2855867070165695365
+    second: Elmo 1 Sprites_40
+  - first:
+      213: -6647231609924436084
+    second: Elmo 1 Sprites_41
+  - first:
+      213: -2127644821890655924
+    second: Elmo 1 Sprites_42
+  - first:
+      213: -5565541558851609653
+    second: Elmo 1 Sprites_43
+  - first:
+      213: 9043389000714928348
+    second: Elmo 1 Sprites_44
+  - first:
+      213: 3433454648625369871
+    second: Elmo 1 Sprites_45
+  - first:
+      213: 9132203827027751014
+    second: Elmo 1 Sprites_46
+  - first:
+      213: 456817270863683958
+    second: Elmo 1 Sprites_47
+  - first:
+      213: -4114495334743563961
+    second: Elmo 1 Sprites_48
+  - first:
+      213: 2729918128326336547
+    second: Elmo 1 Sprites_49
+  - first:
+      213: -8502985417309826699
+    second: Elmo 1 Sprites_50
+  - first:
+      213: -3519662165592444533
+    second: Elmo 1 Sprites_51
+  - first:
+      213: 1031725907286142041
+    second: Elmo 1 Sprites_52
+  - first:
+      213: -7662343275353635370
+    second: Elmo 1 Sprites_53
+  - first:
+      213: -5151593700024676842
+    second: Elmo 1 Sprites_54
+  - first:
+      213: 6082566346965905692
+    second: Elmo 1 Sprites_55
+  - first:
+      213: -678999099114495019
+    second: Elmo 1 Sprites_56
+  - first:
+      213: 3389366516918944291
+    second: Elmo 1 Sprites_57
+  - first:
+      213: 2684867932148571058
+    second: Elmo 1 Sprites_58
+  - first:
+      213: -6978500450728290601
+    second: Elmo 1 Sprites_59
+  - first:
+      213: 6319887964583672352
+    second: Elmo 1 Sprites_60
+  - first:
+      213: -2025185274022610072
+    second: Elmo 1 Sprites_61
+  - first:
+      213: 1137806671785856986
+    second: Elmo 1 Sprites_62
+  - first:
+      213: -1784852978493896937
+    second: Elmo 1 Sprites_63
+  - first:
+      213: -1539009866960368586
+    second: Elmo 1 Sprites_64
+  - first:
+      213: -4001060764617611375
+    second: Elmo 1 Sprites_65
+  - first:
+      213: -5721351277733076543
+    second: Elmo 1 Sprites_66
+  - first:
+      213: 4307989340258832940
+    second: Elmo 1 Sprites_67
+  - first:
+      213: 7839459130090029552
+    second: Elmo 1 Sprites_68
+  - first:
+      213: 6338297104189650270
+    second: Elmo 1 Sprites_69
+  - first:
+      213: -8288972841881368638
+    second: Elmo 1 Sprites_70
+  - first:
+      213: 6166281426049860316
+    second: Elmo 1 Sprites_71
+  - first:
+      213: -519617612363067424
+    second: Elmo 1 Sprites_72
+  - first:
+      213: -6207542074554352324
+    second: Elmo 1 Sprites_73
+  - first:
+      213: 5737745442662351520
+    second: Elmo 1 Sprites_74
+  - first:
+      213: 5454669540198733207
+    second: Elmo 1 Sprites_75
+  - first:
+      213: 57676752962787659
+    second: Elmo 1 Sprites_76
+  - first:
+      213: -7975303592572443393
+    second: Elmo 1 Sprites_77
+  - first:
+      213: 4771886788420865081
+    second: Elmo 1 Sprites_78
+  - first:
+      213: -4302720270101090254
+    second: Elmo 1 Sprites_79
+  - first:
+      213: 1787141103684979071
+    second: Elmo 1 Sprites_80
+  - first:
+      213: -708176899892957199
+    second: Elmo 1 Sprites_81
+  - first:
+      213: 5360130551009242648
+    second: Elmo 1 Sprites_82
+  - first:
+      213: -3487506410015166397
+    second: Elmo 1 Sprites_83
+  - first:
+      213: 8184230864207611570
+    second: Elmo 1 Sprites_84
+  - first:
+      213: -9104153927165662566
+    second: Elmo 1 Sprites_85
+  - first:
+      213: 6383806557826921813
+    second: Elmo 1 Sprites_86
+  - first:
+      213: -2420549901206760051
+    second: Elmo 1 Sprites_87
+  - first:
+      213: 1789919082843675497
+    second: Elmo 1 Sprites_88
+  - first:
+      213: 1735894457426761769
+    second: Elmo 1 Sprites_89
+  - first:
+      213: -6836650136348252845
+    second: Elmo 1 Sprites_90
+  - first:
+      213: 1114551090565266029
+    second: Elmo 1 Sprites_91
+  - first:
+      213: -6354025146068775175
+    second: Elmo 1 Sprites_92
+  - first:
+      213: -6047467229903328646
+    second: Elmo 1 Sprites_93
+  - first:
+      213: 6333000978122568995
+    second: Elmo 1 Sprites_94
+  - first:
+      213: 4226303325616717883
+    second: Elmo 1 Sprites_95
+  - first:
+      213: -815475592744965222
+    second: Elmo 1 Sprites_96
+  - first:
+      213: -8296886461250995017
+    second: Elmo 1 Sprites_97
+  - first:
+      213: -4648190859620753525
+    second: Elmo 1 Sprites_98
+  - first:
+      213: -4737504126757965669
+    second: Elmo 1 Sprites_99
+  - first:
+      213: -9016576594629608478
+    second: Elmo 1 Sprites_100
+  - first:
+      213: -847869246741864387
+    second: Elmo 1 Sprites_101
+  - first:
+      213: -4553287828303724344
+    second: Elmo 1 Sprites_102
+  - first:
+      213: 6712861215848492416
+    second: Elmo 1 Sprites_103
+  - first:
+      213: -8694546348471103256
+    second: Elmo 1 Sprites_104
+  - first:
+      213: -6393717096492521531
+    second: Elmo 1 Sprites_105
+  - first:
+      213: -1188940763516533975
+    second: Elmo 1 Sprites_106
+  - first:
+      213: -8038754407614124485
+    second: Elmo 1 Sprites_107
+  - first:
+      213: 5757754409136730368
+    second: Elmo 1 Sprites_108
+  - first:
+      213: -5857532700957858581
+    second: Elmo 1 Sprites_109
+  - first:
+      213: 2548047925733683254
+    second: Elmo 1 Sprites_110
+  - first:
+      213: -6425884162078184082
+    second: Elmo 1 Sprites_111
+  - first:
+      213: 1060550704332767218
+    second: Elmo 1 Sprites_112
+  - first:
+      213: -3000700096962710811
+    second: Elmo 1 Sprites_113
+  - first:
+      213: 5657699803618183850
+    second: Elmo 1 Sprites_114
+  - first:
+      213: -4241453735087931765
+    second: Elmo 1 Sprites_115
+  - first:
+      213: -7587889053743459375
+    second: Elmo 1 Sprites_116
+  - first:
+      213: -1786218494550994257
+    second: Elmo 1 Sprites_117
+  - first:
+      213: 2040535373389881501
+    second: Elmo 1 Sprites_118
+  - first:
+      213: -5550705493111450383
+    second: Elmo 1 Sprites_119
+  - first:
+      213: -426196305436418216
+    second: Elmo 1 Sprites_120
+  - first:
+      213: 7116172648739846851
+    second: Elmo 1 Sprites_121
+  - first:
+      213: -2555991532313602984
+    second: Elmo 1 Sprites_122
+  - first:
+      213: -8240043256236017077
+    second: Elmo 1 Sprites_123
+  - first:
+      213: 631841076480300224
+    second: Elmo 1 Sprites_124
+  - first:
+      213: -5991461832852826027
+    second: Elmo 1 Sprites_125
+  - first:
+      213: 4659543560585455938
+    second: Elmo 1 Sprites_126
+  - first:
+      213: -6168108957543103323
+    second: Elmo 1 Sprites_127
+  - first:
+      213: -268514230733261268
+    second: Elmo 1 Sprites_128
+  - first:
+      213: -4277689214833726693
+    second: Elmo 1 Sprites_129
+  - first:
+      213: -7235216778243770113
+    second: Elmo 1 Sprites_130
+  - first:
+      213: 4129199295173452044
+    second: Elmo 1 Sprites_131
+  - first:
+      213: 425737186918376587
+    second: Elmo 1 Sprites_132
+  - first:
+      213: 1470608284468205375
+    second: Elmo 1 Sprites_133
+  - first:
+      213: 7209129701520704500
+    second: Elmo 1 Sprites_134
+  - first:
+      213: 6685631520731942087
+    second: Elmo 1 Sprites_135
+  - first:
+      213: 1928844484959431430
+    second: Elmo 1 Sprites_136
+  - first:
+      213: -2922338428538331946
+    second: Elmo 1 Sprites_137
+  - first:
+      213: 4844570560410127764
+    second: Elmo 1 Sprites_138
+  - first:
+      213: 8349770750632065263
+    second: Elmo 1 Sprites_139
+  - first:
+      213: 115795776966244634
+    second: Elmo 1 Sprites_140
+  - first:
+      213: 6186437641409911861
+    second: Elmo 1 Sprites_141
+  - first:
+      213: 4058255557470367337
+    second: Elmo 1 Sprites_142
+  - first:
+      213: -3745259078763992218
+    second: Elmo 1 Sprites_143
+  - first:
+      213: -8846143284212976903
+    second: Elmo 1 Sprites_144
+  - first:
+      213: 2586347354543575074
+    second: Elmo 1 Sprites_145
+  - first:
+      213: -2495159785119619696
+    second: Elmo 1 Sprites_146
+  - first:
+      213: -1246674894015995566
+    second: Elmo 1 Sprites_147
+  - first:
+      213: 4528067388203944422
+    second: Elmo 1 Sprites_148
+  - first:
+      213: -6196773746844882571
+    second: Elmo 1 Sprites_149
+  - first:
+      213: -3282322334772309472
+    second: Elmo 1 Sprites_150
+  - first:
+      213: -5777137178449786038
+    second: Elmo 1 Sprites_151
+  - first:
+      213: -4023986840791600969
+    second: Elmo 1 Sprites_152
+  - first:
+      213: -5728560978010137511
+    second: Elmo 1 Sprites_153
+  - first:
+      213: 7753206048377005345
+    second: Elmo 1 Sprites_154
+  - first:
+      213: 4275215083540406380
+    second: Elmo 1 Sprites_155
+  - first:
+      213: -80853722439827122
+    second: Elmo 1 Sprites_156
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 371
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43876feaefe5ecd0800000000000000
+      internalID: -2529351823380741298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 371
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e1d9ab306b15470800000000000000
+      internalID: 8381680508645219962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 371
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaa98668aa172180800000000000000
+      internalID: -9140307608148006233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 371
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e71ab759fd8c7d0800000000000000
+      internalID: -2897820527095611836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 371
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224f6c34822e57940800000000000000
+      internalID: 5293385599607567394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 371
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6584a6384bb3a6930800000000000000
+      internalID: 4137184854178154582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c8bbe0cf79b41c0800000000000000
+      internalID: -4518350692301435772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99bd3b8864b83210800000000000000
+      internalID: 1312997652484176285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a2d6a114ed54b00800000000000000
+      internalID: 812299679007845000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 341
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f52544d72e6c6d0800000000000000
+      internalID: -2970437876559225029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 341
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbfcfd817584e3f0800000000000000
+      internalID: -872425705043067949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 343
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464ca48d0845bdd10800000000000000
+      internalID: 2151406159360869476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb8ef4507a2e5860800000000000000
+      internalID: 7520495089705978855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a093fabc3396ac60800000000000000
+      internalID: 7829106891274031271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb819cd6444eb8140800000000000000
+      internalID: 4723119616778901694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e732e89d3610fb5c0800000000000000
+      internalID: -4197634799322651778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b705e26d5e4102d0800000000000000
+      internalID: -3314281687769872460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c5d58a5b89d55e0800000000000000
+      internalID: -1919209960208770017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 341
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c294f3ced1d9ff3d0800000000000000
+      internalID: -3170642860802356948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 341
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bab1a93af8b7ad00800000000000000
+      internalID: 983958428451977912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 341
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1437b3f99a7f01a30800000000000000
+      internalID: 4184116361720197953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce8ca68cf118e7e0800000000000000
+      internalID: -1736117880062439744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82372de8eaf72d40800000000000000
+      internalID: 5559688143330292367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a20d6993dc98020800000000000000
+      internalID: 2344630728250108559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 341
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0c254cb282b2280800000000000000
+      internalID: -9067109256337899331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf692717194785c0800000000000000
+      internalID: -4213318562860142629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 342
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3e3b5a88d559a60800000000000000
+      internalID: 7680147581027214259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427a96cfc73d9da60800000000000000
+      internalID: 7699417571730761508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 342
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d5cd08fa3a09990800000000000000
+      internalID: -7381219815083713237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17daece8f7350970800000000000000
+      internalID: 8720437795739064091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3a433d179dcf0c0800000000000000
+      internalID: -4540515241398328324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0bc222f16711250800000000000000
+      internalID: 5913637661803589842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 341
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f105d7e4c39a48480800000000000000
+      internalID: -8897800887297290209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7895e9890f7745ce0800000000000000
+      internalID: -1417376107478492793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6997ac6f63ba250800000000000000
+      internalID: 5956915365714433728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 341
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb5ce1344617c900800000000000000
+      internalID: 704556348857932747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 344
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084409c53aac17710800000000000000
+      internalID: 1689354138222085248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca9a01b969580d10800000000000000
+      internalID: 2092020337390295757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4444283e6848b0df0800000000000000
+      internalID: -212930842492517308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61d756778bbb1b70800000000000000
+      internalID: 8870890081516769647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b36f228f312a720800000000000000
+      internalID: 2855867070165695365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fb4beb11a40c3a0800000000000000
+      internalID: -6647231609924436084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c491207ae461972e0800000000000000
+      internalID: -2127644821890655924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbd9f1907933c2b0800000000000000
+      internalID: -5565541558851609653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0c949d162908d70800000000000000
+      internalID: 9043389000714928348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f039abbcfc416af20800000000000000
+      internalID: 3433454648625369871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 305
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660b3760ffa1cbe70800000000000000
+      internalID: 9132203827027751014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 302
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671e71533e0f65600800000000000000
+      internalID: 456817270863683958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 303
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741ab96ea4066e6c0800000000000000
+      internalID: -4114495334743563961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3206ac0f21e92e520800000000000000
+      internalID: 2729918128326336547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571dbee40d35ff980800000000000000
+      internalID: -8502985417309826699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81fa7a88e5a72fc0800000000000000
+      internalID: -3519662165592444533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cab511f3d615e00800000000000000
+      internalID: 1031725907286142041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 232
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5817d4363e9a590800000000000000
+      internalID: -7662343275353635370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 232
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e83eaf2dcd188b0800000000000000
+      internalID: -5151593700024676842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 232
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11f5a1addd996450800000000000000
+      internalID: 6082566346965905692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 232
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d36876bae5b396f0800000000000000
+      internalID: -678999099114495019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 206
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3228e86b3e2790f20800000000000000
+      internalID: 3389366516918944291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 206
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb9d84c821924520800000000000000
+      internalID: 2684867932148571058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 206
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6df6150d2672f90800000000000000
+      internalID: -6978500450728290601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ab64d9e90c4b750800000000000000
+      internalID: 6319887964583672352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bb78129b815e3e0800000000000000
+      internalID: -2025185274022610072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf8ddeb32d4acf00800000000000000
+      internalID: 1137806671785856986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717c2903cadea37e0800000000000000
+      internalID: -1784852978493896937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 171
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c81061ea654aae0800000000000000
+      internalID: -1539009866960368586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 172
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197e630ee606978c0800000000000000
+      internalID: -4001060764617611375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 173
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c12e7f635da990b0800000000000000
+      internalID: -5721351277733076543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c221c42fa7d09cb30800000000000000
+      internalID: 4307989340258832940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f185382b8a5bcc60800000000000000
+      internalID: 7839459130090029552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 172
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e557c1072a726f750800000000000000
+      internalID: 6338297104189650270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 173
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c70dcefd17a7fc80800000000000000
+      internalID: -8288972841881368638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 171
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd28ac06948039550800000000000000
+      internalID: 6166281426049860316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef001cd882f9c8f0800000000000000
+      internalID: -519617612363067424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d75e54f516ad9a0800000000000000
+      internalID: -6207542074554352324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 172
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a28189841190af40800000000000000
+      internalID: 5737745442662351520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79550b6fb01e2bb40800000000000000
+      internalID: 5454669540198733207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49152483b8ecc000800000000000000
+      internalID: 57676752962787659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 176
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4a2d433a7025190800000000000000
+      internalID: -7975303592572443393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c843460c5293240800000000000000
+      internalID: 4771886788420865081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23070cc06baa944c0800000000000000
+      internalID: -4302720270101090254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7984a87d533dc810800000000000000
+      internalID: 1787141103684979071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff2eb39cdc0c26f0800000000000000
+      internalID: -708176899892957199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 171
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eef924652036a40800000000000000
+      internalID: 5360130551009242648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340f52fc563e99fc0800000000000000
+      internalID: -3487506410015166397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 173
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b602eceb9a349170800000000000000
+      internalID: 8184230864207611570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a20d63d3c87a180800000000000000
+      internalID: -9104153927165662566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 141
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5553512dd36d79850800000000000000
+      internalID: 6383806557826921813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 141
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85d67180ba786ed0800000000000000
+      internalID: -2420549901206760051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b17952ce117d810800000000000000
+      internalID: 1789919082843675497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928dd76dfc2271810800000000000000
+      internalID: 1735894457426761769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35526515ce65f11a0800000000000000
+      internalID: -6836650136348252845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 138
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aba2dcf4ea77f00800000000000000
+      internalID: 1114551090565266029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fecba27bc7f1d7a0800000000000000
+      internalID: -6354025146068775175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7aebc26894131ca0800000000000000
+      internalID: -6047467229903328646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 137
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325723ff5d653e750800000000000000
+      internalID: 6333000978122568995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30cf649b78d6aa30800000000000000
+      internalID: 4226303325616717883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b6f6bd449dea4f0800000000000000
+      internalID: -815475592744965222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 137
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcf267e8b98bdc80800000000000000
+      internalID: -8296886461250995017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 137
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f56145a0f4e7fb0800000000000000
+      internalID: -4648190859620753525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90f4aad811014eb0800000000000000
+      internalID: -4737504126757965669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 137
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb300beb5faed280800000000000000
+      internalID: -9016576594629608478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 137
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3029fb8963cb34f0800000000000000
+      internalID: -847869246741864387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 137
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0c8d138d87fc0c0800000000000000
+      internalID: -4553287828303724344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 138
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d6525a5bfd82d50800000000000000
+      internalID: 6712861215848492416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 140
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0d5386924c65780800000000000000
+      internalID: -8694546348471103256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 142
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7a8351d24f447a0800000000000000
+      internalID: -6393717096492521531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 140
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9238d93cca8008fe0800000000000000
+      internalID: -1188940763516533975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 137
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eed89157b907090800000000000000
+      internalID: -8038754407614124485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 137
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001b8841127a7ef40800000000000000
+      internalID: 5757754409136730368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 89
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be42c230b0dd5bea0800000000000000
+      internalID: -5857532700957858581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 89
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f60c961c7c5320800000000000000
+      internalID: 2548047925733683254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 90
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d658f766ca2d6a0800000000000000
+      internalID: -6425884162078184082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 90
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff7b0e1f35d7be00800000000000000
+      internalID: 1060550704332767218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 91
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2be03092f5b56d0800000000000000
+      internalID: -3000700096962710811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 91
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa8570eeff248e40800000000000000
+      internalID: 5657699803618183850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 88
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e74d4dc445325c0800000000000000
+      internalID: -4241453735087931765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 88
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3db84ab1762b690800000000000000
+      internalID: -7587889053743459375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa21e053eb31637e0800000000000000
+      internalID: -1786218494550994257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90e5826c10715c10800000000000000
+      internalID: 2040535373389881501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4584e43cee7f2b0800000000000000
+      internalID: -5550705493111450383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fd0e1e7b8d51af0800000000000000
+      internalID: -426196305436418216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca3d782259b1c260800000000000000
+      internalID: 7116172648739846851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8549a8b5e3b478cd0800000000000000
+      internalID: -2555991532313602984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4af23ae05c75ad80800000000000000
+      internalID: -8240043256236017077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4db168c10c4c800800000000000000
+      internalID: 631841076480300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 89
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5581f77053d0adca0800000000000000
+      internalID: -5991461832852826027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 89
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249a7285e260aa040800000000000000
+      internalID: 4659543560585455938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 89
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a40db94599766aa0800000000000000
+      internalID: -6168108957543103323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 90
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26b104dabb064cf0800000000000000
+      internalID: -268514230733261268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1be052c25892a4c0800000000000000
+      internalID: -4277689214833726693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff875db8ca8579b90800000000000000
+      internalID: -7235216778243770113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c016b9ba1ecdd4930800000000000000
+      internalID: 4129199295173452044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 18
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84a1f147b588e500800000000000000
+      internalID: 425737186918376587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 18
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37597f6176a86410800000000000000
+      internalID: 1470608284468205375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 18
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f30cd69449fb0460800000000000000
+      internalID: 7209129701520704500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 18
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccc164327228cc50800000000000000
+      internalID: 6685631520731942087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 18
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b6af0f6d1a4ca10800000000000000
+      internalID: 1928844484959431430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcdf75bea4c177d0800000000000000
+      internalID: -2922338428538331946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 18
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d8f8ec14f5b3340800000000000000
+      internalID: 4844570560410127764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 18
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8fe5b324850e370800000000000000
+      internalID: 8349770750632065263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 18
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19309845a36b9100800000000000000
+      internalID: 115795776966244634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 18
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cd759f144aad550800000000000000
+      internalID: 6186437641409911861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 18
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ea6ce8de1d15830800000000000000
+      internalID: 4058255557470367337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b277a06ba260cc0800000000000000
+      internalID: -3745259078763992218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f237484d8f2c3580800000000000000
+      internalID: -8846143284212976903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 19
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2205755473d84e320800000000000000
+      internalID: 2586347354543575074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095ea1635696f5dd0800000000000000
+      internalID: -2495159785119619696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25167cff9cbe2bee0800000000000000
+      internalID: -1246674894015995566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e94de08c4de6de30800000000000000
+      internalID: 4528067388203944422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 18
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57928d1fb13a00aa0800000000000000
+      internalID: -6196773746844882571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022d09d1a39d272d0800000000000000
+      internalID: -3282322334772309472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b4cc3485c73dfa0800000000000000
+      internalID: -5777137178449786038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b035cdc94de728c0800000000000000
+      internalID: -4023986840791600969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 18
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c9a8744201080b0800000000000000
+      internalID: -5728560978010137511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125ebef92dbe89b60800000000000000
+      internalID: 7753206048377005345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6061d8a77d945b30800000000000000
+      internalID: 4275215083540406380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elmo 1 Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41c433c7ffb0eef0800000000000000
+      internalID: -80853722439827122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

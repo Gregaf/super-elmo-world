@@ -5,10 +5,10 @@ using UnityEngine;
 [System.Serializable]
 public class SaveData : MonoBehaviour
 {
-    private static SaveData instance;
-    public static SaveData Instance { get { return instance; } }
+    private static SaveData _current;
+    public static SaveData Current { get { return _current; } }
 
-
+    public PlayerProfile playerProfile;
 
 
 }

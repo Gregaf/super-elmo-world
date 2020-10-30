@@ -3,33 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Big : State
+public class Big : GrowthState
 {
-    private PlayerController playerController;
     private AnimatorOverrideController bigAnimations;
 
-    private Vector3 playerScale;
 
-    public Big(PlayerController playerController, AnimatorOverrideController bigAnimations)
+    public Big(PlayerController playerController, float shieldAmount, AnimatorOverrideController bigAnimations) : base(playerController, shieldAmount)
     {
-        this.playerController = playerController;
         this.bigAnimations = bigAnimations;
 
-        playerScale = new Vector2(0.85f, 1.75f);
     }
 
     public override void Enter()
     {
+        base.Enter();
         playerController.animator.runtimeAnimatorController = bigAnimations;
 
-        //playerController.Controller2D.ModifySize(playerScale);
+        playerController.Control2D.ModifySize(new Vector2(0.75f, 1.4f));
 
-        playerController.OnShrink += ShrinkTo;
     }
 
     public override void Exit()
     {
-        playerController.OnShrink -= ShrinkTo;
+        base.Exit();
 
     }
 
@@ -39,11 +35,12 @@ public class Big : State
 
     public override void Tick()
     {
+        // When Big, can break blocks that are unbreakable by small.
 
     }
 
-    private void ShrinkTo()
+    protected override void ShrinkTo()
     {
-        playerController.growthFsm.ChangeCurrentState((int)PlayerGrowthStates.SMALL);
+        playerController.growthFsm.ChangeCurrentState((int) PlayerGrowthStates.SMALL);
     }
 }

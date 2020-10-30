@@ -6,15 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    private int currentActiveSceneIndex;
+    [SerializeField] private int currentActiveSceneIndex;
     // Will have a seperate function to offer ability to pass in scene to change
     private const int worldSceneIndex = 1;
     [SerializeField] private bool currentlySwitching = false;
 
+    bool load = false;
+
+    public static event Action<int> OnSceneLoaded;
+
     void Start()
     {
         currentActiveSceneIndex = SceneManager.GetActiveScene().buildIndex;
-
+        
     }
 
     private void OnEnable()
@@ -33,6 +37,15 @@ public class SceneSwitcher : MonoBehaviour
             StartCoroutine(LoadNewScene((int) SceneIndexes.OVERWORLD));
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            print("Load!");
+            ChangeToSpecifiedScene(SceneIndexes.LEVEL1);
+        }
+    }
+
     /// <summary>
     /// Load the specifed scene at asynchronously with 'Single' load mode.
     /// </summary>
@@ -47,22 +60,47 @@ public class SceneSwitcher : MonoBehaviour
     {
         currentlySwitching = true;
 
-        AsyncOperation asyncNewSceneLoad = SceneManager.LoadSceneAsync(newSceneIndex, LoadSceneMode.Single);
+        WaitForEndOfFrame waitForEndOfFrame = new WaitForEndOfFrame();
+
+        AsyncOperation asyncNewSceneLoad = SceneManager.LoadSceneAsync(newSceneIndex, LoadSceneMode.Additive);
         asyncNewSceneLoad.allowSceneActivation = false;
+
+        if(OnSceneLoaded != null)
+            OnSceneLoaded(newSceneIndex);
+
+        StartCoroutine(PollInput());
 
         while (!asyncNewSceneLoad.isDone)
         {
-            if (Input.GetKeyDown(KeyCode.N))
+            if (load)
             {
                 asyncNewSceneLoad.allowSceneActivation = true;
             }
             
 
+            yield return waitForEndOfFrame;
+        }
+
+        AsyncOperation asyncUnloadPrevious = SceneManager.UnloadSceneAsync(currentActiveSceneIndex);
+
+        currentActiveSceneIndex = newSceneIndex;
+
+        currentlySwitching = false;
+    }
+
+    IEnumerator PollInput()
+    {
+        load = false;
+
+        while (!Input.GetKeyDown(KeyCode.N))
+        {
+
             yield return null;
         }
 
+        load = true;
 
-        currentlySwitching = false;
+        yield return null;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -21,6 +21,7 @@ public enum PlayerGrowthStates
 {
     SMALL = 0,
     BIG = 1,
-    DEAD = 2
+    DEAD = 2,
+    BUBBLE = 3
 }
 

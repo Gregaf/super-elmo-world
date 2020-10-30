@@ -11,14 +11,12 @@ public class FSM
 
     public Dictionary<int, State> storedStates = new Dictionary<int, State>();
 
-    private bool canUpdate;
     public void InitializeFSM(int beginnngState)
     {
         ChangeCurrentState(beginnngState);
 
         isActive = true;
 
-        canUpdate = true;
     }
 
     public void InitializeFSM(State beginnngState)
@@ -30,29 +28,22 @@ public class FSM
 
     public void ChangeCurrentState(State newState)
     {
-        canUpdate = false;
-
         CurrentState?.Exit();
         PreviousState = CurrentState;
 
         CurrentState = newState;
         CurrentState.Enter();
 
-        canUpdate = true;
     }
     public void ChangeCurrentState(int stateName)
     {
         State newState = this.storedStates[stateName];
 
-        canUpdate = false;
-
         CurrentState?.Exit();
         PreviousState = CurrentState;
 
         CurrentState = newState;
         CurrentState.Enter();
-
-        canUpdate = true;
     }
 
     public bool IsCurrentState(int stateName)

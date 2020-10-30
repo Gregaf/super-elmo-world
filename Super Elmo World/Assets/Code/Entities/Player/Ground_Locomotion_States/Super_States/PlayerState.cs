@@ -1,5 +1,4 @@
-﻿using SMTest;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,7 +16,7 @@ public class PlayerState : State
         this.playerEntity = playerEntity;
 
         playerInput = playerEntity.PlayerInputHandler;
-        controller2D = playerEntity.controller2D;
+        controller2D = playerEntity.Control2D;
         playerMove = playerEntity.playerMoveProperties;
     }
 

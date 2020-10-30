@@ -3,36 +3,54 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AIInputHandler))]
-public class Enemy : Entity, IDamageable, IBounceable
+public class Enemy : Entity, IDamageable, IBouncer
 {
-
-    // Target would be considered the closest player in some cases.
-    public bool isVunerable { get; protected set; }
+    
+    public bool isVunerable { get; set; }
     public FSM EnemyFsm { get; private set; }
+    public HealthHandler Health_Handler { get { return _healthHandler; }}
+
+
+    [SerializeField] private HealthHandler _healthHandler;
 
     public void TakeDamage(int damageToTake)
     {
+        _healthHandler.LoseHealth(damageToTake);
+        // Maybe try invoking an event for the state to subscribe to
+        // This would allow each state to determine how to handle taking damage.
+        // If the player jumps on a spiked enemy not vunerable. Then take damage would be ignored
+        // Otherwise it would cause damage appropriately.
 
+        // Or should the Call be avoided all together?
+        // Can we avoid the call without knowing exactly what we are jumping on?
+
+        //_healthHandler.LoseHealth(damageToTake);
     }
 
     protected override void Awake()
     {
         base.Awake();
 
+        _healthHandler = new HealthHandler();
+
         EnemyFsm = new FSM();
 
         isVunerable = true;
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+
+        EnemyFsm.AddToStateList(0, new EDead(this));
+
     }
 
     public virtual void Flip()
     {
         isFacingRight = !isFacingRight;
 
-        Vector3 localEuler = transform.localEulerAngles;
-        localEuler.y += 180;
-
-        this.transform.localEulerAngles = localEuler;
+        SpriteRenderer.flipX = !SpriteRenderer.flipX;
     }
 
     public void OnPlayerCol(Collider2D col)
@@ -47,19 +65,14 @@ public class Enemy : Entity, IDamageable, IBounceable
 
     }
 
-    protected virtual void Die()
+    public void Kill()
     {
         Debug.Log($"{gameObject} has died.");
         Destroy(gameObject);
     }
 
-    public void Kill()
-    {
-        throw new NotImplementedException();
-    }
-
     public void Bounce(float launchHeight)
     {
-        
+        velocity.y = launchHeight;
     }
 }

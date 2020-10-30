@@ -28,7 +28,8 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        
+        musicSource.volume = musicVolume;
+        sfxSource.volume = sfxVolume;
     }
 
     public void PlaySingleSfx(AudioClip sfxAudioClip)
@@ -51,7 +52,8 @@ public class AudioManager : MonoBehaviour
     public void PlayTrack(AudioClip trackToPlay)
     {
         musicSource.volume = 0f;
-        musicSource.PlayOneShot(trackToPlay);
+        musicSource.clip = trackToPlay;
+        musicSource.Play();
         
         StartCoroutine(FadeMusic(0, this.musicVolume));
     }

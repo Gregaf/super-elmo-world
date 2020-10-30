@@ -18,7 +18,7 @@ public class Crouch : PlayerState
 
     public override void Enter()
     {
-        originalSize = playerEntity.entityCollider.size;
+        originalSize = playerEntity.EntityCollider.size;
 
         playerInput.playerControls.Basic.Jump.performed += CrouchJump;
 
@@ -67,9 +67,9 @@ public class Crouch : PlayerState
     public bool CanStand()
     {
         float yPoint = controller2D.YAxisIsInverted ? crouchSize.y - originalSize.y : originalSize.y - crouchSize.y;
-        float extent = controller2D.YAxisIsInverted ? playerEntity.entityCollider.bounds.min.y : playerEntity.entityCollider.bounds.max.y;
+        float extent = controller2D.YAxisIsInverted ? playerEntity.EntityCollider.bounds.min.y : playerEntity.EntityCollider.bounds.max.y;
 
-        Vector2 standPoint = new Vector2(playerEntity.entityCollider.bounds.center.x, extent + yPoint);
+        Vector2 standPoint = new Vector2(playerEntity.EntityCollider.bounds.center.x, extent + yPoint);
 
         
             

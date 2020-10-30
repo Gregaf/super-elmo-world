@@ -1,0 +1,3874 @@
+fileFormatVersion: 2
+guid: f78e9cedcf7f6f34ea42e8683d79f9bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9028446777809461835
+    second: Red Elmo Sprites_0
+  - first:
+      213: -1674145154268291258
+    second: Red Elmo Sprites_1
+  - first:
+      213: 2929793073422291351
+    second: Red Elmo Sprites_2
+  - first:
+      213: -7837023494415344300
+    second: Red Elmo Sprites_3
+  - first:
+      213: 3777446800063313314
+    second: Red Elmo Sprites_4
+  - first:
+      213: -6155190322235666072
+    second: Red Elmo Sprites_5
+  - first:
+      213: -7991258963240772110
+    second: Red Elmo Sprites_6
+  - first:
+      213: -191485274602551254
+    second: Red Elmo Sprites_7
+  - first:
+      213: -6295152946662629268
+    second: Red Elmo Sprites_8
+  - first:
+      213: -7263677608787609542
+    second: Red Elmo Sprites_9
+  - first:
+      213: 3799044783007858865
+    second: Red Elmo Sprites_10
+  - first:
+      213: -5132534309250507190
+    second: Red Elmo Sprites_11
+  - first:
+      213: 80906345881494467
+    second: Red Elmo Sprites_12
+  - first:
+      213: -1120748984415763550
+    second: Red Elmo Sprites_13
+  - first:
+      213: -1955402335624349417
+    second: Red Elmo Sprites_14
+  - first:
+      213: 8419957086025135011
+    second: Red Elmo Sprites_15
+  - first:
+      213: 4520123721711919077
+    second: Red Elmo Sprites_16
+  - first:
+      213: -4343361484050003143
+    second: Red Elmo Sprites_17
+  - first:
+      213: 8215899280228869720
+    second: Red Elmo Sprites_18
+  - first:
+      213: -6627075425217872507
+    second: Red Elmo Sprites_19
+  - first:
+      213: -4959031118819343850
+    second: Red Elmo Sprites_20
+  - first:
+      213: 6119087104932318598
+    second: Red Elmo Sprites_21
+  - first:
+      213: 578513008697993003
+    second: Red Elmo Sprites_22
+  - first:
+      213: -2393892347646737282
+    second: Red Elmo Sprites_23
+  - first:
+      213: 8051375547456636192
+    second: Red Elmo Sprites_24
+  - first:
+      213: -4266252144370782119
+    second: Red Elmo Sprites_25
+  - first:
+      213: -8306069537249574652
+    second: Red Elmo Sprites_26
+  - first:
+      213: -2408465555277942662
+    second: Red Elmo Sprites_27
+  - first:
+      213: 5867107621806724752
+    second: Red Elmo Sprites_28
+  - first:
+      213: 1726430537061404179
+    second: Red Elmo Sprites_29
+  - first:
+      213: -4428378887823174478
+    second: Red Elmo Sprites_30
+  - first:
+      213: -5568059642413539118
+    second: Red Elmo Sprites_31
+  - first:
+      213: -79895055154303106
+    second: Red Elmo Sprites_32
+  - first:
+      213: -1817725824533902133
+    second: Red Elmo Sprites_33
+  - first:
+      213: -7267031672113538533
+    second: Red Elmo Sprites_34
+  - first:
+      213: -8587827227899593444
+    second: Red Elmo Sprites_35
+  - first:
+      213: 7883511580979153663
+    second: Red Elmo Sprites_36
+  - first:
+      213: -8882547300955910255
+    second: Red Elmo Sprites_37
+  - first:
+      213: -9036235695215124806
+    second: Red Elmo Sprites_38
+  - first:
+      213: -1411897895272609446
+    second: Red Elmo Sprites_39
+  - first:
+      213: 1979310033601315997
+    second: Red Elmo Sprites_40
+  - first:
+      213: -3990741470186616764
+    second: Red Elmo Sprites_41
+  - first:
+      213: 5863785519688831580
+    second: Red Elmo Sprites_42
+  - first:
+      213: 769110196770109676
+    second: Red Elmo Sprites_43
+  - first:
+      213: -847807020831881808
+    second: Red Elmo Sprites_44
+  - first:
+      213: -5150218325064713357
+    second: Red Elmo Sprites_45
+  - first:
+      213: -6937972177966087428
+    second: Red Elmo Sprites_46
+  - first:
+      213: -1848070033231498773
+    second: Red Elmo Sprites_47
+  - first:
+      213: -7047282849645616194
+    second: Red Elmo Sprites_48
+  - first:
+      213: 4801971364826855152
+    second: Red Elmo Sprites_49
+  - first:
+      213: 1825684936341164825
+    second: Red Elmo Sprites_50
+  - first:
+      213: -4976330340169102856
+    second: Red Elmo Sprites_51
+  - first:
+      213: -5700379234670130560
+    second: Red Elmo Sprites_52
+  - first:
+      213: -6570579646457320996
+    second: Red Elmo Sprites_53
+  - first:
+      213: -901650415808614019
+    second: Red Elmo Sprites_54
+  - first:
+      213: -1899744194005175865
+    second: Red Elmo Sprites_55
+  - first:
+      213: 1759459507287461893
+    second: Red Elmo Sprites_56
+  - first:
+      213: 6680970675126356442
+    second: Red Elmo Sprites_57
+  - first:
+      213: -1035103172035829821
+    second: Red Elmo Sprites_58
+  - first:
+      213: -4118598695677739659
+    second: Red Elmo Sprites_59
+  - first:
+      213: 4830062134334245181
+    second: Red Elmo Sprites_60
+  - first:
+      213: 3275163382954187829
+    second: Red Elmo Sprites_61
+  - first:
+      213: 6740574131255488218
+    second: Red Elmo Sprites_62
+  - first:
+      213: 7733107910348149038
+    second: Red Elmo Sprites_63
+  - first:
+      213: -1349347907409564927
+    second: Red Elmo Sprites_64
+  - first:
+      213: 9192059075534693224
+    second: Red Elmo Sprites_65
+  - first:
+      213: -7764694893048168702
+    second: Red Elmo Sprites_66
+  - first:
+      213: 3774052954483715757
+    second: Red Elmo Sprites_67
+  - first:
+      213: -6358498019044693976
+    second: Red Elmo Sprites_68
+  - first:
+      213: -2861174577579980189
+    second: Red Elmo Sprites_69
+  - first:
+      213: 9055707316508259671
+    second: Red Elmo Sprites_70
+  - first:
+      213: 8570839944098205267
+    second: Red Elmo Sprites_71
+  - first:
+      213: 6466027062660143175
+    second: Red Elmo Sprites_72
+  - first:
+      213: 3148386692919995206
+    second: Red Elmo Sprites_73
+  - first:
+      213: -2688043013228644790
+    second: Red Elmo Sprites_74
+  - first:
+      213: 4430954290147993340
+    second: Red Elmo Sprites_75
+  - first:
+      213: -2799095744387700828
+    second: Red Elmo Sprites_76
+  - first:
+      213: -4658237770123452555
+    second: Red Elmo Sprites_77
+  - first:
+      213: -6027059208189159798
+    second: Red Elmo Sprites_78
+  - first:
+      213: -4679481101711841195
+    second: Red Elmo Sprites_79
+  - first:
+      213: 6834553321742822117
+    second: Red Elmo Sprites_80
+  - first:
+      213: 4979769616637982135
+    second: Red Elmo Sprites_81
+  - first:
+      213: -1827778253675869230
+    second: Red Elmo Sprites_82
+  - first:
+      213: -8170406765555961255
+    second: Red Elmo Sprites_83
+  - first:
+      213: -1031641449230844784
+    second: Red Elmo Sprites_84
+  - first:
+      213: -2404675475539862548
+    second: Red Elmo Sprites_85
+  - first:
+      213: 2600741512406751658
+    second: Red Elmo Sprites_86
+  - first:
+      213: -5416285875396716082
+    second: Red Elmo Sprites_87
+  - first:
+      213: 8555907763937967577
+    second: Red Elmo Sprites_88
+  - first:
+      213: 5694910806286625346
+    second: Red Elmo Sprites_89
+  - first:
+      213: 3488052287606406025
+    second: Red Elmo Sprites_90
+  - first:
+      213: 7237528924379157769
+    second: Red Elmo Sprites_91
+  - first:
+      213: 2231821621858241339
+    second: Red Elmo Sprites_92
+  - first:
+      213: -3146454616906584198
+    second: Red Elmo Sprites_93
+  - first:
+      213: -7018703133964275030
+    second: Red Elmo Sprites_94
+  - first:
+      213: -2907662640636165925
+    second: Red Elmo Sprites_95
+  - first:
+      213: 3395108329674083750
+    second: Red Elmo Sprites_96
+  - first:
+      213: -6430767754734593922
+    second: Red Elmo Sprites_97
+  - first:
+      213: -6970102697756106363
+    second: Red Elmo Sprites_98
+  - first:
+      213: 6782011440805673672
+    second: Red Elmo Sprites_99
+  - first:
+      213: 1658772365075977115
+    second: Red Elmo Sprites_100
+  - first:
+      213: -224932793459073783
+    second: Red Elmo Sprites_101
+  - first:
+      213: 1580976063783090204
+    second: Red Elmo Sprites_102
+  - first:
+      213: -6786412069353645812
+    second: Red Elmo Sprites_103
+  - first:
+      213: -9077093502282301876
+    second: Red Elmo Sprites_104
+  - first:
+      213: -8668567787536506547
+    second: Red Elmo Sprites_105
+  - first:
+      213: 4051204733684442617
+    second: Red Elmo Sprites_106
+  - first:
+      213: 2883225278084316983
+    second: Red Elmo Sprites_107
+  - first:
+      213: 2512966543721707296
+    second: Red Elmo Sprites_108
+  - first:
+      213: -8620359974346689440
+    second: Red Elmo Sprites_109
+  - first:
+      213: -8171554866549743379
+    second: Red Elmo Sprites_110
+  - first:
+      213: -2158859113934792340
+    second: Red Elmo Sprites_111
+  - first:
+      213: -813360405112332624
+    second: Red Elmo Sprites_112
+  - first:
+      213: 1718064017619320641
+    second: Red Elmo Sprites_113
+  - first:
+      213: 3568834406498995817
+    second: Red Elmo Sprites_114
+  - first:
+      213: 4261943375991890249
+    second: Red Elmo Sprites_115
+  - first:
+      213: -1590549385565915349
+    second: Red Elmo Sprites_116
+  - first:
+      213: -3192117414805381936
+    second: Red Elmo Sprites_117
+  - first:
+      213: 2445987560891565097
+    second: Red Elmo Sprites_118
+  - first:
+      213: 8238737790537929438
+    second: Red Elmo Sprites_119
+  - first:
+      213: -8121516656626272190
+    second: Red Elmo Sprites_120
+  - first:
+      213: 5414126880166723232
+    second: Red Elmo Sprites_121
+  - first:
+      213: -3092606057879338212
+    second: Red Elmo Sprites_122
+  - first:
+      213: 4383442146425401396
+    second: Red Elmo Sprites_123
+  - first:
+      213: -7200799294931336251
+    second: Red Elmo Sprites_124
+  - first:
+      213: 6000629372100089712
+    second: Red Elmo Sprites_125
+  - first:
+      213: -7735099707595299784
+    second: Red Elmo Sprites_126
+  - first:
+      213: 4005883309052874973
+    second: Red Elmo Sprites_127
+  - first:
+      213: 2390066996161607951
+    second: Red Elmo Sprites_128
+  - first:
+      213: 7039440440530851374
+    second: Red Elmo Sprites_129
+  - first:
+      213: -8744538327733856827
+    second: Red Elmo Sprites_130
+  - first:
+      213: -7736339101676836197
+    second: Red Elmo Sprites_131
+  - first:
+      213: 7151937197429213427
+    second: Red Elmo Sprites_132
+  - first:
+      213: -8505124502668980237
+    second: Red Elmo Sprites_133
+  - first:
+      213: 6309549209483627354
+    second: Red Elmo Sprites_134
+  - first:
+      213: -731660237340823556
+    second: Red Elmo Sprites_135
+  - first:
+      213: 7182798752871588327
+    second: Red Elmo Sprites_136
+  - first:
+      213: -4679512050595997846
+    second: Red Elmo Sprites_137
+  - first:
+      213: 6525840640572954387
+    second: Red Elmo Sprites_138
+  - first:
+      213: -3378550684872243235
+    second: Red Elmo Sprites_139
+  - first:
+      213: 4592519621292619551
+    second: Red Elmo Sprites_140
+  - first:
+      213: 7590109470247016890
+    second: Red Elmo Sprites_141
+  - first:
+      213: 3510325971665346129
+    second: Red Elmo Sprites_142
+  - first:
+      213: 2248175907094692280
+    second: Red Elmo Sprites_143
+  - first:
+      213: 7221819676940503648
+    second: Red Elmo Sprites_144
+  - first:
+      213: 2453627430163481843
+    second: Red Elmo Sprites_145
+  - first:
+      213: -2780162417551045488
+    second: Red Elmo Sprites_146
+  - first:
+      213: 2841424679020554020
+    second: Red Elmo Sprites_147
+  - first:
+      213: 656398592358799876
+    second: Red Elmo Sprites_148
+  - first:
+      213: 2472912064613304028
+    second: Red Elmo Sprites_149
+  - first:
+      213: -8722399709178149479
+    second: Red Elmo Sprites_150
+  - first:
+      213: 6435912384700404411
+    second: Red Elmo Sprites_151
+  - first:
+      213: -7089600444324813411
+    second: Red Elmo Sprites_152
+  - first:
+      213: 8813663103854607158
+    second: Red Elmo Sprites_153
+  - first:
+      213: -5840936110885251575
+    second: Red Elmo Sprites_154
+  - first:
+      213: 1887260017814332332
+    second: Red Elmo Sprites_155
+  - first:
+      213: -820112013230984864
+    second: Red Elmo Sprites_156
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red Elmo Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 371
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b426ad8728c7b4d70800000000000000
+      internalID: 9028446777809461835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 371
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f95692add34c8e0800000000000000
+      internalID: -1674145154268291258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 371
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7915cbe0747b8a820800000000000000
+      internalID: 2929793073422291351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 371
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d9bf677ac4d3390800000000000000
+      internalID: -7837023494415344300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 371
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5b5b3d9df2c6430800000000000000
+      internalID: 3777446800063313314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 371
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8619836730f549aa0800000000000000
+      internalID: -6155190322235666072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd90ebff48591190800000000000000
+      internalID: -7991258963240772110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28c8934825b75df0800000000000000
+      internalID: -191485274602551254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 341
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60ab678fbf13a8a0800000000000000
+      internalID: -6295152946662629268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 341
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38714d03bb323b90800000000000000
+      internalID: -7263677608787609542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 341
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b00cf81a1be8b430800000000000000
+      internalID: 3799044783007858865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 343
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e5e933d3395c8b0800000000000000
+      internalID: -5132534309250507190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3675694ef6f1100800000000000000
+      internalID: 80906345881494467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3c4859cbc4270f0800000000000000
+      internalID: -1120748984415763550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71934289fe30dd4e0800000000000000
+      internalID: -1955402335624349417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3bf80eb52b9d470800000000000000
+      internalID: 8419957086025135011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef94758394babe30800000000000000
+      internalID: 4520123721711919077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b061c0eb749b3c0800000000000000
+      internalID: -4343361484050003143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 341
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856ed6c9ddcb40270800000000000000
+      internalID: 8215899280228869720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 341
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dfa243306e704a0800000000000000
+      internalID: -6627075425217872507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 341
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6124aa4b87bfd2bb0800000000000000
+      internalID: -4959031118819343850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d0a273d4d5be450800000000000000
+      internalID: 6119087104932318598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27e26d248a470800800000000000000
+      internalID: 578513008697993003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 341
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e748dfbd79f27ced0800000000000000
+      internalID: -2393892347646737282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 341
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0254b63076b3cbf60800000000000000
+      internalID: 8051375547456636192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950f78c374a3bc4c0800000000000000
+      internalID: -4266252144370782119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 342
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401cb8863c9eabc80800000000000000
+      internalID: -8306069537249574652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70f4eb8659639ed0800000000000000
+      internalID: -2408465555277942662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 342
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096d6c8fb472c6150800000000000000
+      internalID: 5867107621806724752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 341
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e8eea2d6385f710800000000000000
+      internalID: 1726430537061404179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 343
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4d5743ddc3b82c0800000000000000
+      internalID: -4428378887823174478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 342
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0a0cd81474ab2b0800000000000000
+      internalID: -5568059642413539118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 341
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fa732eed724eef0800000000000000
+      internalID: -79895055154303106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 341
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc4a994ef326c6e0800000000000000
+      internalID: -1817725824533902133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 342
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ad8245231562b90800000000000000
+      internalID: -7267031672113538533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 341
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dfd90f2a8e1d880800000000000000
+      internalID: -8587827227899593444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 344
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffac0f6a30cd76d60800000000000000
+      internalID: 7883511580979153663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f0be1aa4adab480800000000000000
+      internalID: -8882547300955910255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe5fffd287d89280800000000000000
+      internalID: -9036235695215124806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a598725485ee76ce0800000000000000
+      internalID: -1411897895272609446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d944c2d1dfbe77b10800000000000000
+      internalID: 1979310033601315997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4484b17d6c90e98c0800000000000000
+      internalID: -3990741470186616764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 302
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52d12cccd9506150800000000000000
+      internalID: 5863785519688831580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8fc9726ad6caa00800000000000000
+      internalID: 769110196770109676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 303
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5cb35a10cfb34f0800000000000000
+      internalID: -847807020831881808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b7fca68bfb688b0800000000000000
+      internalID: -5150218325064713357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 305
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2c9c6201f57bf90800000000000000
+      internalID: -6937972177966087428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 302
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be13135a8165a56e0800000000000000
+      internalID: -1848070033231498773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 303
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ab2b1695033e90800000000000000
+      internalID: -7047282849645616194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f63a1ea38704a240800000000000000
+      internalID: 4801971364826855152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 302
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9139566d6c2265910800000000000000
+      internalID: 1825684936341164825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9c83ddbe580fab0800000000000000
+      internalID: -4976330340169102856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 302
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a4978b94f24e0b0800000000000000
+      internalID: -5700379234670130560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 232
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9ef7cbf9c90d4a0800000000000000
+      internalID: -6570579646457320996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 232
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71f42659b1bc73f0800000000000000
+      internalID: -901650415808614019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 232
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1f53888b0c2a5e0800000000000000
+      internalID: -1899744194005175865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 232
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5009d80991bda6810800000000000000
+      internalID: 1759459507287461893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 206
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad945b58e6397bc50800000000000000
+      internalID: 6680970675126356442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 206
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf9ce4362392a1f0800000000000000
+      internalID: -1035103172035829821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 206
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dbdbbbe4cc7d6c0800000000000000
+      internalID: -4118598695677739659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39ce00abe3d70340800000000000000
+      internalID: 4830062134334245181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cd9568eb7b37d20800000000000000
+      internalID: 3275163382954187829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adeaba395745b8d50800000000000000
+      internalID: 6740574131255488218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 171
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2190163ca4815b60800000000000000
+      internalID: 7733107910348149038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 171
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10baf643a37264de0800000000000000
+      internalID: -1349347907409564927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 172
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863a6af0701c09f70800000000000000
+      internalID: 9192059075534693224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 173
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ff29642234e3490800000000000000
+      internalID: -7764694893048168702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daee3839a21206430800000000000000
+      internalID: 3774052954483715757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 171
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828e0dd8db312c7a0800000000000000
+      internalID: -6358498019044693976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 172
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a87fe71e01b48d0800000000000000
+      internalID: -2861174577579980189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 173
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755716e33d55cad70800000000000000
+      internalID: 9055707316508259671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 171
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ec3b6d48db1f670800000000000000
+      internalID: 8570839944098205267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7489be1ea51fbb950800000000000000
+      internalID: 6466027062660143175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b201f240151bb20800000000000000
+      internalID: 3148386692919995206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 172
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46398f0f1722bad0800000000000000
+      internalID: -2688043013228644790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6a3406379ed7d30800000000000000
+      internalID: 4430954290147993340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 176
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7a67f204d9729d0800000000000000
+      internalID: -2799095744387700828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 176
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fdb70bd6d9a5fb0800000000000000
+      internalID: -4658237770123452555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8653a735959b5ca0800000000000000
+      internalID: -6027059208189159798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558ef4f1bb42f0fb0800000000000000
+      internalID: -4679481101711841195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 172
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea62fcf80639de50800000000000000
+      internalID: 6834553321742822117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 171
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b57df61512bb1540800000000000000
+      internalID: 4979769616637982135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 171
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db477dbc5d62a6e0800000000000000
+      internalID: -1827778253675869230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 171
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952b69cd552ec9e80800000000000000
+      internalID: -8170406765555961255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 173
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cb60b519fdea1f0800000000000000
+      internalID: -1031641449230844784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb5a504560e0aed0800000000000000
+      internalID: -2404675475539862548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 141
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9dd9f40a0b71420800000000000000
+      internalID: 2600741512406751658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 141
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9530b61bc75d4b0800000000000000
+      internalID: -5416285875396716082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd7788b7c0bcb670800000000000000
+      internalID: 8555907763937967577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a6f349433680f40800000000000000
+      internalID: 5694910806286625346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bb4c8331d086030800000000000000
+      internalID: 3488052287606406025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 138
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9051c3de53ed07460800000000000000
+      internalID: 7237528924379157769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b85ecb0f509fe10800000000000000
+      internalID: 2231821621858241339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f2561523c8554d0800000000000000
+      internalID: -3146454616906584198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 137
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa27324bfae889e90800000000000000
+      internalID: -7018703133964275030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0053adb38e5a7d0800000000000000
+      internalID: -2907662640636165925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad813ca909dd1f20800000000000000
+      internalID: 3395108329674083750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 137
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78120a7cc251c6a0800000000000000
+      internalID: -6430767754734593922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 137
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581614c8688354f90800000000000000
+      internalID: -6970102697756106363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 137
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca7bd7097b8e1e50800000000000000
+      internalID: 6782011440805673672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 137
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93969f6da4250710800000000000000
+      internalID: 1658772365075977115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 137
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d198be0d0e0ecf0800000000000000
+      internalID: -224932793459073783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 137
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18bf288a51c0f510800000000000000
+      internalID: 1580976063783090204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 138
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0990cacd22d1d1a0800000000000000
+      internalID: -6786412069353645812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 140
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ef47b5d8fa70280800000000000000
+      internalID: -9077093502282301876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 142
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412e78768f03b780800000000000000
+      internalID: -8668567787536506547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 140
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f564a7bd35c83830800000000000000
+      internalID: 4051204733684442617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 137
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f74ab4d16430820800000000000000
+      internalID: 2883225278084316983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 137
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02739fad1c9dfd220800000000000000
+      internalID: 2512966543721707296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 89
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f115a6445e5880800000000000000
+      internalID: -8620359974346689440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 89
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de020b4c42ec89e80800000000000000
+      internalID: -8171554866549743379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 90
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c695dc1f2113a02e0800000000000000
+      internalID: -2158859113934792340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 90
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be59ea550d56b4f0800000000000000
+      internalID: -813360405112332624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 91
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f749f0f1ac7d710800000000000000
+      internalID: 1718064017619320641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 91
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e8095fbfb078130800000000000000
+      internalID: 3568834406498995817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 88
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94163d27be6752b30800000000000000
+      internalID: 4261943375991890249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 88
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27b0abc2cb3de9e0800000000000000
+      internalID: -1590549385565915349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcdf21bf1253b3d0800000000000000
+      internalID: -3192117414805381936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92447fb2ab4e1f120800000000000000
+      internalID: 2445987560891565097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2999aae50e55270800000000000000
+      internalID: 8238737790537929438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2487f5461a39a4f80800000000000000
+      internalID: -8121516656626272190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae3b3556b7d22b40800000000000000
+      internalID: 5414126880166723232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1381e9fc2bd415d0800000000000000
+      internalID: -3092606057879338212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 89
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430792f586d15dc30800000000000000
+      internalID: 4383442146425401396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 89
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c30cb6513f911c90800000000000000
+      internalID: -7200799294931336251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 89
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0771dc80f94864350800000000000000
+      internalID: 6000629372100089712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 89
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834ed8a5cc767a490800000000000000
+      internalID: -7735099707595299784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 89
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd053cf35a1c79730800000000000000
+      internalID: 4005883309052874973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 90
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09f89715493b2120800000000000000
+      internalID: 2390066996161607951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e265c5bb8cd11b160800000000000000
+      internalID: 7039440440530851374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c592a2b8b825a680800000000000000
+      internalID: -8744538327733856827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 18
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a669e639003a490800000000000000
+      internalID: -7736339101676836197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 18
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8cbac0df8c04360800000000000000
+      internalID: 7151937197429213427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 18
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffc1ffa35ab7f980800000000000000
+      internalID: -8505124502668980237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 18
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b4e1c9395009750800000000000000
+      internalID: 6309549209483627354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 18
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffa50104ee98d5f0800000000000000
+      internalID: -731660237340823556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 18
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1a70ed86d6ea360800000000000000
+      internalID: 7182798752871588327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67d01645980f0fb0800000000000000
+      internalID: -4679512050595997846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 18
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317982abc71709a50800000000000000
+      internalID: 6525840640572954387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 18
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7898c6d0afc11d0800000000000000
+      internalID: -3378550684872243235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 18
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17782b6348ebbf30800000000000000
+      internalID: 4592519621292619551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 18
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9d66c595c755960800000000000000
+      internalID: 7590109470247016890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 18
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ed0fa6fde27b030800000000000000
+      internalID: 3510325971665346129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b188fe7310233f10800000000000000
+      internalID: 2248175907094692280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a07fbbbbe093460800000000000000
+      internalID: 7221819676940503648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 19
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f48c0ad5290d0220800000000000000
+      internalID: 2453627430163481843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c8afbd201ea69d0800000000000000
+      internalID: -2780162417551045488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 18
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4276c09e0b4ce6720800000000000000
+      internalID: 2841424679020554020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40adc90ca0ffb1900800000000000000
+      internalID: 656398592358799876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 18
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6cd04bb6c815220800000000000000
+      internalID: 2472912064613304028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99547718dafc3f680800000000000000
+      internalID: -8722399709178149479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2da970734f05950800000000000000
+      internalID: 6435912384700404411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95619c45fdac9d90800000000000000
+      internalID: -7089600444324813411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 18
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b783b65eb605a70800000000000000
+      internalID: 8813663103854607158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906dee2cd83d0fea0800000000000000
+      internalID: -5840936110885251575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3ee90bcf4e03a10800000000000000
+      internalID: 1887260017814332332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Elmo Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061365718706e94f0800000000000000
+      internalID: -820112013230984864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

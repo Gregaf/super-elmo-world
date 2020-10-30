@@ -16,7 +16,7 @@ public class SerializationManager : MonoBehaviour
         }
 
         string path = Application.persistentDataPath + "/saves" + ".save";
-
+        Debug.Log(path);
         FileStream file = File.Create(path);
 
         formatter.Serialize(file, saveData);

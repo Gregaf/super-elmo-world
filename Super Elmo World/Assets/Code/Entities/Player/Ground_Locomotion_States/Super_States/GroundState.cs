@@ -1,5 +1,4 @@
-﻿using SMTest;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -46,7 +45,7 @@ public class GroundState : PlayerState
             playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.CrouchState);
 
 
-        if (!playerEntity.controller2D.collisionInfo.isGrounded)     
+        if (!playerEntity.Control2D.collisionInfo.isGrounded)     
             playerEntity.baseMovementFSM.ChangeCurrentState(playerEntity.FallState);
         
     }

@@ -1,10 +1,13 @@
-﻿using System;
+﻿//#undef DEBUG
+
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 
 [RequireComponent(typeof(Controller2D), typeof(PlayerInputHandler))]
-public class PlayerController : Entity, IDamageable
+public class PlayerController : Entity, IDamageable, IBouncer
 {
     public AudioClip jumpSfx;
 
@@ -13,7 +16,7 @@ public class PlayerController : Entity, IDamageable
     public LayerMask WhatIsBackWall;
     public float inviciblityTime;
 
-    private SpriteRenderer spriteRenderer;
+    //private SpriteRenderer spriteRenderer;
     private Invincibility invincibility;
 
     [Header("Animator Overrides")]
@@ -25,6 +28,8 @@ public class PlayerController : Entity, IDamageable
     //public FSM movementModeFsm { get; private set; }
     public FSM baseMovementFSM { get; private set; }
     public FSM growthFsm { get; private set; }
+    public HealthHandler Health_Handler { get; private set; }
+    public PlayerData Player_Data { get; private set; }
 
     #region PlayerBaseStates
     public Idle IdleState { get; private set; }
@@ -34,22 +39,34 @@ public class PlayerController : Entity, IDamageable
     public WallSliding WallSlideState { get; private set; }
     public Crouch CrouchState { get; private set; }
     public GroundPound GroundPoundState { get; private set; }
+    public Dead DeadState { get; private set; }
+    public Bubble BubbleState { get; private set; }
     #endregion
 
-    public Dead DeadState { get; private set; }
+#if (DEBUG)
+    private Rect windowRect = new Rect(30, 30, 120, 120);
+    private void OnGUI()
+    {
+        windowRect = GUI.Window(0, windowRect, DebugHealthDisplay, "Health Display");
+    }
 
-
-    public event Action OnShrink;
-
+    private void DebugHealthDisplay(int windowID)
+    {
+        string currentHealth = $"Health: {Health_Handler.health}";
+        GUI.Label(new Rect(25, 25, 120, 20), currentHealth);
+    }
+#endif
 
     protected override void Awake()
     {
         base.Awake();
-        
+
+        Health_Handler = new HealthHandler();
+
+        Player_Data = this.GetComponent<PlayerData>();
         PlayerInputHandler = this.GetComponent<PlayerInputHandler>();
         invincibility = this.GetComponent<Invincibility>();
-
-        spriteRenderer = this.GetComponentInChildren<SpriteRenderer>();
+        
         animator = this.GetComponentInChildren<Animator>();
 
         baseMovementFSM = new FSM();
@@ -67,11 +84,15 @@ public class PlayerController : Entity, IDamageable
         WallSlideState = new WallSliding(this);
         CrouchState = new Crouch(this);
         GroundPoundState = new GroundPound(this);
+        DeadState = new Dead(this);
+        BubbleState = new Bubble(this);
 
-        growthFsm.AddToStateList((int)PlayerGrowthStates.SMALL, new Small(this, smallAnimations));
-        growthFsm.AddToStateList((int)PlayerGrowthStates.BIG, new Big(this, bigAnimations));
+        growthFsm.AddToStateList((int)PlayerGrowthStates.SMALL, new Small(this, 1, smallAnimations));
+        growthFsm.AddToStateList((int)PlayerGrowthStates.BIG, new Big(this, 2, bigAnimations));
+        growthFsm.AddToStateList((int)PlayerGrowthStates.DEAD, DeadState);
+        growthFsm.AddToStateList((int)PlayerGrowthStates.BUBBLE, new Bubble(this));
 
-        growthFsm.InitializeFSM((int)PlayerGrowthStates.SMALL);
+        growthFsm.InitializeFSM((int)PlayerGrowthStates.BIG);
         baseMovementFSM.InitializeFSM(IdleState);
         
 
@@ -80,31 +101,41 @@ public class PlayerController : Entity, IDamageable
 
     private void OnEnable()
     {
-        controller2D.OnTriggerEnter += BounceOnPlayer;
+        Control2D.OnTriggerEnter += BounceOnPlayer;
     }
 
     private void OnDisable()
     {
-        controller2D.OnTriggerEnter -= BounceOnPlayer;
+        Control2D.OnTriggerEnter -= BounceOnPlayer;
     }
 
     private void Update()
     {
+#if (DEBUG)
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            Health_Handler.LoseHealth(1);
+        }
+
+        Debug.Log($"Health: {Health_Handler.health}");
+#endif
+
+        
+
         // Stop y movement when hitting head.
-        if ((controller2D.collisionInfo.below && velocity.y < 0 && !controller2D.collisionInfo.isOnSlope) || controller2D.collisionInfo.above)
+        if ((Control2D.collisionInfo.below && velocity.y < 0 && !Control2D.collisionInfo.isOnSlope) || Control2D.collisionInfo.above)
             velocity.y = 0;
 
-        if (controller2D.collisionInfo.above)
+        if (Control2D.collisionInfo.above)
             velocity.y = 0;
 
-        if (Input.GetButtonDown("Jump"))
-            AudioManager.Instance.PlaySingleSfx(jumpSfx);
+        growthFsm.UpdateCurrentState();
 
-        baseMovementFSM.UpdateCurrentState();   
+        baseMovementFSM.UpdateCurrentState();
 
-        controller2D.Move(velocity * Time.deltaTime);
+        Control2D.Move(velocity * Time.deltaTime);
 
-        spriteRenderer.flipX = velocity.x > 0 ? (true & !controller2D.YAxisIsInverted) : (controller2D.YAxisIsInverted);
+        SpriteRenderer.flipX = velocity.x > 0 ? (true & !Control2D.YAxisIsInverted) : (Control2D.YAxisIsInverted);
 
     }
 
@@ -115,23 +146,23 @@ public class PlayerController : Entity, IDamageable
 
     private void BounceOnPlayer(Collider2D otherCol)
     {
-        if (otherCol.GetComponent<PlayerController>() != null)
-        {
-            PlayerController otherPlayer = otherCol.GetComponent<PlayerController>();
+        //if (otherCol.GetComponent<PlayerController>() != null)
+        //{
+        //    PlayerController otherPlayer = otherCol.GetComponent<PlayerController>();
 
-            float yPosDif = entityCollider.bounds.min.y - otherPlayer.entityCollider.bounds.max.y;
+        //    float yPosDif = entityCollider.bounds.min.y - otherPlayer.entityCollider.bounds.max.y;
 
-            if (Mathf.Abs(yPosDif) < .5f)
-            {
-                velocity.y = 20;
-                otherPlayer.velocity.y = 0;
-            }
-        }
+        //    if (Mathf.Abs(yPosDif) < .5f)
+        //    {
+        //        velocity.y = 20;
+        //        otherPlayer.velocity.y = 0;
+        //    }
+        //}
     }
 
     private void SetAnimatorParameters()
     {
-        animator.SetBool("isGrounded", controller2D.collisionInfo.isGrounded);
+        animator.SetBool("isGrounded", Control2D.collisionInfo.isGrounded);
         animator.SetFloat("xMove", Mathf.Abs(velocity.x));
         animator.SetFloat("yMove", velocity.y);
         animator.SetBool("invincible", invincibility.isInvincible);
@@ -142,19 +173,19 @@ public class PlayerController : Entity, IDamageable
         if (direction == 0)
             return false;
 
-        float xPoint = direction == 1 ? this.entityCollider.bounds.max.x : this.entityCollider.bounds.min.x;
-        Vector2 wallpoint = new Vector2(xPoint + (0.02f * direction), this.entityCollider.bounds.center.y);
+        float xPoint = direction == 1 ? this.EntityCollider.bounds.max.x : this.EntityCollider.bounds.min.x;
+        Vector2 wallpoint = new Vector2(xPoint + (0.02f * direction), this.EntityCollider.bounds.center.y);
 
         return Physics2D.OverlapPoint(wallpoint, WhatIsWallJumpable);
     }
 
     public void TakeDamage(int damageToTake)
     {
-        if (!invincibility.isInvincible)
+        if (!invincibility.isInvincible && Health_Handler.health > 0)
         {
             invincibility.BecomeInvicible(inviciblityTime);
 
-            OnShrink?.Invoke();
+            Health_Handler.LoseHealth(damageToTake);
         }
         else
         { 
@@ -169,4 +200,9 @@ public class PlayerController : Entity, IDamageable
         growthFsm.ChangeCurrentState(DeadState);
     }
 
+    public void Bounce(float launchHeight)
+    {
+        // Start a bounce couroutine to enable a period to jump higher
+        velocity.y = launchHeight;
+    }
 }
